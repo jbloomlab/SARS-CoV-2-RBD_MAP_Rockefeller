@@ -951,6 +951,11 @@ for name, specs in escape_profiles_config.items():
             nrow = math.ceil(len(conditions) / analysis_specs['maxcol'])
             ncol = min(len(conditions), analysis_specs['maxcol'])
             plot_df = df.copy()
+            # make condition categorical to maintain order 
+            plot_df=plot_df.assign(condition=lambda x: pd.Categorical(x['condition'], 
+                                                                      list(conditions.values()), 
+                                                                      ordered=True)
+                                  )
             plotfile = os.path.join(config['gisaid_mutations_dir'],
                                     f"{name}_escape_vs_freq_by-condition.pdf")
             print(f"Plotting each condition and saving to {plotfile}")
