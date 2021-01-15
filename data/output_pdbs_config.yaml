@@ -1,0 +1,98 @@
+# Information about outputting B-factor re-assigned PDBs and dms-view inputs
+#
+# Top-level keys are PDBs
+# Under each PDB key, specify:
+#  pdbfile -> path to file containing PDB
+#  chains -> list of chain(s) to which we map colors, typically RBD chains
+#  conditions -> conditions (antibodies / sera) for which we write this PDB,
+#                set to ALL  for all conditions
+
+# 6m0j is ACE2 bound RBD
+6m0j:
+  pdbfile: data/pdbs/6M0J.pdb
+  chains:
+    - E
+  conditions: ALL
+
+# 6xcm is C105 bound to Spike, state 1 (2 up)
+6xcm:
+  pdbfile: data/pdbs/6xcm.pdb
+  chains:
+    - A
+    - B
+    - C
+  conditions:
+    - C105_400
+
+# 6xcn is C105 bound to Spike, state 2 (3 up)
+6xcn:
+  pdbfile: data/pdbs/6xcn.pdb
+  chains:
+    - A
+    - C
+    - E
+  conditions:
+    - C105_400
+
+7k90:
+  pdbfile: data/pdbs/7k90.pdb
+  chains:
+    - A
+    - B
+    - C
+  conditions:
+    - C144_400
+
+7k8s: # all down conformation
+  pdbfile: data/pdbs/7k8s.pdb
+  chains:
+    - A
+    - B
+    - C
+  conditions:
+    - C002_400
+
+7k8t: # 1 up conformation
+  pdbfile: data/pdbs/7k8t.pdb
+  chains:
+    - A
+    - B
+    - C
+  conditions:
+    - C002_400
+
+7k8x: # all down conformation
+  pdbfile: data/pdbs/7k8x.pdb
+  chains:
+    - A
+    - B
+    - C
+  conditions:
+    - C121_400
+
+7k8y: # 1 up conformation
+  pdbfile: data/pdbs/7k8y.pdb
+  chains:
+    - B
+    - D
+    - E
+  conditions:
+    - C121_400
+
+7k8z: # all down conformation
+  pdbfile: data/pdbs/7k8z.pdb
+  chains:
+    - A
+    - B
+    - C
+  conditions:
+    - C135_400
+
+7k8v: # all down conformation
+  pdbfile: data/pdbs/7k8v.pdb
+  chains:
+    - A
+    - B
+    - C
+  conditions:
+    - C110_400

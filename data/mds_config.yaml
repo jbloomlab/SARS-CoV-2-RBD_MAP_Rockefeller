@@ -1,0 +1,113 @@
+# Specify configuration of multi-dimensional scaling plots
+#
+# Each entry should be a key with the name of the plot. It then can
+# have the following nested keys:
+#   conditions -> antibodies / sera and names to use when plotting
+#   color_scheme -> color points on mds plot by this site-level color
+#                   scheme in `site_color_schemes` or color for all points.
+#   plot_size -> size of plot if you want to change from default; it's a
+#                square this many inches per side)
+#   random_state -> multidimensional scaling is stochastic, so runs with
+#                   different random number seeds will give slightly different
+#                   layouts. Try different seeds here if you want to tweak
+#                   appearance from default.
+#   pie_size -> size of the "pies" representing the antibodies / sera,
+#               bigger means larger.
+#   pie_alpha -> transparency of the pies, smaller means more transparent.
+#   expand_points -> how much to repel text labels from points in plot;
+#                    larger values push text further from points, see
+#                    argument of same name here
+#                    https://adjusttext.readthedocs.io/en/latest/
+#   default_circle_color -> default color for circles around pies; use
+#                           'none' for no circle.
+#   circle_colors -> to color circles around pies for specific conditions,
+#                    give condition name followed by color.
+#   default_label_color -> like `default_circle_color` but for text labels.
+#   label_colors -> like `circl_colors` but for text labels.
+
+Rockefeller_v_pub:
+  conditions:
+    CB6_400: CB6
+    REGN10933_400: REGN10933
+    REGN10987_400: REGN10987
+    CR3022_400: rCR3022
+    COV2-2677_400: COV2-2677
+    COV2-2082_400: COV2-2082
+    COV2-2094_400: COV2-2094
+    COV2-2165_400: COV2-2165
+    COV2-2832_400: COV2-2832
+    COV2-2479_400: COV2-2479
+    COV2-2050_400: COV2-2050
+    COV2-2096_400: COV2-2096
+    COV2-2499_400: COV2-2499
+    C105_400: C105 # class 1, COV-107
+    C144_400: C144 # class 2, clinical trials, COV-047
+    C002_400: C002 # class 2, COV-021
+    C121_400: C121 # class 2, COV-107
+    C135_400: C135 # class 3, clinical trials, COV-072
+    C110_400: C110 # class 3, COV-107
+  color_scheme: barnes_classes
+  plot_size: 5.5
+  expand_points: [1.3, 1.7]
+  default_circle_color: gray
+  circle_colors:
+    C105: '#E52794'
+    C144: '#6A0DAD'
+    C002: '#6A0DAD'
+    C121: '#6A0DAD'
+    C135: '#66CCEE'
+    C110: '#66CCEE'
+  default_label_color: gray
+  label_colors:
+    C105: '#E52794'
+    C144: '#6A0DAD'
+    C002: '#6A0DAD'
+    C121: '#6A0DAD'
+    C135: '#66CCEE'
+    C110: '#66CCEE'
+  random_state: 3
+
+NY_sera_antibodies:
+  conditions:
+    C105_400: C105
+    C144_400: C144
+    C002_400: C002
+    C121_400: C121
+    C135_400: C135
+    C110_400: C110
+    COV-021_500: COV-21
+    COV-047_200: COV-47
+    COV-057_50: COV-57
+    COV-072_200: COV-72
+    COV-107_80: COV-107
+  color_scheme: [data/mds_color_schemes.csv, class_color]
+  plot_size: 5.5
+  expand_points: [1.3, 1.7]
+  default_circle_color: none
+  circle_colors:
+    COV-107: '#000000'
+    COV-47: '#000000'
+    COV-21: '#000000'
+    COV-72: '#000000'
+    COV-57: '#000000'
+    C105: '#E52794'
+    C144: '#6A0DAD'
+    C002: '#6A0DAD'
+    C121: '#6A0DAD'
+    C135: '#66CCEE'
+    C110: '#66CCEE'
+  default_label_color: gray
+  label_colors:
+    COV-107: '#000000'
+    COV-47: '#000000'
+    COV-21: '#000000'
+    COV-72: '#000000'
+    COV-57: '#000000'
+    C105: '#E52794'
+    C144: '#6A0DAD'
+    C002: '#6A0DAD'
+    C121: '#6A0DAD'
+    C135: '#66CCEE'
+    C110: '#66CCEE'
+  random_state: 3
+  pie_size: 500

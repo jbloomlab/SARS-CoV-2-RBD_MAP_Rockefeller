@@ -1,0 +1,171 @@
+# configuration for logo overlays
+
+# specify logo with overlay and shading for COV-057
+COV-057: &COV-057
+  # name of sample in the pipeline (e.g., for escape fractions)
+  full_name: COV-057_50
+  # another name for antibody that might be used in specifying site_info
+  short_name: COV-057
+  # list all sites to show
+  sites: [346,417,420,440,444,446,447,
+          448,449,450,452,453,455,456,
+          460,472,473,475,483,484,485,
+          486,487,489,490,493,494,496]
+  # keyword args here: https://jbloomlab.github.io/dmslogo/dmslogo.logo.html#dmslogo.logo.draw_logo
+  dmslogo_draw_logo_kwargs:
+    widthscale: 0.8
+    heightscale: 0.8
+    axisfontscale: 1.5
+  # Now we specify CSVs with additional information per site and optionally per
+  # antibody. Specify columns that give site, antibody, and value of interest;
+  # also how to fill any missing values
+  site_info:
+    C105:
+      csv: ../results/bjorkman_custom_analyses/site_total_escape.csv
+      site_col: site
+      antibody_col: null
+      val_col: C105_400
+      missing_vals: 0
+    C144:
+      csv: ../results/bjorkman_custom_analyses/site_total_escape.csv
+      site_col: site
+      antibody_col: null
+      val_col: C144_400
+      missing_vals: 0
+    C002:
+      csv: ../results/bjorkman_custom_analyses/site_total_escape.csv
+      site_col: site
+      antibody_col: null
+      val_col: C002_400
+      missing_vals: 0
+    C121:
+      csv: ../results/bjorkman_custom_analyses/site_total_escape.csv
+      site_col: site
+      antibody_col: null
+      val_col: C121_400
+      missing_vals: 0
+    C135:
+      csv: ../results/bjorkman_custom_analyses/site_total_escape.csv
+      site_col: site
+      antibody_col: null
+      val_col: C135_400
+      missing_vals: 0
+    C110:
+      csv: ../results/bjorkman_custom_analyses/site_total_escape.csv
+      site_col: site
+      antibody_col: null
+      val_col: C110_400
+      missing_vals: 0
+  # how to color letters: provide color, or use DMS (bind_color or expr_color)
+  letter_colors: gray
+  # or can specify site_color_scheme such as those used in escape_profiles
+  site_color_scheme: barnes_classes
+  # can also specify colors for specific mutations, as you can in escape_profiles
+  # mutation_colors: false
+  # Overlays of site info along with color scale. Specify min and max if you don't
+  # want to scale to data range (can be useful if want same on multiplots). Color
+  # scales from here: https://matplotlib.org/3.3.3/tutorials/colors/colormaps.html
+  overlays:
+    C105:
+      min: 0
+      max: null
+      color_scale: Greys
+    C144:
+      min: 0
+      max: null
+      color_scale: Greys
+    C002:
+      min: 0
+      max: null
+      color_scale: Greys
+    C121:
+      min: 0
+      max: null
+      color_scale: Greys
+    C135:
+      min: 0
+      max: null
+      color_scale: Greys
+    C110:
+      min: 0
+      max: null
+      color_scale: Greys
+  # how to shade sites
+  # shading:
+  #   property: dummy contacts  # set to null for no shading
+  #   alpha: 0.25  # transparency of shading
+  #   color_scale: Blues
+  #   min: 0
+    # max: null
+  # no shading
+  shading:
+    property: null
+
+COV-021:
+  <<: *COV-057
+  # name of sample in the pipeline (e.g., for escape fractions)
+  full_name: COV-021_500
+  # another name for antibody that might be used in specifying site_info
+  short_name: COV-021
+  overlays:
+    C002:
+      min: 0
+      max: null
+      color_scale: Greys
+  shading:
+    property: null
+
+COV-047:
+  <<: *COV-057
+  # name of sample in the pipeline (e.g., for escape fractions)
+  full_name: COV-047_200
+  # another name for antibody that might be used in specifying site_info
+  short_name: COV-047
+  overlays:
+    C144:
+      min: 0
+      max: null
+      color_scale: Greys
+  shading:
+    property: null
+
+COV-072:
+  <<: *COV-057
+  # name of sample in the pipeline (e.g., for escape fractions)
+  full_name: COV-072_200
+  # another name for antibody that might be used in specifying site_info
+  short_name: COV-072
+  overlays:
+    C135:
+      min: 0
+      max: null
+      color_scale: Greys
+  shading:
+    property: null
+
+COV-107:
+  <<: *COV-057
+  # name of sample in the pipeline (e.g., for escape fractions)
+  full_name: COV-107_80
+  # another name for antibody that might be used in specifying site_info
+  short_name: COV-107
+  dmslogo_draw_logo_kwargs:
+    widthscale: 0.8
+    heightscale: 0.8
+    fixed_ymax: 6.23
+    axisfontscale: 1.5
+  overlays:
+    C105:
+      min: 0
+      max: null
+      color_scale: Greys
+    C121:
+      min: 0
+      max: null
+      color_scale: Greys
+    C110:
+      min: 0
+      max: null
+      color_scale: Greys
+  shading:
+    property: null

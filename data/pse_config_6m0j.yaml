@@ -1,0 +1,40 @@
+# config file to make .pse files
+
+# define selection threshold
+threshold: default
+
+# sites to exclude as sites of strong escape
+exclude_sites: [361]
+
+# selection condition:name
+NY_mabs_sera:
+  C105_400: C105 # class 1, COV-107
+  C144_400: C144 # class 2, clinical trials, COV-047
+  C002_400: C002 # class 2, COV-021
+  C121_400: C121 # class 2, COV-107
+  C135_400: C135 # class 3, clinical trials, COV-072
+  C110_400: C110 # class 3, COV-107
+  COV-021_500: COV-021
+  COV-047_200: COV-047
+  COV-057_50: COV-057
+  COV-072_200: COV-072
+  COV-107_80: COV-107
+
+# mabs (will use this to identify sites of strong escape)
+mabs:
+  - C105_400
+  - C144_400
+  - C002_400
+  - C121_400
+  - C135_400
+  - C110_400
+
+# sera (will use this to identify sites of strong escape)
+sera:
+  - COV-021_500
+  - COV-047_200
+  - COV-057_50
+  - COV-072_200
+  - COV-107_80
+
+ylim_file: ../results/escape_profiles/NY_mabs_sera_stackedlogo_ylims.csv

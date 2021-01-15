@@ -1,0 +1,268 @@
+---
+title: "Custom analyses Bjorkman mAbs"
+author: "Allie Greaney"
+date: "1/11/2021"
+output:
+  github_document:
+    toc: true
+    html_preview: false
+editor_options: 
+  chunk_output_type: inline
+---
+
+This notebook does some random analyses on the clinical antibodies set that vary from the more constrained global pipeline.
+
+```{r setup, message=FALSE, warning=FALSE, error=FALSE}
+require("knitr")
+knitr::opts_chunk$set(echo = T)
+knitr::opts_chunk$set(dev.args = list(png = list(type = "cairo")))
+
+#list of packages to install/load
+packages = c("yaml","data.table","tidyverse","ggrepel","bio3d")
+#install any packages not already installed
+installed_packages <- packages %in% rownames(installed.packages())
+if(any(installed_packages == F)){
+  install.packages(packages[!installed_packages])
+}
+#load packages
+invisible(lapply(packages, library, character.only=T))
+
+#read in config file
+config <- read_yaml("config.yaml")
+
+#read in escape profiles file
+profiles_config <- read_yaml(file=config$escape_profiles_config)
+
+#read in structural contacts config
+structural_contacts_config <- read_yaml(file=config$structural_contacts_config)
+
+#make output directory
+output_dir <- './results/bjorkman_custom_analyses'
+if(!file.exists(output_dir)){
+  dir.create(file.path(output_dir))
+}
+```
+Session info for reproducing environment:
+```{r print_sessionInfo}
+sessionInfo()
+```
+
+## Data input and formatting
+
+Read in escape fractions, rename some things to make them easier to work with.
+
+```{r data input}
+#read in strong escape sites, keep sensitive threshold
+strong_escape_sites <- data.table(read.csv(file=config$strong_escape_sites, stringsAsFactors=F)) %>%
+  mutate(site_threshold=pmax(exceed_median, frac_max)) %>%
+  select(condition, site, threshold, site_threshold) %>%
+  filter(threshold=="sensitive") %>%
+  mutate(strong_escape_site=TRUE)
+
+head(strong_escape_sites)
+
+# read in escape fractions
+# scores <- scores[selection %in% names(profiles_config$Rockefeller_antibodies$conditions) & library=="average", .(selection,condition,site,protein_site,wildtype,mutation,mut_escape_frac_epistasis_model,site_total_escape_frac_epistasis_model)]
+
+scores <- data.table(read.csv(file=config$escape_fracs,stringsAsFactors=F)) %>%
+  filter(selection %in% names(profiles_config$Rockefeller_antibodies$conditions) & 
+           library=="average") %>%
+  select(selection,
+         condition,
+         protein_site,
+         wildtype,
+         mutation,
+         mut_escape_frac_epistasis_model,
+         site_total_escape_frac_epistasis_model) %>%
+  merge(strong_escape_sites %>% select(-site_threshold),
+        by.x=c("condition", "protein_site"),
+        by.y=c("condition", "site"),
+        all.x = TRUE) %>%
+  replace_na(list(strong_escape_site=FALSE)) %>%
+  merge(strong_escape_sites %>% select(condition, site_threshold) %>% unique(),
+        by=c("condition")
+        ) %>%
+  rename(mut_escape_frac=mut_escape_frac_epistasis_model, 
+         site_total_escape=site_total_escape_frac_epistasis_model
+         )
+
+# setnames(scores,"mut_escape_frac_epistasis_model","mut_escape_frac");setnames(scores,"site_total_escape_frac_epistasis_model","site_total_escape")
+scores<-data.table(scores)
+scores[,antibody:=as.character(profiles_config$Rockefeller_antibodies$conditions[condition])]
+
+scores <- scores[,.(antibody,protein_site,wildtype,mutation,mut_escape_frac,site_total_escape,strong_escape_site, site_threshold)]
+
+scores[,site_max_escape:=max(mut_escape_frac,na.rm=T),by=c("antibody","protein_site")]
+
+scores <- scores %>% rename(site=protein_site)
+head(scores%>%filter(strong_escape_site==FALSE))
+```
+
+## Part 1: antibody escape vs. proximity to the structural epitope
+
+We want to try a few plots -- at the per-mut and per-site level, compare distribution of escape scores between structural contacts and non-contacts. We should try the contact/non-contact, but also a "close" category corresponding to 4-8A distance? 
+
+Means we'll probably want to re-do the structural analysis here within this "custom analyses" script.
+
+First, load pdbs, and generate list of residues that are <4A or 4-8A from each mAb
+
+```{r define_structural_contacts}
+#empty data frame to append contacts to
+structural_contacts <- data.frame(antibody=character(0), site=numeric(0), site_category=character(0))
+
+bjorkman_mabs <- profiles_config$Rockefeller_antibodies$conditions
+
+RBD_sites <- c(333:526)
+
+for (antibody in bjorkman_mabs){
+  # make empty vectors to put contact sites in 
+  contacts_4A <- c()
+  contacts_8A <- c()
+  unresolved <- c()
+  
+  for(entry in contacts_config){
+    if ((unlist(strsplit(entry$name,'_'))[1] == antibody)){
+      print(antibody)
+      pdb <- read.pdb(file=entry$pdbfile)
+      pdb_contacts_4A <- binding.site(pdb,
+                               a.inds=atom.select(pdb,chain=entry$chains_RBD),
+                               b.inds=atom.select(pdb,chain=entry$chains_ligand),
+                               cutoff=4, hydrogens=F)$resno %>% unique()
+      pdb_contacts_8A <- binding.site(pdb,
+                               a.inds=atom.select(pdb,chain=entry$chains_RBD),
+                               b.inds=atom.select(pdb,chain=entry$chains_ligand),
+                               cutoff=8, hydrogens=F)$resno %>% unique()
+      
+      # there should be as many instances of each residue as there are RBD chains
+      n_chains <- entry$chains_RBD %>% length()
+      inds <- atom.select(pdb,chain=entry$chains_RBD, elety = c("CA"), resno=RBD_sites) #$resno #%>% unique()
+      resi_count <- as.data.frame(table(pdb$atom[inds$atom,]$resno))
+      colnames(resi_count) <- c("site", "Freq")
+      resi_count$site <- as.numeric(levels(resi_count$site))[resi_count$site]
+      print(resi_count)
+      # merge with all integers from 333 to 526 to account for sites that are missing from all chains 
+      if (length(resi_count)>0){
+        resi_count <- resi_count %>% merge(data.frame(site=RBD_sites), by='site', all=TRUE)
+        resi_count[is.na(resi_count)] <- 0
+      }
+      # resi_count <- resi_count %>% 
+      # if there are fewer, then that residue is unresolved in >=1 RBD chain
+      pdb_unresolved <- resi_count %>% filter(Freq < 2) %>% pull(site) %>% as.numeric()
+      contacts_4A <- c(contacts_4A, pdb_contacts_4A)
+      contacts_8A <- c(contacts_8A, pdb_contacts_8A)
+      unresolved <- c(unresolved, pdb_unresolved)
+    }
+  }
+  contacts_4A <- contacts_4A %>% unique()
+  contacts_8A <- contacts_8A %>% unique()
+  contacts_4Ato8A <- contacts_8A[!(contacts_8A %in% contacts_4A)]
+  # if an unresolved site is called as a contact site in any other chain, exclude
+  unresolved <- unresolved[!(unresolved %in% contacts_4A | unresolved %in% contacts_4Ato8A)] %>% unique()
+  print('these are unresolved sites that are not contact sites:')
+  print(unresolved)
+  # now add to data frame 
+  structural_contacts <- rbind(structural_contacts, 
+                               data.frame(antibody=antibody,
+                                          site = contacts_4A) %>% 
+                                          mutate(site_category="contact")
+                               )
+  structural_contacts <- rbind(structural_contacts, 
+                               data.frame(antibody=antibody,
+                                          site = contacts_4Ato8A) %>% 
+                                          mutate(site_category="proximal")
+                               )
+  if (length(unresolved)>0){
+  structural_contacts <- rbind(structural_contacts, 
+                               data.frame(antibody=antibody,
+                                          site = unresolved) %>% 
+                                          mutate(site_category="unresolved")
+  )
+  }
+}
+
+structural_contacts
+```
+```{r merge_scores_with_contacts}
+
+structural_contacts$site <- as.integer(structural_contacts$site)
+
+site_dataframe <- scores %>% 
+  select(-mutation, -mut_escape_frac) %>% 
+  unique() %>%
+  merge(structural_contacts, by=c("antibody", "site"), all.x = TRUE) %>%
+  replace_na(list(site_category="distal"))
+
+site_dataframe
+write.csv(site_dataframe, file=paste(output_dir,"/site_contact_escape.csv",sep=""), row.names = FALSE, quote = FALSE)
+```
+
+Table with number of sites in each structural category, and number of sites of "strong" escape
+
+```{r get_labels_for_plot}
+site_dataframe_labels <- site_dataframe %>% 
+  group_by(antibody, strong_escape_site, site_category) %>% 
+  count() %>%
+  rename(n_sites=n) %>%
+  pivot_wider(#id_cols = c(antibody, site_category),
+    names_from = strong_escape_site,
+    names_prefix = "strong_",
+    names_repair = "check_unique",
+    values_from = n_sites) %>%
+  replace_na(list(strong_TRUE=0)) %>%
+  mutate(sites_in_dist_cat=strong_FALSE+strong_TRUE,
+         cat_label = paste0(strong_TRUE, "/", sites_in_dist_cat)
+         )
+
+site_dataframe_labels
+```
+
+Next, make jitterplots showing site total escape for the three categories of structural class.
+
+```{r plot_total_escape_contacts, echo=T, fig.width=6, fig.height=3, fig.align="center", dpi=300,dev="png"}
+site_dataframe$site_category <- factor(site_dataframe$site_category, 
+                                       levels=c("contact", "proximal", "distal", "unresolved"))
+site_dataframe$antibody <- factor(site_dataframe$antibody, 
+                                  levels=c("C105", "C144", "C002", "C121", "C135", "C110"))
+site_dataframe$strong_escape_site <- factor(site_dataframe$strong_escape_site, 
+                                  levels=c(TRUE, FALSE))
+
+site_dataframe_labels$antibody <- factor(site_dataframe_labels$antibody, 
+                                  levels=c("C105", "C144", "C002", "C121", "C135", "C110")) 
+  
+ggplot(site_dataframe, 
+       aes(x=site_category, y=site_total_escape, color=strong_escape_site)) +
+  geom_jitter(width=0.15, alpha=0.5,height=0,size=2.25,shape=16) +
+  geom_hline(data=site_dataframe %>% select(antibody,site_threshold) %>% unique(),
+             aes(yintercept=site_threshold),
+             linetype="dashed",
+             color="#999999")+
+  scale_y_continuous(limits=c(0, 22))+
+  theme_classic()+
+  theme(text = element_text(size=12), 
+        axis.text.x=element_text(angle=90, hjust=1, vjust=0.5, size=12))+
+  xlab("structural context")+
+  ylab("total escape at site")+
+  geom_text(data=site_dataframe_labels, 
+            aes(x=site_category, y=21), 
+            size=2.5,
+            color="#D55E00",
+            alpha=1,
+            inherit.aes = FALSE,
+            label=site_dataframe_labels$cat_label) +
+  facet_wrap(~antibody,nrow=1) +
+  scale_color_manual(values=c('#D55E00', '#999999'), name="site of strong\nescape")
+
+ggsave(
+  paste(output_dir,"/escape_by_contact_type.pdf",sep=""),
+  plot = last_plot(),
+  width = 9,
+  height = 2.5,
+)
+```
+I am curious about the C110 distal sites that are strong escape sites.
+This Fab-spike trimer structure has a number of unresolved residues in the structural footprint.
+I wonder if that's what those sites are. 
+```{r investigate_certain_sites}
+site_dataframe %>% filter(site_category=="distal" & strong_escape_site==TRUE)
+```
+
