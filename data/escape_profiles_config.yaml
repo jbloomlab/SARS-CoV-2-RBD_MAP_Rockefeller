@@ -56,6 +56,7 @@ Rockefeller_antibodies:
     widthscale: 0.64
   analyze_natural_mutations: true
   analyze_natural_mutations_specs:
+    maxcol: 3
     also_label: [346, 417, 439, 444, 452, 453, 455, 472, 484, 486, 490, 493, 494, 501]
     label_font_size: 7
     default_color: '#999999'
@@ -118,6 +119,7 @@ Nussenzweig_serum:
     widthscale: 0.64
   analyze_natural_mutations: true
   analyze_natural_mutations_specs:
+    maxcol: 3
     also_label: [346, 417, 439, 444, 452, 453, 455, 472, 484, 486, 490, 493, 494, 501]
     label_font_size: 7
     default_color: '#999999'
