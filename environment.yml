@@ -1,10 +1,8 @@
 name: SARS-CoV-2-RBD_MAP
 channels:
-  - bioconda
-  - r
   - conda-forge
+  - bioconda
   - defaults
-  - schrodinger
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=1_gnu
@@ -287,7 +285,7 @@ dependencies:
     - cycler==0.10.0
     - descartes==1.1.0
     - dms-variants==0.8.5
-    - dmslogo==0.5.1
+    - dmslogo==0.6.2
     - kiwisolver==1.2.0
     - logomaker==0.8
     - matplotlib==3.3.2
