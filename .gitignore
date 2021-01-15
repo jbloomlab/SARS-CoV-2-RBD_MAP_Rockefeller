@@ -32,4 +32,4 @@ results/GISAID_mutations/*
 results/supp_data/*
 !results/supp_data/*.csv
 
-data/GISAID/spikeprot*.fasta
+data/spikeprot*.fasta.tar.xz
