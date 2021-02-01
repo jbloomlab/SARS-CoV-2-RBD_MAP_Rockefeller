@@ -35,6 +35,7 @@
 Rockefeller_antibodies:
   conditions:
     C105_400: C105 # class 1, COV-107
+    CB6_400: LY-CoV016 # class 1
     C144_400: C144 # class 2, clinical trials, COV-047
     C002_400: C002 # class 2, COV-021
     C121_400: C121 # class 2, COV-107
@@ -53,8 +54,97 @@ Rockefeller_antibodies:
   dmslogo_facet_plot_kwargs:
     height_per_ax: 2.0
   dmslogo_draw_line_kwargs:
-    widthscale: 0.64
-  analyze_natural_mutations: true
+    widthscale: 0.5
+    axisfontscale: 1.5
+  dmslogo_draw_logo_kwargs:
+    widthscale: 0.75
+    axisfontscale: 1.5
+  shade_sites:
+    C105:
+      405: [gray, 0.15]
+      417: [gray, 0.15]
+      421: [gray, 0.15]
+      453: [gray, 0.15]
+      456: [gray, 0.15]
+      460: [gray, 0.15]
+      473: [gray, 0.15]
+      475: [gray, 0.15]
+      476: [gray, 0.15]
+      486: [gray, 0.15]
+      487: [gray, 0.15]
+    LY-CoV016:
+      405: [gray, 0.15] # will be added due to adding CB6
+      417: [gray, 0.15]
+      420: [gray, 0.15]
+      421: [gray, 0.15] # will be added due to adding CB6
+      455: [gray, 0.15]
+      456: [gray, 0.15]
+      460: [gray, 0.15]
+      473: [gray, 0.15]
+      475: [gray, 0.15]
+      476: [gray, 0.15] # will be added due to adding CB6
+      486: [gray, 0.15]
+      487: [gray, 0.15]
+      489: [gray, 0.15]
+      493: [gray, 0.15]
+    C144:
+      449: [gray, 0.15]
+      456: [gray, 0.15]
+      483: [gray, 0.15]
+      484: [gray, 0.15]
+      485: [gray, 0.15]
+      486: [gray, 0.15]
+      487: [gray, 0.15]
+      489: [gray, 0.15]
+      490: [gray, 0.15]
+      493: [gray, 0.15]
+      494: [gray, 0.15]
+    C002:
+      440: [gray, 0.15]
+      444: [gray, 0.15]
+      449: [gray, 0.15]
+      450: [gray, 0.15]
+      455: [gray, 0.15]
+      472: [gray, 0.15]
+      473: [gray, 0.15]
+      483: [gray, 0.15]
+      484: [gray, 0.15]
+      485: [gray, 0.15]
+      486: [gray, 0.15]
+      487: [gray, 0.15]
+      489: [gray, 0.15]
+      490: [gray, 0.15]
+      493: [gray, 0.15]
+      494: [gray, 0.15]
+    C121:
+      405: [gray, 0.15]
+      444: [gray, 0.15]
+      447: [gray, 0.15]
+      449: [gray, 0.15]
+      452: [gray, 0.15]
+      455: [gray, 0.15]
+      456: [gray, 0.15]
+      475: [gray, 0.15]
+      484: [gray, 0.15]
+      485: [gray, 0.15]
+      486: [gray, 0.15]
+      487: [gray, 0.15]
+      489: [gray, 0.15]
+      490: [gray, 0.15]
+      493: [gray, 0.15]
+      494: [gray, 0.15]
+    C135:
+      346: [gray, 0.15]
+      440: [gray, 0.15]
+    C110:
+      346: [gray, 0.15]
+      448: [gray, 0.15]
+      449: [gray, 0.15]
+      450: [gray, 0.15]
+      452: [gray, 0.15]
+      490: [gray, 0.15]
+      494: [gray, 0.15]
+  analyze_natural_mutations: false
   analyze_natural_mutations_specs:
     maxcol: 3
     also_label: [346, 417, 439, 444, 452, 453, 455, 472, 484, 486, 490, 493, 494, 501]
@@ -117,6 +207,9 @@ Nussenzweig_serum:
     height_per_ax: 2.0
   dmslogo_draw_line_kwargs:
     widthscale: 0.64
+    axisfontscale: 1.5
+  dmslogo_draw_logo_kwargs:
+    axisfontscale: 1.5
   analyze_natural_mutations: true
   analyze_natural_mutations_specs:
     maxcol: 3
@@ -186,6 +279,9 @@ NY_mabs_sera:
     height_per_ax: 2.0
   dmslogo_draw_line_kwargs:
     widthscale: 0.64
+    axisfontscale: 1.5
+  dmslogo_draw_logo_kwargs:
+    axisfontscale: 1.5
   analyze_natural_mutations: false
 
 Weisblum_single_nt_colorescape:
@@ -202,6 +298,8 @@ Weisblum_single_nt_colorescape:
   site_color_scheme: gray
   single_nt_only: ./data/Weisblum_SinoBiological_Spike.gb
   draw_line_plot: false
+  dmslogo_draw_logo_kwargs:
+    axisfontscale: 1.5
   mutation_colors:
     K484: red
     L490: red
@@ -211,3 +309,179 @@ Weisblum_single_nt_colorescape:
     K346: red
     M346: red
     R493: red
+
+all_class1_abs:
+  conditions:
+    C105_400: C105
+    CB6_400: LY-CoV016
+    COV2-2832_400: COV2-2832
+    COV2-2165_400: COV2-2165
+    COV2-2196_400: COV2-2196
+    REGN10933_400: REGN10933
+  plot_auto_identified_sites: default
+  add_sites: []
+  exclude_sites: []
+  site_color_scheme: barnes_classes
+  color_by_dms: false
+  make_supp_data: false
+  escape_profile_ymax:
+    quantile: 0.5
+    frac: 0.05
+    min_ymax: 1
+  dmslogo_facet_plot_kwargs:
+    height_per_ax: 2.0
+  dmslogo_draw_line_kwargs:
+    widthscale: 0.64
+  analyze_natural_mutations: true
+  analyze_natural_mutations_specs:
+    maxcol: 6
+    also_label: [417, 453, 455, 456, 473, 475, 486, 487, 460, 476, 439, 501, 477]
+    label_font_size: 7
+    default_color: '#999999'
+    default_alpha: 0.6
+    set_point_alpha:
+      417: 1
+      453: 1
+      455: 1
+      456: 1
+      473: 1
+      475: 1
+      486: 1
+      487: 1
+      460: 1
+      476: 1
+    set_point_color:
+      417: '#E52794'
+      453: '#E52794'
+      455: '#A81AA1'
+      456: '#A81AA1'
+      473: '#E52794'
+      475: '#E52794'
+      486: '#A81AA1'
+      487: '#A81AA1'
+      460: '#E52794'
+      476: '#E52794'
+    escape: tot_site_escape
+    ylabel: total escape at site
+    label_minescape: 2
+    label_minfreq: 5e-5
+
+all_class2_abs:
+  conditions:
+    C144_400: C144
+    C002_400: C002
+    C121_400: C121
+    COV2-2479_400: COV2-2479
+    COV2-2050_400: COV2-2050
+  plot_auto_identified_sites: default
+  add_sites: []
+  exclude_sites: []
+  site_color_scheme: barnes_classes
+  color_by_dms: false
+  make_supp_data: false
+  escape_profile_ymax:
+    quantile: 0.5
+    frac: 0.05
+    min_ymax: 1
+  dmslogo_facet_plot_kwargs:
+    height_per_ax: 2.0
+  dmslogo_draw_line_kwargs:
+    widthscale: 0.64
+  analyze_natural_mutations: true
+  analyze_natural_mutations_specs:
+    maxcol: 6
+    also_label: [455, 456, 472, 483, 484, 485, 486, 487, 489, 490, 493, 494, 439, 501, 477]
+    label_font_size: 7
+    default_color: '#999999'
+    default_alpha: 0.6
+    set_point_alpha:
+      455: 1
+      456: 1
+      472: 1
+      483: 1
+      484: 1
+      485: 1
+      486: 1
+      487: 1
+      489: 1
+      490: 1
+      493: 1
+      494: 1
+    set_point_color:
+      455: '#A81AA1'
+      456: '#A81AA1'
+      472: '#6A0DAD'
+      483: '#6A0DAD'
+      484: '#6A0DAD'
+      485: '#6A0DAD'
+      486: '#A81AA1'
+      487: '#A81AA1'
+      489: '#A81AA1'
+      490: '#6A0DAD'
+      493: '#6A0DAD'
+      494: '#6A0DAD'
+    escape: tot_site_escape
+    ylabel: total escape at site
+    label_minescape: 2
+    label_minfreq: 5e-5
+
+all_class3_abs:
+  conditions:
+    C135_400: C135
+    C110_400: C110
+    REGN10987_400: REGN10987
+    COV2-2499_400: COV2-2499
+    COV2-2130_400: COV2-2130
+  plot_auto_identified_sites: default
+  add_sites: []
+  exclude_sites: []
+  site_color_scheme: barnes_classes
+  color_by_dms: false
+  make_supp_data: false
+  escape_profile_ymax:
+    quantile: 0.5
+    frac: 0.05
+    min_ymax: 1
+  dmslogo_facet_plot_kwargs:
+    height_per_ax: 2.0
+  dmslogo_draw_line_kwargs:
+    widthscale: 0.64
+  analyze_natural_mutations: true
+  analyze_natural_mutations_specs:
+    maxcol: 6
+    also_label: [346, 439, 440, 444, 445, 446, 447, 448, 449, 450, 452, 494, 499, 439, 501, 477]
+    label_font_size: 7
+    default_color: '#999999'
+    default_alpha: 0.6
+    set_point_alpha:
+      346: 1
+      439: 1
+      440: 1
+      444: 1
+      445: 1
+      446: 1
+      447: 1
+      448: 1
+      449: 1
+      450: 1
+      452: 1
+      494: 1
+      499: 1
+    set_point_color:
+      346: '#66CCEE'
+      439: '#66CCEE'
+      440: '#66CCEE'
+      444: '#66CCEE'
+      445: '#66CCEE'
+      446: '#66CCEE'
+      447: '#66CCEE'
+      448: '#66CCEE'
+      449: '#66CCEE'
+      450: '#66CCEE'
+      452: '#66CCEE'
+      494: '#6A0DAD'
+      499: '#66CCEE'
+    escape: tot_site_escape
+    ylabel: total escape at site
+    label_minescape: 2
+    label_minfreq: 5e-5

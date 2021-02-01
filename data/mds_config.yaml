@@ -27,7 +27,7 @@
 
 Rockefeller_v_pub:
   conditions:
-    CB6_400: CB6
+    CB6_400: LY-CoV016
     REGN10933_400: REGN10933
     REGN10987_400: REGN10987
     CR3022_400: rCR3022
@@ -46,10 +46,12 @@ Rockefeller_v_pub:
     C121_400: C121 # class 2, COV-107
     C135_400: C135 # class 3, clinical trials, COV-072
     C110_400: C110 # class 3, COV-107
+    COV2-2196_400: COV2-2196
+    COV2-2130_400: COV2-2130
   color_scheme: barnes_classes
   plot_size: 5.5
   expand_points: [1.3, 1.7]
-  default_circle_color: gray
+  default_circle_color: none
   circle_colors:
     C105: '#E52794'
     C144: '#6A0DAD'

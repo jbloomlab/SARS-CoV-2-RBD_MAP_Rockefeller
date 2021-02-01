@@ -112,32 +112,6 @@ counts_cells.to_csv(config['counts_to_cells_csv'], index=False, float_format='%.
   </thead>
   <tbody>
     <tr>
-      <td>expt_53-59-none-0-reference, lib1</td>
-      <td>200923</td>
-      <td>expt_53-59</td>
-      <td>none</td>
-      <td>0</td>
-      <td>reference</td>
-      <td>&lt;NA&gt;</td>
-      <td>3e+07</td>
-      <td>3e+07</td>
-      <td>&lt;NA&gt;</td>
-      <td>&lt;NA&gt;</td>
-    </tr>
-    <tr>
-      <td>expt_53-59-none-0-reference, lib2</td>
-      <td>200923</td>
-      <td>expt_53-59</td>
-      <td>none</td>
-      <td>0</td>
-      <td>reference</td>
-      <td>&lt;NA&gt;</td>
-      <td>3.5e+07</td>
-      <td>3.5e+07</td>
-      <td>&lt;NA&gt;</td>
-      <td>&lt;NA&gt;</td>
-    </tr>
-    <tr>
       <td>expt_24-33-none-0-reference, lib1</td>
       <td>200904</td>
       <td>expt_24-33</td>
@@ -160,6 +134,32 @@ counts_cells.to_csv(config['counts_to_cells_csv'], index=False, float_format='%.
       <td>&lt;NA&gt;</td>
       <td>5.8e+07</td>
       <td>5.8e+07</td>
+      <td>&lt;NA&gt;</td>
+      <td>&lt;NA&gt;</td>
+    </tr>
+    <tr>
+      <td>expt_53-59-none-0-reference, lib1</td>
+      <td>200923</td>
+      <td>expt_53-59</td>
+      <td>none</td>
+      <td>0</td>
+      <td>reference</td>
+      <td>&lt;NA&gt;</td>
+      <td>3e+07</td>
+      <td>3e+07</td>
+      <td>&lt;NA&gt;</td>
+      <td>&lt;NA&gt;</td>
+    </tr>
+    <tr>
+      <td>expt_53-59-none-0-reference, lib2</td>
+      <td>200923</td>
+      <td>expt_53-59</td>
+      <td>none</td>
+      <td>0</td>
+      <td>reference</td>
+      <td>&lt;NA&gt;</td>
+      <td>3.5e+07</td>
+      <td>3.5e+07</td>
       <td>&lt;NA&gt;</td>
       <td>&lt;NA&gt;</td>
     </tr>
@@ -323,6 +323,19 @@ display(HTML(
       <td>&lt;NA&gt;</td>
     </tr>
     <tr>
+      <td>expt_65-67-none-0-reference, lib1</td>
+      <td>201102</td>
+      <td>expt_65-67</td>
+      <td>none</td>
+      <td>0</td>
+      <td>reference</td>
+      <td>&lt;NA&gt;</td>
+      <td>2.3e+07</td>
+      <td>2.3e+07</td>
+      <td>&lt;NA&gt;</td>
+      <td>&lt;NA&gt;</td>
+    </tr>
+    <tr>
       <td>expt_60-COV-021-500-escape, lib1</td>
       <td>200929</td>
       <td>expt_60</td>
@@ -347,6 +360,19 @@ display(HTML(
       <td>7.3e+05</td>
       <td>2.9</td>
       <td>2.2</td>
+    </tr>
+    <tr>
+      <td>expt_66-COV2-2130-400-escape, lib2</td>
+      <td>201102</td>
+      <td>expt_66</td>
+      <td>COV2-2130</td>
+      <td>400</td>
+      <td>escape</td>
+      <td>2.1e+06</td>
+      <td>4.9e+06</td>
+      <td>4.5e+06</td>
+      <td>2.3</td>
+      <td>2.1</td>
     </tr>
     <tr>
       <td>expt_15-COV2-2499-400-escape, lib1</td>

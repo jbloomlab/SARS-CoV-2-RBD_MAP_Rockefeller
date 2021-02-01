@@ -142,38 +142,6 @@ display(HTML(barcode_runs.to_html(index=False)))
   <tbody>
     <tr>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
-      <td>200923</td>
-      <td>expt_53-59</td>
-      <td>none</td>
-      <td>0</td>
-      <td>ng_per_mL</td>
-      <td>clinical_serum</td>
-      <td>reference</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>expt_53-59-none-0-reference_lib1</td>
-      <td>results/counts/expt_53-59-none-0-reference_lib1_counts.csv</td>
-      <td>results/counts/expt_53-59-none-0-reference_lib1_fates.csv</td>
-    </tr>
-    <tr>
-      <td>lib2</td>
-      <td>expt_53-59-none-0-reference</td>
-      <td>200923</td>
-      <td>expt_53-59</td>
-      <td>none</td>
-      <td>0</td>
-      <td>ng_per_mL</td>
-      <td>clinical_serum</td>
-      <td>reference</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>expt_53-59-none-0-reference_lib2</td>
-      <td>results/counts/expt_53-59-none-0-reference_lib2_counts.csv</td>
-      <td>results/counts/expt_53-59-none-0-reference_lib2_fates.csv</td>
-    </tr>
-    <tr>
-      <td>lib1</td>
       <td>expt_24-33-none-0-reference</td>
       <td>200904</td>
       <td>expt_24-33</td>
@@ -203,6 +171,38 @@ display(HTML(barcode_runs.to_html(index=False)))
       <td>expt_24-33-none-0-reference_lib2</td>
       <td>results/counts/expt_24-33-none-0-reference_lib2_counts.csv</td>
       <td>results/counts/expt_24-33-none-0-reference_lib2_fates.csv</td>
+    </tr>
+    <tr>
+      <td>lib1</td>
+      <td>expt_53-59-none-0-reference</td>
+      <td>200923</td>
+      <td>expt_53-59</td>
+      <td>none</td>
+      <td>0</td>
+      <td>ng_per_mL</td>
+      <td>clinical_serum</td>
+      <td>reference</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>expt_53-59-none-0-reference_lib1</td>
+      <td>results/counts/expt_53-59-none-0-reference_lib1_counts.csv</td>
+      <td>results/counts/expt_53-59-none-0-reference_lib1_fates.csv</td>
+    </tr>
+    <tr>
+      <td>lib2</td>
+      <td>expt_53-59-none-0-reference</td>
+      <td>200923</td>
+      <td>expt_53-59</td>
+      <td>none</td>
+      <td>0</td>
+      <td>ng_per_mL</td>
+      <td>clinical_serum</td>
+      <td>reference</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>expt_53-59-none-0-reference_lib2</td>
+      <td>results/counts/expt_53-59-none-0-reference_lib2_counts.csv</td>
+      <td>results/counts/expt_53-59-none-0-reference_lib2_fates.csv</td>
     </tr>
     <tr>
       <td>lib1</td>
@@ -334,6 +334,38 @@ display(HTML(barcode_runs.to_html(index=False)))
     </tr>
     <tr>
       <td>lib1</td>
+      <td>expt_65-67-none-0-reference</td>
+      <td>201102</td>
+      <td>expt_65-67</td>
+      <td>none</td>
+      <td>0</td>
+      <td>ng_per_mL</td>
+      <td>Crowe</td>
+      <td>reference</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>expt_65-67-none-0-reference_lib1</td>
+      <td>results/counts/expt_65-67-none-0-reference_lib1_counts.csv</td>
+      <td>results/counts/expt_65-67-none-0-reference_lib1_fates.csv</td>
+    </tr>
+    <tr>
+      <td>lib2</td>
+      <td>expt_65-67-none-0-reference</td>
+      <td>201102</td>
+      <td>expt_65-67</td>
+      <td>none</td>
+      <td>0</td>
+      <td>ng_per_mL</td>
+      <td>Crowe</td>
+      <td>reference</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>expt_65-67-none-0-reference_lib2</td>
+      <td>results/counts/expt_65-67-none-0-reference_lib2_counts.csv</td>
+      <td>results/counts/expt_65-67-none-0-reference_lib2_fates.csv</td>
+    </tr>
+    <tr>
+      <td>lib1</td>
       <td>expt_3-6-none-0-reference</td>
       <td>200615</td>
       <td>expt_3-6</td>
@@ -363,6 +395,38 @@ display(HTML(barcode_runs.to_html(index=False)))
       <td>expt_3-6-none-0-reference_lib2</td>
       <td>results/counts/expt_3-6-none-0-reference_lib2_counts.csv</td>
       <td>results/counts/expt_3-6-none-0-reference_lib2_fates.csv</td>
+    </tr>
+    <tr>
+      <td>lib1</td>
+      <td>expt_29-2196+2130-400-escape</td>
+      <td>200904</td>
+      <td>expt_29</td>
+      <td>2196+2130</td>
+      <td>400</td>
+      <td>ng_per_mL</td>
+      <td>clinical_serum</td>
+      <td>escape</td>
+      <td>0.141</td>
+      <td>1523536.0</td>
+      <td>expt_29-2196+2130-400-escape_lib1</td>
+      <td>results/counts/expt_29-2196+2130-400-escape_lib1_counts.csv</td>
+      <td>results/counts/expt_29-2196+2130-400-escape_lib1_fates.csv</td>
+    </tr>
+    <tr>
+      <td>lib2</td>
+      <td>expt_29-2196+2130-400-escape</td>
+      <td>200904</td>
+      <td>expt_29</td>
+      <td>2196+2130</td>
+      <td>400</td>
+      <td>ng_per_mL</td>
+      <td>clinical_serum</td>
+      <td>escape</td>
+      <td>0.162</td>
+      <td>1382411.0</td>
+      <td>expt_29-2196+2130-400-escape_lib2</td>
+      <td>results/counts/expt_29-2196+2130-400-escape_lib2_counts.csv</td>
+      <td>results/counts/expt_29-2196+2130-400-escape_lib2_fates.csv</td>
     </tr>
     <tr>
       <td>lib1</td>
@@ -878,6 +942,38 @@ display(HTML(barcode_runs.to_html(index=False)))
     </tr>
     <tr>
       <td>lib1</td>
+      <td>expt_66-COV2-2130-400-escape</td>
+      <td>201102</td>
+      <td>expt_66</td>
+      <td>COV2-2130</td>
+      <td>400</td>
+      <td>ng_per_mL</td>
+      <td>Crowe</td>
+      <td>escape</td>
+      <td>0.135</td>
+      <td>1933517.0</td>
+      <td>expt_66-COV2-2130-400-escape_lib1</td>
+      <td>results/counts/expt_66-COV2-2130-400-escape_lib1_counts.csv</td>
+      <td>results/counts/expt_66-COV2-2130-400-escape_lib1_fates.csv</td>
+    </tr>
+    <tr>
+      <td>lib2</td>
+      <td>expt_66-COV2-2130-400-escape</td>
+      <td>201102</td>
+      <td>expt_66</td>
+      <td>COV2-2130</td>
+      <td>400</td>
+      <td>ng_per_mL</td>
+      <td>Crowe</td>
+      <td>escape</td>
+      <td>0.134</td>
+      <td>2145467.0</td>
+      <td>expt_66-COV2-2130-400-escape_lib2</td>
+      <td>results/counts/expt_66-COV2-2130-400-escape_lib2_counts.csv</td>
+      <td>results/counts/expt_66-COV2-2130-400-escape_lib2_fates.csv</td>
+    </tr>
+    <tr>
+      <td>lib1</td>
       <td>expt_9-COV2-2165-400-escape</td>
       <td>200616</td>
       <td>expt_9</td>
@@ -907,6 +1003,38 @@ display(HTML(barcode_runs.to_html(index=False)))
       <td>expt_9-COV2-2165-400-escape_lib2</td>
       <td>results/counts/expt_9-COV2-2165-400-escape_lib2_counts.csv</td>
       <td>results/counts/expt_9-COV2-2165-400-escape_lib2_fates.csv</td>
+    </tr>
+    <tr>
+      <td>lib1</td>
+      <td>expt_65-COV2-2196-400-escape</td>
+      <td>201102</td>
+      <td>expt_65</td>
+      <td>COV2-2196</td>
+      <td>400</td>
+      <td>ng_per_mL</td>
+      <td>Crowe</td>
+      <td>escape</td>
+      <td>0.150</td>
+      <td>2323887.0</td>
+      <td>expt_65-COV2-2196-400-escape_lib1</td>
+      <td>results/counts/expt_65-COV2-2196-400-escape_lib1_counts.csv</td>
+      <td>results/counts/expt_65-COV2-2196-400-escape_lib1_fates.csv</td>
+    </tr>
+    <tr>
+      <td>lib2</td>
+      <td>expt_65-COV2-2196-400-escape</td>
+      <td>201102</td>
+      <td>expt_65</td>
+      <td>COV2-2196</td>
+      <td>400</td>
+      <td>ng_per_mL</td>
+      <td>Crowe</td>
+      <td>escape</td>
+      <td>0.156</td>
+      <td>1828346.0</td>
+      <td>expt_65-COV2-2196-400-escape_lib2</td>
+      <td>results/counts/expt_65-COV2-2196-400-escape_lib2_counts.csv</td>
+      <td>results/counts/expt_65-COV2-2196-400-escape_lib2_fates.csv</td>
     </tr>
     <tr>
       <td>lib1</td>
@@ -1219,33 +1347,33 @@ display(HTML(fates.head().to_html(index=False)))
   <tbody>
     <tr>
       <td>TTCCAAAATATTGTCA</td>
-      <td>21809</td>
+      <td>263040</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
+      <td>expt_24-33-none-0-reference</td>
     </tr>
     <tr>
       <td>TAGTAACAATGCGGTA</td>
-      <td>8820</td>
+      <td>174279</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
+      <td>expt_24-33-none-0-reference</td>
     </tr>
     <tr>
-      <td>TGAGAATCTATCATGA</td>
-      <td>5677</td>
+      <td>TTAATTAGTATCAGGT</td>
+      <td>60387</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
+      <td>expt_24-33-none-0-reference</td>
     </tr>
     <tr>
-      <td>AAAAAACATCTGCATG</td>
-      <td>5251</td>
+      <td>TTAGATGAAGCCAGTA</td>
+      <td>51224</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
+      <td>expt_24-33-none-0-reference</td>
     </tr>
     <tr>
-      <td>ATAAAAAGTCCATATG</td>
-      <td>5216</td>
+      <td>TAATATGCAAGAGCCA</td>
+      <td>48555</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
+      <td>expt_24-33-none-0-reference</td>
     </tr>
   </tbody>
 </table>
@@ -1267,33 +1395,33 @@ display(HTML(fates.head().to_html(index=False)))
   <tbody>
     <tr>
       <td>valid barcode</td>
-      <td>30129920</td>
+      <td>53957723</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
-    </tr>
-    <tr>
-      <td>failed chastity filter</td>
-      <td>26708702</td>
-      <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
+      <td>expt_24-33-none-0-reference</td>
     </tr>
     <tr>
       <td>invalid barcode</td>
-      <td>3141510</td>
+      <td>5653429</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
+      <td>expt_24-33-none-0-reference</td>
     </tr>
     <tr>
       <td>low quality barcode</td>
-      <td>2438934</td>
+      <td>5031936</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
+      <td>expt_24-33-none-0-reference</td>
+    </tr>
+    <tr>
+      <td>failed chastity filter</td>
+      <td>3009381</td>
+      <td>lib1</td>
+      <td>expt_24-33-none-0-reference</td>
     </tr>
     <tr>
       <td>unparseable barcode</td>
-      <td>756874</td>
+      <td>1204055</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
+      <td>expt_24-33-none-0-reference</td>
     </tr>
   </tbody>
 </table>
@@ -1595,6 +1723,23 @@ display(HTML(fates
       <td>3.6e+06</td>
     </tr>
     <tr>
+      <th rowspan="2" valign="top">expt_29-2196+2130-400-escape</th>
+      <th>lib1</th>
+      <td>0.0e+00</td>
+      <td>6.8e+05</td>
+      <td>4.7e+05</td>
+      <td>1.3e+05</td>
+      <td>5.7e+06</td>
+    </tr>
+    <tr>
+      <th>lib2</th>
+      <td>0.0e+00</td>
+      <td>6.9e+05</td>
+      <td>4.8e+05</td>
+      <td>2.0e+05</td>
+      <td>6.2e+06</td>
+    </tr>
+    <tr>
       <th rowspan="2" valign="top">expt_3-6-none-0-reference</th>
       <th>lib1</th>
       <td>1.2e+07</td>
@@ -1867,6 +2012,57 @@ display(HTML(fates
       <td>2.3e+06</td>
     </tr>
     <tr>
+      <th rowspan="2" valign="top">expt_65-67-none-0-reference</th>
+      <th>lib1</th>
+      <td>6.1e+05</td>
+      <td>2.4e+06</td>
+      <td>1.4e+06</td>
+      <td>4.6e+05</td>
+      <td>2.3e+07</td>
+    </tr>
+    <tr>
+      <th>lib2</th>
+      <td>6.6e+05</td>
+      <td>2.4e+06</td>
+      <td>1.5e+06</td>
+      <td>5.1e+05</td>
+      <td>2.5e+07</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">expt_65-COV2-2196-400-escape</th>
+      <th>lib1</th>
+      <td>1.9e+05</td>
+      <td>7.9e+05</td>
+      <td>4.6e+05</td>
+      <td>1.4e+05</td>
+      <td>7.3e+06</td>
+    </tr>
+    <tr>
+      <th>lib2</th>
+      <td>1.4e+05</td>
+      <td>5.2e+05</td>
+      <td>3.2e+05</td>
+      <td>1.0e+05</td>
+      <td>5.5e+06</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">expt_66-COV2-2130-400-escape</th>
+      <th>lib1</th>
+      <td>1.6e+05</td>
+      <td>6.8e+05</td>
+      <td>3.7e+05</td>
+      <td>1.2e+05</td>
+      <td>5.9e+06</td>
+    </tr>
+    <tr>
+      <th>lib2</th>
+      <td>1.3e+05</td>
+      <td>4.5e+05</td>
+      <td>2.9e+05</td>
+      <td>1.1e+05</td>
+      <td>4.9e+06</td>
+    </tr>
+    <tr>
       <th rowspan="2" valign="top">expt_7-11-none-0-reference</th>
       <th>lib1</th>
       <td>1.3e+07</td>
@@ -1980,21 +2176,9 @@ display(HTML(variants.variant_count_df.head().to_html(index=False)))
     <tr>
       <td>BM48-31</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
-      <td>CGATGAATTCAGCTCT</td>
-      <td>150</td>
-      <td>12</td>
-      <td>BM48-31</td>
-      <td>BM48-31</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>BM48-31</td>
-      <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
+      <td>expt_24-33-none-0-reference</td>
       <td>TCCAAGGAAATTGTGA</td>
-      <td>150</td>
+      <td>312</td>
       <td>3</td>
       <td>BM48-31</td>
       <td>BM48-31</td>
@@ -2004,9 +2188,33 @@ display(HTML(variants.variant_count_df.head().to_html(index=False)))
     <tr>
       <td>BM48-31</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
-      <td>ACCCGAACCAGGTTGC</td>
-      <td>116</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>CGATGAATTCAGCTCT</td>
+      <td>307</td>
+      <td>12</td>
+      <td>BM48-31</td>
+      <td>BM48-31</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>BM48-31</td>
+      <td>lib1</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>TATCACAACGTAGACC</td>
+      <td>201</td>
+      <td>6</td>
+      <td>BM48-31</td>
+      <td>BM48-31</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>BM48-31</td>
+      <td>lib1</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>TACCTATTCCCATAAA</td>
+      <td>147</td>
       <td>2</td>
       <td>BM48-31</td>
       <td>BM48-31</td>
@@ -2016,22 +2224,10 @@ display(HTML(variants.variant_count_df.head().to_html(index=False)))
     <tr>
       <td>BM48-31</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
-      <td>CTACCAAGGATGCTAT</td>
-      <td>88</td>
-      <td>4</td>
-      <td>BM48-31</td>
-      <td>BM48-31</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>BM48-31</td>
-      <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
-      <td>ACCGCACGCTGATAAT</td>
-      <td>86</td>
-      <td>4</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>TTACAAATAACACCAT</td>
+      <td>143</td>
+      <td>2</td>
       <td>BM48-31</td>
       <td>BM48-31</td>
       <td>0</td>

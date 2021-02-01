@@ -91,78 +91,78 @@ display(HTML(escape_fracs.head().to_html(index=False)))
   </thead>
   <tbody>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>331</td>
       <td>N</td>
       <td>A</td>
       <td>E</td>
       <td>331</td>
-      <td>0.002089</td>
-      <td>0.000792</td>
-      <td>0.03321</td>
-      <td>0.01876</td>
-      <td>0.002076</td>
-      <td>0.001173</td>
+      <td>0.002957</td>
+      <td>0.000735</td>
+      <td>0.04652</td>
+      <td>0.03689</td>
+      <td>0.002907</td>
+      <td>0.002305</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>331</td>
       <td>N</td>
       <td>D</td>
       <td>E</td>
       <td>331</td>
-      <td>0.001883</td>
-      <td>0.001079</td>
-      <td>0.03321</td>
-      <td>0.01876</td>
-      <td>0.002076</td>
-      <td>0.001173</td>
+      <td>0.002916</td>
+      <td>0.000800</td>
+      <td>0.04652</td>
+      <td>0.03689</td>
+      <td>0.002907</td>
+      <td>0.002305</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>331</td>
       <td>N</td>
       <td>E</td>
       <td>E</td>
       <td>331</td>
-      <td>0.002089</td>
-      <td>0.001067</td>
-      <td>0.03321</td>
-      <td>0.01876</td>
-      <td>0.002076</td>
-      <td>0.001173</td>
+      <td>0.002804</td>
+      <td>0.001046</td>
+      <td>0.04652</td>
+      <td>0.03689</td>
+      <td>0.002907</td>
+      <td>0.002305</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>331</td>
       <td>N</td>
       <td>F</td>
       <td>E</td>
       <td>331</td>
-      <td>0.002089</td>
-      <td>0.000501</td>
-      <td>0.03321</td>
-      <td>0.01876</td>
-      <td>0.002076</td>
-      <td>0.001173</td>
+      <td>0.003562</td>
+      <td>0.000688</td>
+      <td>0.04652</td>
+      <td>0.03689</td>
+      <td>0.002907</td>
+      <td>0.002305</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>331</td>
       <td>N</td>
       <td>G</td>
       <td>E</td>
       <td>331</td>
-      <td>0.002089</td>
-      <td>0.000479</td>
-      <td>0.03321</td>
-      <td>0.01876</td>
-      <td>0.002076</td>
-      <td>0.001173</td>
+      <td>0.003011</td>
+      <td>0.003503</td>
+      <td>0.04652</td>
+      <td>0.03689</td>
+      <td>0.002907</td>
+      <td>0.002305</td>
       <td>2</td>
     </tr>
   </tbody>
@@ -341,15 +341,15 @@ strong_sites.to_csv(config['strong_escape_sites'], index=False)
   <tbody>
     <tr>
       <th>default</th>
-      <td>50</td>
+      <td>48</td>
     </tr>
     <tr>
       <th>sensitive</th>
-      <td>66</td>
+      <td>61</td>
     </tr>
     <tr>
       <th>sensitive_max_mut</th>
-      <td>68</td>
+      <td>64</td>
     </tr>
   </tbody>
 </table>
@@ -386,96 +386,96 @@ strong_sites.to_csv(config['strong_escape_sites'], index=False)
       <th>0</th>
       <td>C002_400</td>
       <td>452</td>
-      <td>3.468</td>
-      <td>0.9837</td>
+      <td>3.465</td>
+      <td>0.9900</td>
       <td>default</td>
-      <td>0.027635</td>
-      <td>17.43</td>
-      <td>0.27635</td>
+      <td>0.027</td>
+      <td>17.45</td>
+      <td>0.27</td>
       <td>True</td>
-      <td>1.743</td>
+      <td>1.745</td>
       <td>True</td>
       <td>0</td>
       <td>True</td>
       <td>False</td>
       <td>True</td>
-      <td>10</td>
+      <td>11</td>
     </tr>
     <tr>
       <th>1</th>
       <td>C002_400</td>
       <td>455</td>
-      <td>6.326</td>
-      <td>0.9414</td>
+      <td>6.300</td>
+      <td>0.9436</td>
       <td>default</td>
-      <td>0.027635</td>
-      <td>17.43</td>
-      <td>0.27635</td>
+      <td>0.027</td>
+      <td>17.45</td>
+      <td>0.27</td>
       <td>True</td>
-      <td>1.743</td>
+      <td>1.745</td>
       <td>True</td>
       <td>0</td>
       <td>True</td>
       <td>False</td>
       <td>True</td>
-      <td>10</td>
+      <td>11</td>
     </tr>
     <tr>
       <th>2</th>
       <td>C002_400</td>
       <td>456</td>
-      <td>8.548</td>
-      <td>0.9985</td>
+      <td>8.613</td>
+      <td>1.0000</td>
       <td>default</td>
-      <td>0.027635</td>
-      <td>17.43</td>
-      <td>0.27635</td>
+      <td>0.027</td>
+      <td>17.45</td>
+      <td>0.27</td>
       <td>True</td>
-      <td>1.743</td>
+      <td>1.745</td>
       <td>True</td>
       <td>0</td>
       <td>True</td>
       <td>False</td>
       <td>True</td>
-      <td>10</td>
+      <td>11</td>
     </tr>
     <tr>
       <th>3</th>
       <td>C002_400</td>
       <td>472</td>
-      <td>5.175</td>
-      <td>0.9472</td>
+      <td>4.913</td>
+      <td>0.9498</td>
       <td>default</td>
-      <td>0.027635</td>
-      <td>17.43</td>
-      <td>0.27635</td>
+      <td>0.027</td>
+      <td>17.45</td>
+      <td>0.27</td>
       <td>True</td>
-      <td>1.743</td>
+      <td>1.745</td>
       <td>True</td>
       <td>0</td>
       <td>True</td>
       <td>False</td>
       <td>True</td>
-      <td>10</td>
+      <td>11</td>
     </tr>
     <tr>
       <th>4</th>
       <td>C002_400</td>
-      <td>483</td>
-      <td>4.596</td>
-      <td>0.8277</td>
+      <td>473</td>
+      <td>1.803</td>
+      <td>0.9117</td>
       <td>default</td>
-      <td>0.027635</td>
-      <td>17.43</td>
-      <td>0.27635</td>
+      <td>0.027</td>
+      <td>17.45</td>
+      <td>0.27</td>
       <td>True</td>
-      <td>1.743</td>
+      <td>1.745</td>
       <td>True</td>
       <td>0</td>
       <td>True</td>
       <td>False</td>
       <td>True</td>
-      <td>10</td>
+      <td>11</td>
     </tr>
   </tbody>
 </table>
