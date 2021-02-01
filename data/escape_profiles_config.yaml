@@ -335,7 +335,7 @@ all_class1_abs:
   analyze_natural_mutations: true
   analyze_natural_mutations_specs:
     maxcol: 6
-    also_label: [417, 453, 455, 456, 473, 475, 486, 487]
+    also_label: [417, 453, 455, 456, 473, 475, 486, 487, 460, 476, 439, 501, 477]
     label_font_size: 7
     default_color: '#999999'
     default_alpha: 0.6
@@ -348,6 +348,8 @@ all_class1_abs:
       475: 1
       486: 1
       487: 1
+      460: 1
+      476: 1
     set_point_color:
       417: '#E52794'
       453: '#E52794'
@@ -357,6 +359,8 @@ all_class1_abs:
       475: '#E52794'
       486: '#A81AA1'
       487: '#A81AA1'
+      460: '#E52794'
+      476: '#E52794'
     escape: tot_site_escape
     ylabel: total escape at site
     label_minescape: 2
@@ -386,7 +390,7 @@ all_class2_abs:
   analyze_natural_mutations: true
   analyze_natural_mutations_specs:
     maxcol: 6
-    also_label: [455, 456, 472, 483, 484, 485, 486, 487, 489, 490, 493, 494]
+    also_label: [455, 456, 472, 483, 484, 485, 486, 487, 489, 490, 493, 494, 439, 501, 477]
     label_font_size: 7
     default_color: '#999999'
     default_alpha: 0.6
@@ -445,12 +449,13 @@ all_class3_abs:
   analyze_natural_mutations: true
   analyze_natural_mutations_specs:
     maxcol: 6
-    also_label: [346, 440, 444, 445, 446, 447, 448, 449, 450, 452]
+    also_label: [346, 439, 440, 444, 445, 446, 447, 448, 449, 450, 452, 494, 499, 439, 501, 477]
     label_font_size: 7
     default_color: '#999999'
     default_alpha: 0.6
     set_point_alpha:
       346: 1
+      439: 1
       440: 1
       444: 1
       445: 1
@@ -460,8 +465,11 @@ all_class3_abs:
       449: 1
       450: 1
       452: 1
+      494: 1
+      499: 1
     set_point_color:
       346: '#66CCEE'
+      439: '#66CCEE'
       440: '#66CCEE'
       444: '#66CCEE'
       445: '#66CCEE'
@@ -471,6 +479,8 @@ all_class3_abs:
       449: '#66CCEE'
       450: '#66CCEE'
       452: '#66CCEE'
+      494: '#6A0DAD'
+      499: '#66CCEE'
     escape: tot_site_escape
     ylabel: total escape at site
     label_minescape: 2

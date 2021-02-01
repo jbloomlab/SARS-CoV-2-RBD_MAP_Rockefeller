@@ -124,48 +124,48 @@ escape_fracs
   <tbody>
     <tr>
       <th>0</th>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>331</td>
       <td>N</td>
       <td>A</td>
-      <td>0.002089</td>
-      <td>0.03321</td>
+      <td>0.002957</td>
+      <td>0.04652</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>331</td>
       <td>N</td>
       <td>D</td>
-      <td>0.001883</td>
-      <td>0.03321</td>
+      <td>0.002916</td>
+      <td>0.04652</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>331</td>
       <td>N</td>
       <td>E</td>
-      <td>0.002089</td>
-      <td>0.03321</td>
+      <td>0.002804</td>
+      <td>0.04652</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>331</td>
       <td>N</td>
       <td>F</td>
-      <td>0.002089</td>
-      <td>0.03321</td>
+      <td>0.003562</td>
+      <td>0.04652</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>331</td>
       <td>N</td>
       <td>G</td>
-      <td>0.002089</td>
-      <td>0.03321</td>
+      <td>0.003011</td>
+      <td>0.04652</td>
     </tr>
     <tr>
       <th>...</th>
@@ -177,53 +177,53 @@ escape_fracs
       <td>...</td>
     </tr>
     <tr>
-      <th>48699</th>
+      <th>54547</th>
       <td>REGN10987_400</td>
       <td>531</td>
       <td>T</td>
       <td>R</td>
-      <td>0.002266</td>
-      <td>0.04215</td>
+      <td>0.002305</td>
+      <td>0.04055</td>
     </tr>
     <tr>
-      <th>48700</th>
+      <th>54548</th>
       <td>REGN10987_400</td>
       <td>531</td>
       <td>T</td>
       <td>S</td>
-      <td>0.002293</td>
-      <td>0.04215</td>
+      <td>0.002368</td>
+      <td>0.04055</td>
     </tr>
     <tr>
-      <th>48701</th>
+      <th>54549</th>
       <td>REGN10987_400</td>
       <td>531</td>
       <td>T</td>
       <td>V</td>
-      <td>0.002237</td>
-      <td>0.04215</td>
+      <td>0.002198</td>
+      <td>0.04055</td>
     </tr>
     <tr>
-      <th>48702</th>
+      <th>54550</th>
       <td>REGN10987_400</td>
       <td>531</td>
       <td>T</td>
       <td>W</td>
-      <td>0.002176</td>
-      <td>0.04215</td>
+      <td>0.001965</td>
+      <td>0.04055</td>
     </tr>
     <tr>
-      <th>48703</th>
+      <th>54551</th>
       <td>REGN10987_400</td>
       <td>531</td>
       <td>T</td>
       <td>Y</td>
-      <td>0.002290</td>
-      <td>0.04215</td>
+      <td>0.002373</td>
+      <td>0.04055</td>
     </tr>
   </tbody>
 </table>
-<p>48704 rows × 6 columns</p>
+<p>54552 rows × 6 columns</p>
 </div>
 
 
@@ -282,184 +282,184 @@ display(HTML(sitecounts_strong_sites.head(n=20).to_html(index=False)))
   </thead>
   <tbody>
     <tr>
-      <td>REGN10987_400</td>
-      <td>default</td>
-      <td>439</td>
-      <td>N</td>
-      <td>2.2040</td>
-      <td>3918</td>
-      <td>N439K (3918)</td>
-    </tr>
-    <tr>
-      <td>REGN10987_400</td>
-      <td>sensitive</td>
-      <td>439</td>
-      <td>N</td>
-      <td>2.2040</td>
-      <td>3918</td>
-      <td>N439K (3918)</td>
-    </tr>
-    <tr>
-      <td>REGN10987_400</td>
-      <td>sensitive_max_mut</td>
-      <td>439</td>
-      <td>N</td>
-      <td>2.2040</td>
-      <td>3918</td>
-      <td>N439K (3918)</td>
-    </tr>
-    <tr>
       <td>COV-021_500</td>
-      <td>sensitive_max_mut</td>
-      <td>501</td>
-      <td>N</td>
-      <td>0.2931</td>
-      <td>3710</td>
-      <td>N501Y (3665), N501T (40), N501S (5)</td>
-    </tr>
-    <tr>
-      <td>CB6_400</td>
       <td>sensitive</td>
       <td>501</td>
       <td>N</td>
-      <td>1.4060</td>
-      <td>3710</td>
-      <td>N501Y (3665), N501T (40), N501S (5)</td>
+      <td>0.4103</td>
+      <td>11434</td>
+      <td>N501Y (11216), N501T (209), N501S (6), N501I (3)</td>
     </tr>
     <tr>
       <td>COV2-2499_400</td>
       <td>sensitive_max_mut</td>
       <td>501</td>
       <td>N</td>
-      <td>0.4621</td>
-      <td>3710</td>
-      <td>N501Y (3665), N501T (40), N501S (5)</td>
+      <td>0.5019</td>
+      <td>11434</td>
+      <td>N501Y (11216), N501T (209), N501S (6), N501I (3)</td>
     </tr>
     <tr>
       <td>CB6_400</td>
       <td>sensitive_max_mut</td>
       <td>501</td>
       <td>N</td>
-      <td>1.4060</td>
-      <td>3710</td>
-      <td>N501Y (3665), N501T (40), N501S (5)</td>
-    </tr>
-    <tr>
-      <td>COV-021_500</td>
-      <td>sensitive</td>
-      <td>501</td>
-      <td>N</td>
-      <td>0.2931</td>
-      <td>3710</td>
-      <td>N501Y (3665), N501T (40), N501S (5)</td>
+      <td>1.4430</td>
+      <td>11434</td>
+      <td>N501Y (11216), N501T (209), N501S (6), N501I (3)</td>
     </tr>
     <tr>
       <td>COV2-2499_400</td>
       <td>sensitive</td>
       <td>501</td>
       <td>N</td>
-      <td>0.4621</td>
-      <td>3710</td>
-      <td>N501Y (3665), N501T (40), N501S (5)</td>
+      <td>0.5019</td>
+      <td>11434</td>
+      <td>N501Y (11216), N501T (209), N501S (6), N501I (3)</td>
     </tr>
     <tr>
-      <td>C105_400</td>
-      <td>default</td>
-      <td>453</td>
-      <td>Y</td>
-      <td>2.0620</td>
-      <td>948</td>
-      <td>Y453F (948)</td>
-    </tr>
-    <tr>
-      <td>C105_400</td>
+      <td>COV-021_500</td>
       <td>sensitive_max_mut</td>
-      <td>453</td>
-      <td>Y</td>
-      <td>2.0620</td>
-      <td>948</td>
-      <td>Y453F (948)</td>
-    </tr>
-    <tr>
-      <td>REGN10933_400</td>
-      <td>sensitive_max_mut</td>
-      <td>453</td>
-      <td>Y</td>
-      <td>4.0200</td>
-      <td>948</td>
-      <td>Y453F (948)</td>
-    </tr>
-    <tr>
-      <td>C105_400</td>
-      <td>sensitive</td>
-      <td>453</td>
-      <td>Y</td>
-      <td>2.0620</td>
-      <td>948</td>
-      <td>Y453F (948)</td>
-    </tr>
-    <tr>
-      <td>REGN10933_400</td>
-      <td>sensitive</td>
-      <td>453</td>
-      <td>Y</td>
-      <td>4.0200</td>
-      <td>948</td>
-      <td>Y453F (948)</td>
-    </tr>
-    <tr>
-      <td>REGN10933_400</td>
-      <td>default</td>
-      <td>453</td>
-      <td>Y</td>
-      <td>4.0200</td>
-      <td>948</td>
-      <td>Y453F (948)</td>
-    </tr>
-    <tr>
-      <td>COV-072_200</td>
-      <td>default</td>
-      <td>484</td>
-      <td>E</td>
-      <td>2.1070</td>
-      <td>337</td>
-      <td>E484K (279), E484Q (42), E484A (8), E484D (3), E484R (2), E484G (2), E484V (1)</td>
+      <td>501</td>
+      <td>N</td>
+      <td>0.4103</td>
+      <td>11434</td>
+      <td>N501Y (11216), N501T (209), N501S (6), N501I (3)</td>
     </tr>
     <tr>
       <td>CB6_400</td>
+      <td>sensitive</td>
+      <td>501</td>
+      <td>N</td>
+      <td>1.4430</td>
+      <td>11434</td>
+      <td>N501Y (11216), N501T (209), N501S (6), N501I (3)</td>
+    </tr>
+    <tr>
+      <td>REGN10987_400</td>
+      <td>default</td>
+      <td>439</td>
+      <td>N</td>
+      <td>2.1500</td>
+      <td>5262</td>
+      <td>N439K (5262)</td>
+    </tr>
+    <tr>
+      <td>REGN10987_400</td>
+      <td>sensitive</td>
+      <td>439</td>
+      <td>N</td>
+      <td>2.1500</td>
+      <td>5262</td>
+      <td>N439K (5262)</td>
+    </tr>
+    <tr>
+      <td>REGN10987_400</td>
+      <td>sensitive_max_mut</td>
+      <td>439</td>
+      <td>N</td>
+      <td>2.1500</td>
+      <td>5262</td>
+      <td>N439K (5262)</td>
+    </tr>
+    <tr>
+      <td>REGN10933_400</td>
+      <td>default</td>
+      <td>453</td>
+      <td>Y</td>
+      <td>4.1070</td>
+      <td>994</td>
+      <td>Y453F (994)</td>
+    </tr>
+    <tr>
+      <td>REGN10933+REGN10987_400</td>
+      <td>sensitive</td>
+      <td>453</td>
+      <td>Y</td>
+      <td>0.1267</td>
+      <td>994</td>
+      <td>Y453F (994)</td>
+    </tr>
+    <tr>
+      <td>C105_400</td>
+      <td>sensitive_max_mut</td>
+      <td>453</td>
+      <td>Y</td>
+      <td>2.0470</td>
+      <td>994</td>
+      <td>Y453F (994)</td>
+    </tr>
+    <tr>
+      <td>REGN10933+REGN10987_400</td>
+      <td>sensitive_max_mut</td>
+      <td>453</td>
+      <td>Y</td>
+      <td>0.1267</td>
+      <td>994</td>
+      <td>Y453F (994)</td>
+    </tr>
+    <tr>
+      <td>REGN10933_400</td>
+      <td>sensitive</td>
+      <td>453</td>
+      <td>Y</td>
+      <td>4.1070</td>
+      <td>994</td>
+      <td>Y453F (994)</td>
+    </tr>
+    <tr>
+      <td>REGN10933_400</td>
+      <td>sensitive_max_mut</td>
+      <td>453</td>
+      <td>Y</td>
+      <td>4.1070</td>
+      <td>994</td>
+      <td>Y453F (994)</td>
+    </tr>
+    <tr>
+      <td>C105_400</td>
+      <td>sensitive</td>
+      <td>453</td>
+      <td>Y</td>
+      <td>2.0470</td>
+      <td>994</td>
+      <td>Y453F (994)</td>
+    </tr>
+    <tr>
+      <td>C105_400</td>
+      <td>default</td>
+      <td>453</td>
+      <td>Y</td>
+      <td>2.0470</td>
+      <td>994</td>
+      <td>Y453F (994)</td>
+    </tr>
+    <tr>
+      <td>COV-021_500</td>
+      <td>sensitive</td>
+      <td>484</td>
+      <td>E</td>
+      <td>2.5080</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>COV-021_500</td>
       <td>sensitive_max_mut</td>
       <td>484</td>
       <td>E</td>
-      <td>0.9256</td>
-      <td>337</td>
-      <td>E484K (279), E484Q (42), E484A (8), E484D (3), E484G (2), E484R (2), E484V (1)</td>
+      <td>2.5080</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
     </tr>
     <tr>
-      <td>C002_400</td>
-      <td>default</td>
+      <td>REGN10933_400</td>
+      <td>sensitive_max_mut</td>
       <td>484</td>
       <td>E</td>
-      <td>17.4300</td>
-      <td>337</td>
-      <td>E484K (279), E484Q (42), E484A (8), E484D (3), E484R (2), E484G (2), E484V (1)</td>
-    </tr>
-    <tr>
-      <td>COV-072_200</td>
-      <td>sensitive</td>
-      <td>484</td>
-      <td>E</td>
-      <td>2.1070</td>
-      <td>337</td>
-      <td>E484K (279), E484Q (42), E484A (8), E484D (3), E484R (2), E484G (2), E484V (1)</td>
-    </tr>
-    <tr>
-      <td>C144_400</td>
-      <td>sensitive</td>
-      <td>484</td>
-      <td>E</td>
-      <td>18.4200</td>
-      <td>337</td>
-      <td>E484K (279), E484Q (42), E484A (8), E484D (3), E484G (2), E484R (2), E484V (1)</td>
+      <td>2.9970</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
     </tr>
   </tbody>
 </table>
@@ -547,117 +547,6 @@ for name, specs in escape_profiles_config.items():
 ```
 
     
-    Analyzing natural mutations for Rockefeller_antibodies
-    Writing counts of mutations at sites of strong escape to results/GISAID_mutations/Rockefeller_antibodies_mutation_counts.csv. First few lines:
-
-
-
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>condition</th>
-      <th>threshold</th>
-      <th>site</th>
-      <th>wildtype</th>
-      <th>count</th>
-      <th>counts_by_mutation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>C105</td>
-      <td>default</td>
-      <td>453</td>
-      <td>Y</td>
-      <td>948</td>
-      <td>Y453F (948)</td>
-    </tr>
-    <tr>
-      <td>C002</td>
-      <td>default</td>
-      <td>484</td>
-      <td>E</td>
-      <td>337</td>
-      <td>E484K (279), E484Q (42), E484A (8), E484D (3), E484R (2), E484G (2), E484V (1)</td>
-    </tr>
-    <tr>
-      <td>C144</td>
-      <td>default</td>
-      <td>484</td>
-      <td>E</td>
-      <td>337</td>
-      <td>E484K (279), E484Q (42), E484A (8), E484D (3), E484G (2), E484R (2), E484V (1)</td>
-    </tr>
-    <tr>
-      <td>C121</td>
-      <td>default</td>
-      <td>484</td>
-      <td>E</td>
-      <td>337</td>
-      <td>E484K (279), E484Q (42), E484A (8), E484D (3), E484G (2), E484R (2), E484V (1)</td>
-    </tr>
-    <tr>
-      <td>C105</td>
-      <td>default</td>
-      <td>417</td>
-      <td>K</td>
-      <td>195</td>
-      <td>K417N (193), K417R (2)</td>
-    </tr>
-    <tr>
-      <td>C110</td>
-      <td>default</td>
-      <td>494</td>
-      <td>S</td>
-      <td>166</td>
-      <td>S494P (151), S494L (10), S494A (5)</td>
-    </tr>
-    <tr>
-      <td>C002</td>
-      <td>default</td>
-      <td>483</td>
-      <td>V</td>
-      <td>129</td>
-      <td>V483A (64), V483F (56), V483L (5), V483I (4)</td>
-    </tr>
-    <tr>
-      <td>C002</td>
-      <td>default</td>
-      <td>452</td>
-      <td>L</td>
-      <td>112</td>
-      <td>L452R (56), L452M (51), L452Q (4), L452P (1)</td>
-    </tr>
-    <tr>
-      <td>C110</td>
-      <td>default</td>
-      <td>452</td>
-      <td>L</td>
-      <td>112</td>
-      <td>L452R (56), L452M (51), L452Q (4), L452P (1)</td>
-    </tr>
-    <tr>
-      <td>C144</td>
-      <td>default</td>
-      <td>490</td>
-      <td>F</td>
-      <td>72</td>
-      <td>F490S (53), F490L (16), F490V (3)</td>
-    </tr>
-  </tbody>
-</table>
-
-
-    Plotting which antibodies / sera are escaped by mutations at all sites of escape with at least 5 mutation counts and saving to results/GISAID_mutations/Rockefeller_antibodies_mutation_counts.pdf.
-
-
-
-    
-![png](natural_mutations_files/natural_mutations_20_3.png)
-    
-
-
-    
     Analyzing natural mutations for Nussenzweig_serum
     Writing counts of mutations at sites of strong escape to results/GISAID_mutations/Nussenzweig_serum_mutation_counts.csv. First few lines:
 
@@ -676,76 +565,76 @@ for name, specs in escape_profiles_config.items():
   </thead>
   <tbody>
     <tr>
-      <td>COV-072</td>
-      <td>default</td>
-      <td>484</td>
-      <td>E</td>
-      <td>337</td>
-      <td>E484K (279), E484Q (42), E484A (8), E484D (3), E484R (2), E484G (2), E484V (1)</td>
-    </tr>
-    <tr>
       <td>COV-047</td>
       <td>default</td>
       <td>484</td>
       <td>E</td>
-      <td>337</td>
-      <td>E484K (279), E484Q (42), E484A (8), E484D (3), E484G (2), E484R (2), E484V (1)</td>
-    </tr>
-    <tr>
-      <td>COV-057</td>
-      <td>default</td>
-      <td>484</td>
-      <td>E</td>
-      <td>337</td>
-      <td>E484K (279), E484Q (42), E484A (8), E484D (3), E484G (2), E484R (2), E484V (1)</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
     </tr>
     <tr>
       <td>COV-021</td>
       <td>default</td>
       <td>484</td>
       <td>E</td>
-      <td>337</td>
-      <td>E484K (279), E484Q (42), E484A (8), E484D (3), E484R (2), E484G (2), E484V (1)</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
     </tr>
     <tr>
       <td>COV-057</td>
       <td>default</td>
-      <td>490</td>
-      <td>F</td>
-      <td>72</td>
-      <td>F490S (53), F490L (16), F490V (3)</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
     </tr>
     <tr>
-      <td>COV-047</td>
+      <td>COV-072</td>
       <td>default</td>
-      <td>490</td>
-      <td>F</td>
-      <td>72</td>
-      <td>F490S (53), F490L (16), F490V (3)</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
     </tr>
     <tr>
       <td>COV-057</td>
       <td>default</td>
       <td>446</td>
       <td>G</td>
-      <td>64</td>
-      <td>G446V (53), G446S (8), G446A (2), G446D (1)</td>
+      <td>101</td>
+      <td>G446V (90), G446S (8), G446A (2), G446D (1)</td>
+    </tr>
+    <tr>
+      <td>COV-057</td>
+      <td>default</td>
+      <td>490</td>
+      <td>F</td>
+      <td>85</td>
+      <td>F490S (60), F490L (21), F490V (4)</td>
+    </tr>
+    <tr>
+      <td>COV-047</td>
+      <td>default</td>
+      <td>490</td>
+      <td>F</td>
+      <td>85</td>
+      <td>F490S (60), F490L (21), F490V (4)</td>
     </tr>
     <tr>
       <td>COV-021</td>
       <td>default</td>
       <td>455</td>
       <td>L</td>
-      <td>42</td>
-      <td>L455F (42)</td>
+      <td>51</td>
+      <td>L455F (51)</td>
     </tr>
     <tr>
       <td>COV-047</td>
       <td>default</td>
       <td>455</td>
       <td>L</td>
-      <td>42</td>
-      <td>L455F (42)</td>
+      <td>51</td>
+      <td>L455F (51)</td>
     </tr>
     <tr>
       <td>COV-047</td>
@@ -753,7 +642,7 @@ for name, specs in escape_profiles_config.items():
       <td>485</td>
       <td>G</td>
       <td>37</td>
-      <td>G485R (33), G485S (2), G485T (1), G485V (1)</td>
+      <td>G485R (33), G485S (2), G485V (1), G485T (1)</td>
     </tr>
   </tbody>
 </table>
@@ -764,7 +653,340 @@ for name, specs in escape_profiles_config.items():
 
 
     
+![png](natural_mutations_files/natural_mutations_20_3.png)
+    
+
+
+    
+    Analyzing natural mutations for all_class1_abs
+    Writing counts of mutations at sites of strong escape to results/GISAID_mutations/all_class1_abs_mutation_counts.csv. First few lines:
+
+
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>condition</th>
+      <th>threshold</th>
+      <th>site</th>
+      <th>wildtype</th>
+      <th>count</th>
+      <th>counts_by_mutation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>REGN10933</td>
+      <td>default</td>
+      <td>453</td>
+      <td>Y</td>
+      <td>994</td>
+      <td>Y453F (994)</td>
+    </tr>
+    <tr>
+      <td>C105</td>
+      <td>default</td>
+      <td>453</td>
+      <td>Y</td>
+      <td>994</td>
+      <td>Y453F (994)</td>
+    </tr>
+    <tr>
+      <td>REGN10933</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>COV2-2832</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>LY-CoV016</td>
+      <td>default</td>
+      <td>417</td>
+      <td>K</td>
+      <td>349</td>
+      <td>K417N (347), K417R (2)</td>
+    </tr>
+    <tr>
+      <td>REGN10933</td>
+      <td>default</td>
+      <td>417</td>
+      <td>K</td>
+      <td>349</td>
+      <td>K417N (347), K417R (2)</td>
+    </tr>
+    <tr>
+      <td>C105</td>
+      <td>default</td>
+      <td>417</td>
+      <td>K</td>
+      <td>349</td>
+      <td>K417N (347), K417R (2)</td>
+    </tr>
+    <tr>
+      <td>LY-CoV016</td>
+      <td>default</td>
+      <td>475</td>
+      <td>A</td>
+      <td>110</td>
+      <td>A475S (59), A475V (50), A475T (1)</td>
+    </tr>
+    <tr>
+      <td>COV2-2832</td>
+      <td>default</td>
+      <td>475</td>
+      <td>A</td>
+      <td>110</td>
+      <td>A475S (59), A475V (50), A475T (1)</td>
+    </tr>
+    <tr>
+      <td>COV2-2196</td>
+      <td>default</td>
+      <td>475</td>
+      <td>A</td>
+      <td>110</td>
+      <td>A475S (59), A475V (50), A475T (1)</td>
+    </tr>
+  </tbody>
+</table>
+
+
+    Plotting which antibodies / sera are escaped by mutations at all sites of escape with at least 5 mutation counts and saving to results/GISAID_mutations/all_class1_abs_mutation_counts.pdf.
+
+
+
+    
 ![png](natural_mutations_files/natural_mutations_20_7.png)
+    
+
+
+    
+    Analyzing natural mutations for all_class2_abs
+    Writing counts of mutations at sites of strong escape to results/GISAID_mutations/all_class2_abs_mutation_counts.csv. First few lines:
+
+
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>condition</th>
+      <th>threshold</th>
+      <th>site</th>
+      <th>wildtype</th>
+      <th>count</th>
+      <th>counts_by_mutation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>COV2-2479</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>C121</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>C144</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>COV2-2050</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>C002</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>C002</td>
+      <td>default</td>
+      <td>452</td>
+      <td>L</td>
+      <td>450</td>
+      <td>L452R (385), L452M (57), L452Q (7), L452P (1)</td>
+    </tr>
+    <tr>
+      <td>C002</td>
+      <td>default</td>
+      <td>483</td>
+      <td>V</td>
+      <td>138</td>
+      <td>V483A (67), V483F (62), V483L (5), V483I (4)</td>
+    </tr>
+    <tr>
+      <td>C121</td>
+      <td>default</td>
+      <td>490</td>
+      <td>F</td>
+      <td>85</td>
+      <td>F490S (60), F490L (21), F490V (4)</td>
+    </tr>
+    <tr>
+      <td>COV2-2479</td>
+      <td>default</td>
+      <td>490</td>
+      <td>F</td>
+      <td>85</td>
+      <td>F490S (60), F490L (21), F490V (4)</td>
+    </tr>
+    <tr>
+      <td>COV2-2050</td>
+      <td>default</td>
+      <td>490</td>
+      <td>F</td>
+      <td>85</td>
+      <td>F490S (60), F490L (21), F490V (4)</td>
+    </tr>
+  </tbody>
+</table>
+
+
+    Plotting which antibodies / sera are escaped by mutations at all sites of escape with at least 5 mutation counts and saving to results/GISAID_mutations/all_class2_abs_mutation_counts.pdf.
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_20_11.png)
+    
+
+
+    
+    Analyzing natural mutations for all_class3_abs
+    Writing counts of mutations at sites of strong escape to results/GISAID_mutations/all_class3_abs_mutation_counts.csv. First few lines:
+
+
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>condition</th>
+      <th>threshold</th>
+      <th>site</th>
+      <th>wildtype</th>
+      <th>count</th>
+      <th>counts_by_mutation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>REGN10987</td>
+      <td>default</td>
+      <td>439</td>
+      <td>N</td>
+      <td>5262</td>
+      <td>N439K (5262)</td>
+    </tr>
+    <tr>
+      <td>C110</td>
+      <td>default</td>
+      <td>452</td>
+      <td>L</td>
+      <td>450</td>
+      <td>L452R (385), L452M (57), L452Q (7), L452P (1)</td>
+    </tr>
+    <tr>
+      <td>C110</td>
+      <td>default</td>
+      <td>494</td>
+      <td>S</td>
+      <td>275</td>
+      <td>S494P (256), S494L (13), S494A (6)</td>
+    </tr>
+    <tr>
+      <td>COV2-2130</td>
+      <td>default</td>
+      <td>494</td>
+      <td>S</td>
+      <td>275</td>
+      <td>S494P (256), S494L (13), S494A (6)</td>
+    </tr>
+    <tr>
+      <td>COV2-2499</td>
+      <td>default</td>
+      <td>446</td>
+      <td>G</td>
+      <td>101</td>
+      <td>G446V (90), G446S (8), G446A (2), G446D (1)</td>
+    </tr>
+    <tr>
+      <td>COV2-2130</td>
+      <td>default</td>
+      <td>446</td>
+      <td>G</td>
+      <td>101</td>
+      <td>G446V (90), G446S (8), G446A (2), G446D (1)</td>
+    </tr>
+    <tr>
+      <td>REGN10987</td>
+      <td>default</td>
+      <td>446</td>
+      <td>G</td>
+      <td>101</td>
+      <td>G446V (90), G446S (8), G446A (2), G446D (1)</td>
+    </tr>
+    <tr>
+      <td>C110</td>
+      <td>default</td>
+      <td>446</td>
+      <td>G</td>
+      <td>101</td>
+      <td>G446V (90), G446S (8), G446A (2), G446D (1)</td>
+    </tr>
+    <tr>
+      <td>C110</td>
+      <td>default</td>
+      <td>490</td>
+      <td>F</td>
+      <td>85</td>
+      <td>F490S (60), F490L (21), F490V (4)</td>
+    </tr>
+    <tr>
+      <td>REGN10987</td>
+      <td>default</td>
+      <td>440</td>
+      <td>N</td>
+      <td>70</td>
+      <td>N440K (53), N440Y (11), N440D (3), N440S (2), N440T (1)</td>
+    </tr>
+  </tbody>
+</table>
+
+
+    Plotting which antibodies / sera are escaped by mutations at all sites of escape with at least 5 mutation counts and saving to results/GISAID_mutations/all_class3_abs_mutation_counts.pdf.
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_20_15.png)
     
 
 
@@ -813,72 +1035,72 @@ display(HTML(escape_and_freq.head().to_html()))
   <tbody>
     <tr>
       <th>0</th>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>331</td>
       <td>N</td>
       <td>A</td>
-      <td>0.002089</td>
-      <td>0.03321</td>
-      <td>0.002089</td>
-      <td>0.002076</td>
+      <td>0.002957</td>
+      <td>0.04652</td>
+      <td>0.003562</td>
+      <td>0.002907</td>
       <td>0.0</td>
-      <td>0.0</td>
+      <td>0.000003</td>
       <td>N331A</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>331</td>
       <td>N</td>
       <td>D</td>
-      <td>0.001883</td>
-      <td>0.03321</td>
-      <td>0.002089</td>
-      <td>0.002076</td>
+      <td>0.002916</td>
+      <td>0.04652</td>
+      <td>0.003562</td>
+      <td>0.002907</td>
       <td>0.0</td>
-      <td>0.0</td>
+      <td>0.000003</td>
       <td>N331D</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>331</td>
       <td>N</td>
       <td>E</td>
-      <td>0.002089</td>
-      <td>0.03321</td>
-      <td>0.002089</td>
-      <td>0.002076</td>
+      <td>0.002804</td>
+      <td>0.04652</td>
+      <td>0.003562</td>
+      <td>0.002907</td>
       <td>0.0</td>
-      <td>0.0</td>
+      <td>0.000003</td>
       <td>N331E</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>331</td>
       <td>N</td>
       <td>F</td>
-      <td>0.002089</td>
-      <td>0.03321</td>
-      <td>0.002089</td>
-      <td>0.002076</td>
+      <td>0.003562</td>
+      <td>0.04652</td>
+      <td>0.003562</td>
+      <td>0.002907</td>
       <td>0.0</td>
-      <td>0.0</td>
+      <td>0.000003</td>
       <td>N331F</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>331</td>
       <td>N</td>
       <td>G</td>
-      <td>0.002089</td>
-      <td>0.03321</td>
-      <td>0.002089</td>
-      <td>0.002076</td>
+      <td>0.003011</td>
+      <td>0.04652</td>
+      <td>0.003562</td>
+      <td>0.002907</td>
       <td>0.0</td>
-      <td>0.0</td>
+      <td>0.000003</td>
       <td>N331G</td>
     </tr>
   </tbody>
@@ -1017,8 +1239,8 @@ for name, specs in escape_profiles_config.items():
 ```
 
     
-    Analyzing natural mutations for Rockefeller_antibodies
-    Plotting each condition and saving to results/GISAID_mutations/Rockefeller_antibodies_escape_vs_freq_by-condition.pdf
+    Analyzing natural mutations for Nussenzweig_serum
+    Plotting each condition and saving to results/GISAID_mutations/Nussenzweig_serum_escape_vs_freq_by-condition.pdf
 
 
 
@@ -1027,7 +1249,7 @@ for name, specs in escape_profiles_config.items():
     
 
 
-    Plotting average across conditions and saving to results/GISAID_mutations/Rockefeller_antibodies_escape_vs_freq_average.pdf
+    Plotting average across conditions and saving to results/GISAID_mutations/Nussenzweig_serum_escape_vs_freq_average.pdf
 
 
 
@@ -1037,8 +1259,8 @@ for name, specs in escape_profiles_config.items():
 
 
     
-    Analyzing natural mutations for Nussenzweig_serum
-    Plotting each condition and saving to results/GISAID_mutations/Nussenzweig_serum_escape_vs_freq_by-condition.pdf
+    Analyzing natural mutations for all_class1_abs
+    Plotting each condition and saving to results/GISAID_mutations/all_class1_abs_escape_vs_freq_by-condition.pdf
 
 
 
@@ -1047,7 +1269,7 @@ for name, specs in escape_profiles_config.items():
     
 
 
-    Plotting average across conditions and saving to results/GISAID_mutations/Nussenzweig_serum_escape_vs_freq_average.pdf
+    Plotting average across conditions and saving to results/GISAID_mutations/all_class1_abs_escape_vs_freq_average.pdf
 
 
 
@@ -1056,10 +1278,9 @@ for name, specs in escape_profiles_config.items():
     
 
 
-
     
-![png](natural_mutations_files/natural_mutations_24_8.png)
-    
+    Analyzing natural mutations for all_class2_abs
+    Plotting each condition and saving to results/GISAID_mutations/all_class2_abs_escape_vs_freq_by-condition.pdf
 
 
 
@@ -1068,15 +1289,80 @@ for name, specs in escape_profiles_config.items():
     
 
 
-
-    
-![png](natural_mutations_files/natural_mutations_24_10.png)
-    
+    Plotting average across conditions and saving to results/GISAID_mutations/all_class2_abs_escape_vs_freq_average.pdf
 
 
 
     
 ![png](natural_mutations_files/natural_mutations_24_11.png)
+    
+
+
+    
+    Analyzing natural mutations for all_class3_abs
+    Plotting each condition and saving to results/GISAID_mutations/all_class3_abs_escape_vs_freq_by-condition.pdf
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_13.png)
+    
+
+
+    Plotting average across conditions and saving to results/GISAID_mutations/all_class3_abs_escape_vs_freq_average.pdf
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_15.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_16.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_17.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_18.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_19.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_20.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_21.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_22.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_23.png)
     
 
 

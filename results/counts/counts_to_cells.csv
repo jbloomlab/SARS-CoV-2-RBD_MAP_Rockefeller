@@ -1,8 +1,8 @@
 sample_lib,date,experiment,antibody,concentration,selection,cells_sorted,counts all variants,counts SARS-CoV-2 variants,counts:cells all variants,counts:cells SARS-CoV-2 variants
-"expt_53-59-none-0-reference, lib1",200923,expt_53-59,none,0,reference,,3.01e+07,2.98e+07,,
-"expt_53-59-none-0-reference, lib2",200923,expt_53-59,none,0,reference,,3.54e+07,3.51e+07,,
 "expt_24-33-none-0-reference, lib1",200904,expt_24-33,none,0,reference,,5.4e+07,5.34e+07,,
 "expt_24-33-none-0-reference, lib2",200904,expt_24-33,none,0,reference,,5.8e+07,5.75e+07,,
+"expt_53-59-none-0-reference, lib1",200923,expt_53-59,none,0,reference,,3.01e+07,2.98e+07,,
+"expt_53-59-none-0-reference, lib2",200923,expt_53-59,none,0,reference,,3.54e+07,3.51e+07,,
 "expt_60-64-none-0-reference, lib1",200929,expt_60-64,none,0,reference,,2.78e+07,2.75e+07,,
 "expt_60-64-none-0-reference, lib2",200929,expt_60-64,none,0,reference,,3.16e+07,3.14e+07,,
 "expt_13-16-none-0-reference, lib1",200720,expt_13-16,none,0,reference,,2.5e+07,2.46e+07,,
@@ -11,8 +11,12 @@ sample_lib,date,experiment,antibody,concentration,selection,cells_sorted,counts 
 "expt_7-11-none-0-reference, lib2",200616,expt_7-11,none,0,reference,,3.5e+07,3.46e+07,,
 "expt_22-23-none-0-reference, lib1",200810,expt_22-23,none,0,reference,,1.06e+08,1.05e+08,,
 "expt_22-23-none-0-reference, lib2",200810,expt_22-23,none,0,reference,,1.02e+08,1e+08,,
+"expt_65-67-none-0-reference, lib1",201102,expt_65-67,none,0,reference,,2.33e+07,2.31e+07,,
+"expt_65-67-none-0-reference, lib2",201102,expt_65-67,none,0,reference,,2.55e+07,2.52e+07,,
 "expt_3-6-none-0-reference, lib1",200615,expt_3-6,none,0,reference,,3.23e+07,3.2e+07,,
 "expt_3-6-none-0-reference, lib2",200615,expt_3-6,none,0,reference,,3.56e+07,3.51e+07,,
+"expt_29-2196+2130-400-escape, lib1",200904,expt_29,2196+2130,400,escape,1523536.0,5.68e+06,5.22e+06,3.7264934993331305,3.4283147887545815
+"expt_29-2196+2130-400-escape, lib2",200904,expt_29,2196+2130,400,escape,1382411.0,6.18e+06,5.69e+06,4.469596957778837,4.114321283612472
 "expt_58-C002-400-escape, lib1",200923,expt_58,C002,400,escape,1762675.0,6.62e+06,6.18e+06,3.7542780149488704,3.5083807281546515
 "expt_58-C002-400-escape, lib2",200923,expt_58,C002,400,escape,1740816.0,5.7e+06,5.39e+06,3.273870414793982,3.0958263251256883
 "expt_57-C105-400-escape, lib1",200923,expt_57,C105,400,escape,1603797.0,5.8e+06,5.31e+06,3.617187836116416,3.31336571897815
@@ -45,8 +49,12 @@ sample_lib,date,experiment,antibody,concentration,selection,cells_sorted,counts 
 "expt_14-COV2-2094-400-escape, lib2",200720,expt_14,COV2-2094,400,escape,954885.0,2.89e+06,2.85e+06,3.0293585091398443,2.9889065175387612
 "expt_23-COV2-2096-400-escape, lib1",200810,expt_23,COV2-2096,400,escape,1018697.0,1.34e+07,1.15e+07,13.156540168470114,11.31387154374657
 "expt_23-COV2-2096-400-escape, lib2",200810,expt_23,COV2-2096,400,escape,927621.0,1.3e+07,1.16e+07,14.045826905600455,12.549680311247805
+"expt_66-COV2-2130-400-escape, lib1",201102,expt_66,COV2-2130,400,escape,1933517.0,5.91e+06,5.38e+06,3.0561313916557236,2.7840034507066656
+"expt_66-COV2-2130-400-escape, lib2",201102,expt_66,COV2-2130,400,escape,2145467.0,4.86e+06,4.51e+06,2.263544487051071,2.1027785559041456
 "expt_9-COV2-2165-400-escape, lib1",200616,expt_9,COV2-2165,400,escape,911426.0,1.05e+07,8.92e+06,11.562853155385078,9.78407791746121
 "expt_9-COV2-2165-400-escape, lib2",200616,expt_9,COV2-2165,400,escape,393068.0,3.34e+06,2.09e+06,8.49831326895092,5.313401243550734
+"expt_65-COV2-2196-400-escape, lib1",201102,expt_65,COV2-2196,400,escape,2323887.0,7.31e+06,6.93e+06,3.144538869574984,2.9822590341096618
+"expt_65-COV2-2196-400-escape, lib2",201102,expt_65,COV2-2196,400,escape,1828346.0,5.48e+06,5.25e+06,2.9976558047546797,2.872373172255142
 "expt_5-COV2-2479-400-escape, lib1",200615,expt_5,COV2-2479,400,escape,684856.0,1.75e+07,1.22e+07,25.617541497774713,17.840321177006555
 "expt_5-COV2-2479-400-escape, lib2",200615,expt_5,COV2-2479,400,escape,582089.0,1.78e+07,1.27e+07,30.586850120857807,21.827199964266633
 "expt_15-COV2-2499-400-escape, lib1",200720,expt_15,COV2-2499,400,escape,2593041.0,6.76e+06,6.08e+06,2.6079953999956036,2.3436914418244834

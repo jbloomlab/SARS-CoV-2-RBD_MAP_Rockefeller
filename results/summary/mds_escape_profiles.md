@@ -312,7 +312,7 @@ for name, specs in mds_config.items():
 
     
     Making plot Rockefeller_v_pub, which has the following antibodies:
-    ['CB6_400', 'REGN10933_400', 'REGN10987_400', 'CR3022_400', 'COV2-2677_400', 'COV2-2082_400', 'COV2-2094_400', 'COV2-2165_400', 'COV2-2832_400', 'COV2-2479_400', 'COV2-2050_400', 'COV2-2096_400', 'COV2-2499_400', 'C105_400', 'C144_400', 'C002_400', 'C121_400', 'C135_400', 'C110_400']
+    ['CB6_400', 'REGN10933_400', 'REGN10987_400', 'CR3022_400', 'COV2-2677_400', 'COV2-2082_400', 'COV2-2094_400', 'COV2-2165_400', 'COV2-2832_400', 'COV2-2479_400', 'COV2-2050_400', 'COV2-2096_400', 'COV2-2499_400', 'C105_400', 'C144_400', 'C002_400', 'C121_400', 'C135_400', 'C110_400', 'COV2-2196_400', 'COV2-2130_400']
     Using the barnes_classes site color scheme
     Saving plot to results/multidimensional_scaling/Rockefeller_v_pub_mds.pdf
 

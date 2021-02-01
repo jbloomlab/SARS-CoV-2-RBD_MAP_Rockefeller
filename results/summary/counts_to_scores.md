@@ -156,14 +156,14 @@ display(HTML(
   </thead>
   <tbody>
     <tr>
-      <th>expt_53-59-none-0-reference</th>
-      <td>302.4</td>
-      <td>362.0</td>
-    </tr>
-    <tr>
       <th>expt_24-33-none-0-reference</th>
       <td>541.5</td>
       <td>593.9</td>
+    </tr>
+    <tr>
+      <th>expt_53-59-none-0-reference</th>
+      <td>302.4</td>
+      <td>362.0</td>
     </tr>
     <tr>
       <th>expt_60-64-none-0-reference</th>
@@ -186,9 +186,19 @@ display(HTML(
       <td>1041.3</td>
     </tr>
     <tr>
+      <th>expt_65-67-none-0-reference</th>
+      <td>234.1</td>
+      <td>260.7</td>
+    </tr>
+    <tr>
       <th>expt_3-6-none-0-reference</th>
       <td>324.3</td>
       <td>364.0</td>
+    </tr>
+    <tr>
+      <th>expt_29-2196+2130-400-escape</th>
+      <td>57.0</td>
+      <td>63.2</td>
     </tr>
     <tr>
       <th>expt_58-C002-400-escape</th>
@@ -271,9 +281,19 @@ display(HTML(
       <td>133.4</td>
     </tr>
     <tr>
+      <th>expt_66-COV2-2130-400-escape</th>
+      <td>59.3</td>
+      <td>49.7</td>
+    </tr>
+    <tr>
       <th>expt_9-COV2-2165-400-escape</th>
       <td>105.8</td>
       <td>34.2</td>
+    </tr>
+    <tr>
+      <th>expt_65-COV2-2196-400-escape</th>
+      <td>73.3</td>
+      <td>56.1</td>
     </tr>
     <tr>
       <th>expt_5-COV2-2479-400-escape</th>
@@ -503,17 +523,17 @@ display(HTML(
   </thead>
   <tbody>
     <tr>
-      <th rowspan="7" valign="top">lib1</th>
-      <th>expt_53-59-none-0-reference</th>
-      <td>0.0007</td>
+      <th rowspan="8" valign="top">lib1</th>
+      <th>expt_24-33-none-0-reference</th>
+      <td>0.0049</td>
       <td>SARS-CoV-2</td>
       <td>TTCCAAAATATTGTCA</td>
       <td>D59N F156S</td>
       <td>GAT59AAC TTT156TCG</td>
     </tr>
     <tr>
-      <th>expt_24-33-none-0-reference</th>
-      <td>0.0049</td>
+      <th>expt_53-59-none-0-reference</th>
+      <td>0.0007</td>
       <td>SARS-CoV-2</td>
       <td>TTCCAAAATATTGTCA</td>
       <td>D59N F156S</td>
@@ -552,6 +572,14 @@ display(HTML(
       <td></td>
     </tr>
     <tr>
+      <th>expt_65-67-none-0-reference</th>
+      <td>0.0014</td>
+      <td>SARS-CoV-2</td>
+      <td>TTCCAAAATATTGTCA</td>
+      <td>D59N F156S</td>
+      <td>GAT59AAC TTT156TCG</td>
+    </tr>
+    <tr>
       <th>expt_3-6-none-0-reference</th>
       <td>0.1310</td>
       <td>SARS-CoV-2</td>
@@ -560,21 +588,21 @@ display(HTML(
       <td></td>
     </tr>
     <tr>
-      <th rowspan="7" valign="top">lib2</th>
-      <th>expt_53-59-none-0-reference</th>
-      <td>0.0002</td>
-      <td>SARS-CoV-2</td>
-      <td>CAATATTTCCGCAATT</td>
-      <td>K56E</td>
-      <td>AAG56GAG</td>
-    </tr>
-    <tr>
+      <th rowspan="8" valign="top">lib2</th>
       <th>expt_24-33-none-0-reference</th>
       <td>0.0011</td>
       <td>SARS-CoV-2</td>
       <td>CAGTACAAAAGTATAA</td>
       <td>K87N V173Y</td>
       <td>CTA60CTG AAG87AAC GTC173TAC</td>
+    </tr>
+    <tr>
+      <th>expt_53-59-none-0-reference</th>
+      <td>0.0002</td>
+      <td>SARS-CoV-2</td>
+      <td>CAATATTTCCGCAATT</td>
+      <td>K56E</td>
+      <td>AAG56GAG</td>
     </tr>
     <tr>
       <th>expt_60-64-none-0-reference</th>
@@ -607,6 +635,14 @@ display(HTML(
       <td>CAGTACAAAAGTATAA</td>
       <td>K87N V173Y</td>
       <td>CTA60CTG AAG87AAC GTC173TAC</td>
+    </tr>
+    <tr>
+      <th>expt_65-67-none-0-reference</th>
+      <td>0.0003</td>
+      <td>SARS-CoV-2</td>
+      <td>CAATATTTCCGCAATT</td>
+      <td>K56E</td>
+      <td>AAG56GAG</td>
     </tr>
     <tr>
       <th>expt_3-6-none-0-reference</th>
@@ -679,50 +715,50 @@ display(HTML(counts_by_class.head().to_html(index=False)))
   <tbody>
     <tr>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
+      <td>expt_24-33-none-0-reference</td>
       <td>wildtype</td>
-      <td>0.000024</td>
-      <td>200923</td>
+      <td>0.000026</td>
+      <td>200904</td>
       <td>none</td>
       <td>0</td>
       <td>reference</td>
     </tr>
     <tr>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
+      <td>expt_24-33-none-0-reference</td>
       <td>synonymous</td>
-      <td>0.000023</td>
-      <td>200923</td>
+      <td>0.000024</td>
+      <td>200904</td>
       <td>none</td>
       <td>0</td>
       <td>reference</td>
     </tr>
     <tr>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
+      <td>expt_24-33-none-0-reference</td>
       <td>1 nonsynonymous</td>
-      <td>0.000019</td>
-      <td>200923</td>
+      <td>0.000020</td>
+      <td>200904</td>
       <td>none</td>
       <td>0</td>
       <td>reference</td>
     </tr>
     <tr>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
+      <td>expt_24-33-none-0-reference</td>
       <td>&gt;1 nonsynonymous</td>
       <td>0.000008</td>
-      <td>200923</td>
+      <td>200904</td>
       <td>none</td>
       <td>0</td>
       <td>reference</td>
     </tr>
     <tr>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
+      <td>expt_24-33-none-0-reference</td>
       <td>stop</td>
       <td>0.000002</td>
-      <td>200923</td>
+      <td>200904</td>
       <td>none</td>
       <td>0</td>
       <td>reference</td>
@@ -827,6 +863,32 @@ display(HTML(score_sample_df.to_html(index=False)))
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2196+2130_400</td>
+      <td>lib1</td>
+      <td>2196+2130</td>
+      <td>400</td>
+      <td>ng_per_mL</td>
+      <td>200904</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>expt_29-2196+2130-400-escape</td>
+      <td>0.141</td>
+      <td>1523536.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>2196+2130_400</td>
+      <td>lib2</td>
+      <td>2196+2130</td>
+      <td>400</td>
+      <td>ng_per_mL</td>
+      <td>200904</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>expt_29-2196+2130-400-escape</td>
+      <td>0.162</td>
+      <td>1382411.0</td>
+      <td>160000000.0</td>
+    </tr>
     <tr>
       <td>C002_400</td>
       <td>lib1</td>
@@ -1244,6 +1306,32 @@ display(HTML(score_sample_df.to_html(index=False)))
       <td>160000000.0</td>
     </tr>
     <tr>
+      <td>COV2-2130_400</td>
+      <td>lib1</td>
+      <td>COV2-2130</td>
+      <td>400</td>
+      <td>ng_per_mL</td>
+      <td>201102</td>
+      <td>expt_65-67-none-0-reference</td>
+      <td>expt_66-COV2-2130-400-escape</td>
+      <td>0.135</td>
+      <td>1933517.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>COV2-2130_400</td>
+      <td>lib2</td>
+      <td>COV2-2130</td>
+      <td>400</td>
+      <td>ng_per_mL</td>
+      <td>201102</td>
+      <td>expt_65-67-none-0-reference</td>
+      <td>expt_66-COV2-2130-400-escape</td>
+      <td>0.134</td>
+      <td>2145467.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
       <td>COV2-2165_400</td>
       <td>lib1</td>
       <td>COV2-2165</td>
@@ -1268,6 +1356,32 @@ display(HTML(score_sample_df.to_html(index=False)))
       <td>0.029</td>
       <td>393068.0</td>
       <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>COV2-2196_400</td>
+      <td>lib1</td>
+      <td>COV2-2196</td>
+      <td>400</td>
+      <td>ng_per_mL</td>
+      <td>201102</td>
+      <td>expt_65-67-none-0-reference</td>
+      <td>expt_65-COV2-2196-400-escape</td>
+      <td>0.150</td>
+      <td>2323887.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>COV2-2196_400</td>
+      <td>lib2</td>
+      <td>COV2-2196</td>
+      <td>400</td>
+      <td>ng_per_mL</td>
+      <td>201102</td>
+      <td>expt_65-67-none-0-reference</td>
+      <td>expt_65-COV2-2196-400-escape</td>
+      <td>0.156</td>
+      <td>1828346.0</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <td>COV2-2479_400</td>
@@ -1550,16 +1664,16 @@ display(HTML(escape_scores_homologs.head().to_html(index=False)))
   </thead>
   <tbody>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>SARS-CoV-2</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
-      <td>expt_58-C002-400-escape</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>expt_29-2196+2130-400-escape</td>
       <td>TTCCAAAATATTGTCA</td>
-      <td>0.184283</td>
-      <td>8.084833e-06</td>
-      <td>21809</td>
-      <td>5192</td>
+      <td>0.239590</td>
+      <td>1.407219e-06</td>
+      <td>263040</td>
+      <td>47398</td>
       <td>GAT59AAC TTT156TCG</td>
       <td>2</td>
       <td>D59N F156S</td>
@@ -1567,16 +1681,16 @@ display(HTML(escape_scores_homologs.head().to_html(index=False)))
       <td>&gt;1 nonsynonymous</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>SARS-CoV-2</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
-      <td>expt_58-C002-400-escape</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>expt_29-2196+2130-400-escape</td>
       <td>TAGTAACAATGCGGTA</td>
-      <td>0.001097</td>
-      <td>9.639338e-08</td>
-      <td>8820</td>
-      <td>12</td>
+      <td>0.029987</td>
+      <td>2.335863e-07</td>
+      <td>174279</td>
+      <td>3930</td>
       <td></td>
       <td>0</td>
       <td></td>
@@ -1584,53 +1698,53 @@ display(HTML(escape_scores_homologs.head().to_html(index=False)))
       <td>wildtype</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>SARS-CoV-2</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
-      <td>expt_58-C002-400-escape</td>
-      <td>TGAGAATCTATCATGA</td>
-      <td>0.000613</td>
-      <td>8.370515e-08</td>
-      <td>5677</td>
-      <td>4</td>
-      <td>ATC2CTG GTC11CTG</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>expt_29-2196+2130-400-escape</td>
+      <td>TTAATTAGTATCAGGT</td>
+      <td>0.027291</td>
+      <td>6.129484e-07</td>
+      <td>60387</td>
+      <td>1239</td>
+      <td>GAC34CGC CTG125GTC</td>
       <td>2</td>
-      <td>I2L V11L</td>
+      <td>D34R L125V</td>
       <td>2</td>
       <td>&gt;1 nonsynonymous</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>SARS-CoV-2</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
-      <td>expt_58-C002-400-escape</td>
-      <td>AAAAAACATCTGCATG</td>
-      <td>0.000958</td>
-      <td>1.413817e-07</td>
-      <td>5251</td>
-      <td>6</td>
-      <td></td>
-      <td>0</td>
-      <td></td>
-      <td>0</td>
-      <td>wildtype</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>expt_29-2196+2130-400-escape</td>
+      <td>TTAGATGAAGCCAGTA</td>
+      <td>1.000000</td>
+      <td>0.000000e+00</td>
+      <td>51224</td>
+      <td>55511</td>
+      <td>GAC90TAC GAC98TTC GGG174GAG</td>
+      <td>3</td>
+      <td>D90Y D98F G174E</td>
+      <td>3</td>
+      <td>&gt;1 nonsynonymous</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>SARS-CoV-2</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
-      <td>expt_58-C002-400-escape</td>
-      <td>ATAAAAAGTCCATATG</td>
-      <td>0.002003</td>
-      <td>2.979929e-07</td>
-      <td>5216</td>
-      <td>13</td>
-      <td>CTT5AAG</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>expt_29-2196+2130-400-escape</td>
+      <td>TAATATGCAAGAGCCA</td>
+      <td>1.000000</td>
+      <td>0.000000e+00</td>
+      <td>48555</td>
+      <td>45191</td>
+      <td>CCT96TGC</td>
       <td>1</td>
-      <td>L5K</td>
+      <td>P96C</td>
       <td>1</td>
       <td>1 nonsynonymous</td>
     </tr>
@@ -1662,68 +1776,68 @@ display(HTML(escape_scores_homologs.head().to_html(index=False)))
   </thead>
   <tbody>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>BM48-31</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
-      <td>expt_58-C002-400-escape</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>expt_29-2196+2130-400-escape</td>
       <td>BM48-31</td>
       <td>1.000000</td>
       <td>0.000000e+00</td>
-      <td>3153</td>
-      <td>5420</td>
+      <td>5747</td>
+      <td>7184</td>
       <td>0</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>GD-Pangolin</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
-      <td>expt_58-C002-400-escape</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>expt_29-2196+2130-400-escape</td>
       <td>GD-Pangolin</td>
-      <td>0.007031</td>
-      <td>8.089221e-08</td>
-      <td>67966</td>
-      <td>616</td>
+      <td>0.008560</td>
+      <td>9.050843e-08</td>
+      <td>126756</td>
+      <td>814</td>
       <td>0</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>HKU3-1</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
-      <td>expt_58-C002-400-escape</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>expt_29-2196+2130-400-escape</td>
       <td>HKU3-1</td>
       <td>1.000000</td>
       <td>0.000000e+00</td>
-      <td>3390</td>
-      <td>5728</td>
+      <td>6847</td>
+      <td>10020</td>
       <td>0</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>LYRa11</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
-      <td>expt_58-C002-400-escape</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>expt_29-2196+2130-400-escape</td>
       <td>LYRa11</td>
       <td>1.000000</td>
       <td>0.000000e+00</td>
-      <td>18320</td>
-      <td>35129</td>
+      <td>32125</td>
+      <td>34311</td>
       <td>0</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>RaTG13</td>
       <td>lib1</td>
-      <td>expt_53-59-none-0-reference</td>
-      <td>expt_58-C002-400-escape</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>expt_29-2196+2130-400-escape</td>
       <td>RaTG13</td>
-      <td>1.000000</td>
-      <td>0.000000e+00</td>
-      <td>60444</td>
-      <td>124375</td>
+      <td>0.538574</td>
+      <td>9.181684e-06</td>
+      <td>108409</td>
+      <td>43829</td>
       <td>0</td>
     </tr>
   </tbody>
@@ -1802,6 +1916,27 @@ display(HTML(pre_count_filter_cutoffs.to_html(float_format='%.1f')))
   </thead>
   <tbody>
     <tr>
+      <th rowspan="2" valign="top">expt_24-33-none-0-reference</th>
+      <th>lib1</th>
+      <td>60.0</td>
+      <td>195.0</td>
+      <td>250.0</td>
+      <td>322.0</td>
+      <td>387.0</td>
+      <td>484.0</td>
+      <td>1096.0</td>
+    </tr>
+    <tr>
+      <th>lib2</th>
+      <td>63.0</td>
+      <td>215.0</td>
+      <td>283.0</td>
+      <td>366.0</td>
+      <td>446.0</td>
+      <td>531.9</td>
+      <td>1089.0</td>
+    </tr>
+    <tr>
       <th rowspan="2" valign="top">expt_53-59-none-0-reference</th>
       <th>lib1</th>
       <td>35.0</td>
@@ -1821,27 +1956,6 @@ display(HTML(pre_count_filter_cutoffs.to_html(float_format='%.1f')))
       <td>266.0</td>
       <td>303.0</td>
       <td>412.0</td>
-    </tr>
-    <tr>
-      <th rowspan="2" valign="top">expt_24-33-none-0-reference</th>
-      <th>lib1</th>
-      <td>60.0</td>
-      <td>195.0</td>
-      <td>250.0</td>
-      <td>322.0</td>
-      <td>387.0</td>
-      <td>484.0</td>
-      <td>1096.0</td>
-    </tr>
-    <tr>
-      <th>lib2</th>
-      <td>63.0</td>
-      <td>215.0</td>
-      <td>283.0</td>
-      <td>366.0</td>
-      <td>446.0</td>
-      <td>531.7</td>
-      <td>1086.7</td>
     </tr>
     <tr>
       <th rowspan="2" valign="top">expt_60-64-none-0-reference</th>
@@ -1928,6 +2042,27 @@ display(HTML(pre_count_filter_cutoffs.to_html(float_format='%.1f')))
       <td>2108.0</td>
     </tr>
     <tr>
+      <th rowspan="2" valign="top">expt_65-67-none-0-reference</th>
+      <th>lib1</th>
+      <td>25.0</td>
+      <td>81.0</td>
+      <td>105.0</td>
+      <td>135.0</td>
+      <td>156.0</td>
+      <td>185.0</td>
+      <td>243.0</td>
+    </tr>
+    <tr>
+      <th>lib2</th>
+      <td>27.0</td>
+      <td>92.0</td>
+      <td>120.0</td>
+      <td>158.0</td>
+      <td>185.7</td>
+      <td>215.0</td>
+      <td>330.4</td>
+    </tr>
+    <tr>
       <th rowspan="2" valign="top">expt_3-6-none-0-reference</th>
       <th>lib1</th>
       <td>0.0</td>
@@ -1969,27 +2104,27 @@ display(HTML(pre_count_filter_cutoffs.to_html(float_format='%.1f')))
   <tbody>
     <tr>
       <th>0</th>
-      <td>expt_53-59-none-0-reference</td>
-      <td>lib1</td>
-      <td>206.0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>expt_53-59-none-0-reference</td>
-      <td>lib2</td>
-      <td>266.0</td>
-    </tr>
-    <tr>
-      <th>2</th>
       <td>expt_24-33-none-0-reference</td>
       <td>lib1</td>
       <td>387.0</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th>1</th>
       <td>expt_24-33-none-0-reference</td>
       <td>lib2</td>
       <td>446.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>expt_53-59-none-0-reference</td>
+      <td>lib1</td>
+      <td>206.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>expt_53-59-none-0-reference</td>
+      <td>lib2</td>
+      <td>266.0</td>
     </tr>
     <tr>
       <th>4</th>
@@ -2041,12 +2176,24 @@ display(HTML(pre_count_filter_cutoffs.to_html(float_format='%.1f')))
     </tr>
     <tr>
       <th>12</th>
+      <td>expt_65-67-none-0-reference</td>
+      <td>lib1</td>
+      <td>156.0</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>expt_65-67-none-0-reference</td>
+      <td>lib2</td>
+      <td>185.7</td>
+    </tr>
+    <tr>
+      <th>14</th>
       <td>expt_3-6-none-0-reference</td>
       <td>lib1</td>
       <td>21.0</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>15</th>
       <td>expt_3-6-none-0-reference</td>
       <td>lib2</td>
       <td>16.7</td>

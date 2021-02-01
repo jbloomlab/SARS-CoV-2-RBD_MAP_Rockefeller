@@ -107,54 +107,54 @@ display(HTML(escape_fracs.head().to_html(index=False)))
   </thead>
   <tbody>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>331</td>
-      <td>0.033218</td>
-      <td>0.002089</td>
-      <td>17.425489</td>
-      <td>1.0</td>
-      <td>0.001906</td>
-      <td>0.002089</td>
+      <td>0.046514</td>
+      <td>0.003562</td>
+      <td>0.41504</td>
+      <td>0.1983</td>
+      <td>0.112071</td>
+      <td>0.017963</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>332</td>
-      <td>0.039687</td>
-      <td>0.002089</td>
-      <td>17.425489</td>
-      <td>1.0</td>
-      <td>0.002278</td>
-      <td>0.002089</td>
+      <td>0.059104</td>
+      <td>0.004257</td>
+      <td>0.41504</td>
+      <td>0.1983</td>
+      <td>0.142406</td>
+      <td>0.021467</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>333</td>
-      <td>0.037599</td>
-      <td>0.002089</td>
-      <td>17.425489</td>
-      <td>1.0</td>
-      <td>0.002158</td>
-      <td>0.002089</td>
+      <td>0.048472</td>
+      <td>0.003397</td>
+      <td>0.41504</td>
+      <td>0.1983</td>
+      <td>0.116789</td>
+      <td>0.017131</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>334</td>
-      <td>0.037600</td>
-      <td>0.002089</td>
-      <td>17.425489</td>
-      <td>1.0</td>
-      <td>0.002158</td>
-      <td>0.002089</td>
+      <td>0.053040</td>
+      <td>0.004178</td>
+      <td>0.41504</td>
+      <td>0.1983</td>
+      <td>0.127795</td>
+      <td>0.021069</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>335</td>
-      <td>0.039689</td>
-      <td>0.002089</td>
-      <td>17.425489</td>
-      <td>1.0</td>
-      <td>0.002278</td>
-      <td>0.002089</td>
+      <td>0.058156</td>
+      <td>0.004501</td>
+      <td>0.41504</td>
+      <td>0.1983</td>
+      <td>0.140121</td>
+      <td>0.022698</td>
     </tr>
   </tbody>
 </table>
@@ -211,8 +211,13 @@ for name, specs in output_pdbs_config.items():
 
     
     Making PDB mappings for 6m0j to data/pdbs/6M0J.pdb
-    Making mappings for 25 conditions.
+    Making mappings for 28 conditions.
     Mapping to the following chains: E
+      Writing B-factor re-assigned PDBs for 2196+2130_400 to:
+        results/pdb_outputs/2196+2130_400_6m0j_total_escape.pdb
+        results/pdb_outputs/2196+2130_400_6m0j_max_escape.pdb
+        results/pdb_outputs/2196+2130_400_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/2196+2130_400_6m0j_norm_max_escape.pdb
       Writing B-factor re-assigned PDBs for C002_400 to:
         results/pdb_outputs/C002_400_6m0j_total_escape.pdb
         results/pdb_outputs/C002_400_6m0j_max_escape.pdb
@@ -293,11 +298,21 @@ for name, specs in output_pdbs_config.items():
         results/pdb_outputs/COV2-2096_400_6m0j_max_escape.pdb
         results/pdb_outputs/COV2-2096_400_6m0j_norm_total_escape.pdb
         results/pdb_outputs/COV2-2096_400_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for COV2-2130_400 to:
+        results/pdb_outputs/COV2-2130_400_6m0j_total_escape.pdb
+        results/pdb_outputs/COV2-2130_400_6m0j_max_escape.pdb
+        results/pdb_outputs/COV2-2130_400_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/COV2-2130_400_6m0j_norm_max_escape.pdb
       Writing B-factor re-assigned PDBs for COV2-2165_400 to:
         results/pdb_outputs/COV2-2165_400_6m0j_total_escape.pdb
         results/pdb_outputs/COV2-2165_400_6m0j_max_escape.pdb
         results/pdb_outputs/COV2-2165_400_6m0j_norm_total_escape.pdb
         results/pdb_outputs/COV2-2165_400_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for COV2-2196_400 to:
+        results/pdb_outputs/COV2-2196_400_6m0j_total_escape.pdb
+        results/pdb_outputs/COV2-2196_400_6m0j_max_escape.pdb
+        results/pdb_outputs/COV2-2196_400_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/COV2-2196_400_6m0j_norm_max_escape.pdb
       Writing B-factor re-assigned PDBs for COV2-2479_400 to:
         results/pdb_outputs/COV2-2479_400_6m0j_total_escape.pdb
         results/pdb_outputs/COV2-2479_400_6m0j_max_escape.pdb

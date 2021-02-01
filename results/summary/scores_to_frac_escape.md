@@ -113,11 +113,11 @@ print(f"Read {len(escape_scores_homologs)} scores for the homologs.")
 ```
 
     Reading escape scores for primary target SARS-CoV-2 from results/escape_scores/scores.csv
-    Read 900266 scores for the primary target.
+    Read 1007652 scores for the primary target.
     
     Reading escape scores for homologs from results/escape_scores/scores_homologs.csv
     For homologs, just keeping the following: SARS-CoV-2, GD-Pangolin, RaTG13, SARS-CoV, WIV16, LYRa11
-    Read 300 scores for the homologs.
+    Read 336 scores for the homologs.
 
 
 ## Fit global epistasis models
@@ -214,7 +214,7 @@ with open(models_pickle_file, 'wb') as f:
 ```
 
     Removing variants with substitutions not seen in >=0 single-substitution variants or >=2 variants total.
-    Fitting 100 models using 16 CPUs...
+    Fitting 112 models using 16 CPUs...
     Dumping the model fits to results/escape_scores/epistasis_models.pickle
 
 
@@ -290,17 +290,17 @@ _ = p.draw()
       <th></th>
       <td>COV2-2499_400</td>
       <td>lib2</td>
-      <td>-71773.636672</td>
-      <td>-74169.376562</td>
-      <td>-2395.739890</td>
+      <td>-71776.603215</td>
+      <td>-74396.488462</td>
+      <td>-2619.885247</td>
     </tr>
     <tr>
       <th></th>
       <td>CR3022_400</td>
       <td>lib2</td>
-      <td>-62788.215184</td>
-      <td>-63422.621141</td>
-      <td>-634.405957</td>
+      <td>-61862.943486</td>
+      <td>-63496.269229</td>
+      <td>-1633.325743</td>
     </tr>
   </tbody>
 </table>
@@ -665,49 +665,49 @@ display(HTML(site_effects_df.head().to_html(index=False)))
   </thead>
   <tbody>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>average</td>
       <td>1</td>
-      <td>0.002076</td>
-      <td>0.033211</td>
-      <td>0.001173</td>
-      <td>0.018761</td>
+      <td>0.002907</td>
+      <td>0.046515</td>
+      <td>0.002305</td>
+      <td>0.036886</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>average</td>
       <td>2</td>
-      <td>0.002089</td>
-      <td>0.039684</td>
-      <td>0.002049</td>
-      <td>0.038936</td>
+      <td>0.003111</td>
+      <td>0.059102</td>
+      <td>0.003893</td>
+      <td>0.073963</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>average</td>
       <td>3</td>
-      <td>0.002089</td>
-      <td>0.037595</td>
-      <td>0.001775</td>
-      <td>0.031945</td>
+      <td>0.002693</td>
+      <td>0.048473</td>
+      <td>0.002423</td>
+      <td>0.043620</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>average</td>
       <td>4</td>
-      <td>0.002089</td>
-      <td>0.037595</td>
-      <td>0.002629</td>
-      <td>0.047326</td>
+      <td>0.002947</td>
+      <td>0.053042</td>
+      <td>0.002501</td>
+      <td>0.045010</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>average</td>
       <td>5</td>
-      <td>0.002089</td>
-      <td>0.039684</td>
-      <td>0.001879</td>
-      <td>0.035694</td>
+      <td>0.003061</td>
+      <td>0.058155</td>
+      <td>0.002901</td>
+      <td>0.055125</td>
     </tr>
   </tbody>
 </table>
@@ -874,93 +874,93 @@ escape_fracs_to_write.to_csv(config['escape_fracs'], index=False, float_format='
   </thead>
   <tbody>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>average</td>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>1</td>
       <td>331</td>
       <td>N</td>
       <td>A</td>
       <td>E</td>
       <td>331</td>
-      <td>0.002089</td>
-      <td>0.00079165</td>
-      <td>0.033211</td>
-      <td>0.018761</td>
-      <td>0.002076</td>
-      <td>0.001173</td>
+      <td>0.002957</td>
+      <td>0.0007348</td>
+      <td>0.046515</td>
+      <td>0.036886</td>
+      <td>0.002907</td>
+      <td>0.002305</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>average</td>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>1</td>
       <td>331</td>
       <td>N</td>
       <td>D</td>
       <td>E</td>
       <td>331</td>
-      <td>0.001883</td>
-      <td>0.0010788</td>
-      <td>0.033211</td>
-      <td>0.018761</td>
-      <td>0.002076</td>
-      <td>0.001173</td>
+      <td>0.002916</td>
+      <td>0.000799933</td>
+      <td>0.046515</td>
+      <td>0.036886</td>
+      <td>0.002907</td>
+      <td>0.002305</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>average</td>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>1</td>
       <td>331</td>
       <td>N</td>
       <td>E</td>
       <td>E</td>
       <td>331</td>
-      <td>0.002089</td>
-      <td>0.0010674</td>
-      <td>0.033211</td>
-      <td>0.018761</td>
-      <td>0.002076</td>
-      <td>0.001173</td>
+      <td>0.002804</td>
+      <td>0.00104625</td>
+      <td>0.046515</td>
+      <td>0.036886</td>
+      <td>0.002907</td>
+      <td>0.002305</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>average</td>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>1</td>
       <td>331</td>
       <td>N</td>
       <td>F</td>
       <td>E</td>
       <td>331</td>
-      <td>0.002089</td>
-      <td>0.0005008</td>
-      <td>0.033211</td>
-      <td>0.018761</td>
-      <td>0.002076</td>
-      <td>0.001173</td>
+      <td>0.003562</td>
+      <td>0.00068805</td>
+      <td>0.046515</td>
+      <td>0.036886</td>
+      <td>0.002907</td>
+      <td>0.002305</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>average</td>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>1</td>
       <td>331</td>
       <td>N</td>
       <td>G</td>
       <td>E</td>
       <td>331</td>
-      <td>0.002089</td>
-      <td>0.000479186</td>
-      <td>0.033211</td>
-      <td>0.018761</td>
-      <td>0.002076</td>
-      <td>0.001173</td>
+      <td>0.003011</td>
+      <td>0.00350287</td>
+      <td>0.046515</td>
+      <td>0.036886</td>
+      <td>0.002907</td>
+      <td>0.002305</td>
       <td>2</td>
     </tr>
   </tbody>
@@ -1101,35 +1101,35 @@ homolog_fracs.to_csv(config['escape_fracs_homologs'], index=False, float_format=
   </thead>
   <tbody>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>SARS-CoV-2</td>
       <td>average</td>
-      <td>0.001612</td>
+      <td>0.004085</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>GD-Pangolin</td>
       <td>average</td>
-      <td>0.006190</td>
+      <td>0.010265</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>RaTG13</td>
       <td>average</td>
-      <td>1.000000</td>
+      <td>0.769300</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>SARS-CoV</td>
       <td>average</td>
       <td>1.000000</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>C002_400</td>
+      <td>2196+2130_400</td>
       <td>WIV16</td>
       <td>average</td>
       <td>1.000000</td>

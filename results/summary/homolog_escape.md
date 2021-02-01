@@ -164,6 +164,36 @@ for name, specs in escape_profiles_config.items():
     
 
 
+    
+    Analyzing homolog escape for all_class1_abs, saving plot to results/homologs/all_class1_abs_homolog_escape.pdf
+
+
+
+    
+![png](homolog_escape_files/homolog_escape_14_9.png)
+    
+
+
+    
+    Analyzing homolog escape for all_class2_abs, saving plot to results/homologs/all_class2_abs_homolog_escape.pdf
+
+
+
+    
+![png](homolog_escape_files/homolog_escape_14_11.png)
+    
+
+
+    
+    Analyzing homolog escape for all_class3_abs, saving plot to results/homologs/all_class3_abs_homolog_escape.pdf
+
+
+
+    
+![png](homolog_escape_files/homolog_escape_14_13.png)
+    
+
+
 
 ```python
 
