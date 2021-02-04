@@ -156,9 +156,24 @@ display(HTML(
   </thead>
   <tbody>
     <tr>
+      <th>expt_34-41-none-0-reference</th>
+      <td>548.6</td>
+      <td>552.0</td>
+    </tr>
+    <tr>
+      <th>expt_46-52-none-0-reference</th>
+      <td>357.5</td>
+      <td>367.3</td>
+    </tr>
+    <tr>
       <th>expt_24-33-none-0-reference</th>
       <td>541.5</td>
       <td>593.9</td>
+    </tr>
+    <tr>
+      <th>expt_42-45-none-0-reference</th>
+      <td>316.3</td>
+      <td>353.8</td>
     </tr>
     <tr>
       <th>expt_53-59-none-0-reference</th>
@@ -196,9 +211,124 @@ display(HTML(
       <td>364.0</td>
     </tr>
     <tr>
+      <th>expt_40-12C_d152-80-escape</th>
+      <td>34.7</td>
+      <td>30.9</td>
+    </tr>
+    <tr>
+      <th>expt_37-12C_d61-160-escape</th>
+      <td>18.0</td>
+      <td>21.1</td>
+    </tr>
+    <tr>
+      <th>expt_52-13_d121-1250-escape</th>
+      <td>20.0</td>
+      <td>22.7</td>
+    </tr>
+    <tr>
+      <th>expt_31-13_d15-200-escape</th>
+      <td>27.3</td>
+      <td>35.3</td>
+    </tr>
+    <tr>
+      <th>expt_51-1C_d113-200-escape</th>
+      <td>14.4</td>
+      <td>21.3</td>
+    </tr>
+    <tr>
+      <th>expt_41-1C_d26-200-escape</th>
+      <td>20.0</td>
+      <td>31.6</td>
+    </tr>
+    <tr>
       <th>expt_29-2196+2130-400-escape</th>
       <td>57.0</td>
       <td>63.2</td>
+    </tr>
+    <tr>
+      <th>expt_45-22C_d104-200-escape</th>
+      <td>24.9</td>
+      <td>30.1</td>
+    </tr>
+    <tr>
+      <th>expt_38-22C_d28-200-escape</th>
+      <td>29.8</td>
+      <td>26.4</td>
+    </tr>
+    <tr>
+      <th>expt_47-23C_d102-80-escape</th>
+      <td>14.5</td>
+      <td>32.0</td>
+    </tr>
+    <tr>
+      <th>expt_46-23C_d26-80-escape</th>
+      <td>21.4</td>
+      <td>26.2</td>
+    </tr>
+    <tr>
+      <th>expt_50-23_d120-500-escape</th>
+      <td>20.4</td>
+      <td>28.8</td>
+    </tr>
+    <tr>
+      <th>expt_34-23_d21-1250-escape</th>
+      <td>13.9</td>
+      <td>25.2</td>
+    </tr>
+    <tr>
+      <th>expt_39-23_d45-1250-escape</th>
+      <td>25.1</td>
+      <td>23.1</td>
+    </tr>
+    <tr>
+      <th>expt_44-24C_d104-200-escape</th>
+      <td>24.6</td>
+      <td>28.4</td>
+    </tr>
+    <tr>
+      <th>expt_35-24C_d32-200-escape</th>
+      <td>30.5</td>
+      <td>31.0</td>
+    </tr>
+    <tr>
+      <th>expt_49-25C_d115-80-escape</th>
+      <td>14.2</td>
+      <td>28.3</td>
+    </tr>
+    <tr>
+      <th>expt_48-25C_d48-200-escape</th>
+      <td>18.9</td>
+      <td>23.7</td>
+    </tr>
+    <tr>
+      <th>expt_32-25_d18-500-escape</th>
+      <td>38.0</td>
+      <td>36.2</td>
+    </tr>
+    <tr>
+      <th>expt_33-25_d94-200-escape</th>
+      <td>21.5</td>
+      <td>24.9</td>
+    </tr>
+    <tr>
+      <th>expt_30-6C_d33-500-escape</th>
+      <td>31.4</td>
+      <td>29.7</td>
+    </tr>
+    <tr>
+      <th>expt_42-6C_d76-500-escape</th>
+      <td>28.7</td>
+      <td>23.3</td>
+    </tr>
+    <tr>
+      <th>expt_43-7C_d103-200-escape</th>
+      <td>21.8</td>
+      <td>27.2</td>
+    </tr>
+    <tr>
+      <th>expt_36-7C_d29-500-escape</th>
+      <td>41.8</td>
+      <td>30.5</td>
     </tr>
     <tr>
       <th>expt_58-C002-400-escape</th>
@@ -523,9 +653,33 @@ display(HTML(
   </thead>
   <tbody>
     <tr>
-      <th rowspan="8" valign="top">lib1</th>
+      <th rowspan="11" valign="top">lib1</th>
+      <th>expt_34-41-none-0-reference</th>
+      <td>0.0037</td>
+      <td>SARS-CoV-2</td>
+      <td>TAGTAACAATGCGGTA</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>expt_46-52-none-0-reference</th>
+      <td>0.0051</td>
+      <td>SARS-CoV-2</td>
+      <td>TTCCAAAATATTGTCA</td>
+      <td>D59N F156S</td>
+      <td>GAT59AAC TTT156TCG</td>
+    </tr>
+    <tr>
       <th>expt_24-33-none-0-reference</th>
       <td>0.0049</td>
+      <td>SARS-CoV-2</td>
+      <td>TTCCAAAATATTGTCA</td>
+      <td>D59N F156S</td>
+      <td>GAT59AAC TTT156TCG</td>
+    </tr>
+    <tr>
+      <th>expt_42-45-none-0-reference</th>
+      <td>0.0046</td>
       <td>SARS-CoV-2</td>
       <td>TTCCAAAATATTGTCA</td>
       <td>D59N F156S</td>
@@ -588,9 +742,33 @@ display(HTML(
       <td></td>
     </tr>
     <tr>
-      <th rowspan="8" valign="top">lib2</th>
+      <th rowspan="11" valign="top">lib2</th>
+      <th>expt_34-41-none-0-reference</th>
+      <td>0.0012</td>
+      <td>SARS-CoV-2</td>
+      <td>CAGTACAAAAGTATAA</td>
+      <td>K87N V173Y</td>
+      <td>CTA60CTG AAG87AAC GTC173TAC</td>
+    </tr>
+    <tr>
+      <th>expt_46-52-none-0-reference</th>
+      <td>0.0020</td>
+      <td>SARS-CoV-2</td>
+      <td>CAGTACAAAAGTATAA</td>
+      <td>K87N V173Y</td>
+      <td>CTA60CTG AAG87AAC GTC173TAC</td>
+    </tr>
+    <tr>
       <th>expt_24-33-none-0-reference</th>
       <td>0.0011</td>
+      <td>SARS-CoV-2</td>
+      <td>CAGTACAAAAGTATAA</td>
+      <td>K87N V173Y</td>
+      <td>CTA60CTG AAG87AAC GTC173TAC</td>
+    </tr>
+    <tr>
+      <th>expt_42-45-none-0-reference</th>
+      <td>0.0018</td>
       <td>SARS-CoV-2</td>
       <td>CAGTACAAAAGTATAA</td>
       <td>K87N V173Y</td>
@@ -715,50 +893,50 @@ display(HTML(counts_by_class.head().to_html(index=False)))
   <tbody>
     <tr>
       <td>lib1</td>
-      <td>expt_24-33-none-0-reference</td>
+      <td>expt_34-41-none-0-reference</td>
       <td>wildtype</td>
       <td>0.000026</td>
-      <td>200904</td>
+      <td>200910</td>
       <td>none</td>
       <td>0</td>
       <td>reference</td>
     </tr>
     <tr>
       <td>lib1</td>
-      <td>expt_24-33-none-0-reference</td>
+      <td>expt_34-41-none-0-reference</td>
       <td>synonymous</td>
       <td>0.000024</td>
-      <td>200904</td>
+      <td>200910</td>
       <td>none</td>
       <td>0</td>
       <td>reference</td>
     </tr>
     <tr>
       <td>lib1</td>
-      <td>expt_24-33-none-0-reference</td>
+      <td>expt_34-41-none-0-reference</td>
       <td>1 nonsynonymous</td>
       <td>0.000020</td>
-      <td>200904</td>
+      <td>200910</td>
       <td>none</td>
       <td>0</td>
       <td>reference</td>
     </tr>
     <tr>
       <td>lib1</td>
-      <td>expt_24-33-none-0-reference</td>
+      <td>expt_34-41-none-0-reference</td>
       <td>&gt;1 nonsynonymous</td>
       <td>0.000008</td>
-      <td>200904</td>
+      <td>200910</td>
       <td>none</td>
       <td>0</td>
       <td>reference</td>
     </tr>
     <tr>
       <td>lib1</td>
-      <td>expt_24-33-none-0-reference</td>
+      <td>expt_34-41-none-0-reference</td>
       <td>stop</td>
       <td>0.000002</td>
-      <td>200904</td>
+      <td>200910</td>
       <td>none</td>
       <td>0</td>
       <td>reference</td>
@@ -864,6 +1042,162 @@ display(HTML(score_sample_df.to_html(index=False)))
   </thead>
   <tbody>
     <tr>
+      <td>12C_d152_80</td>
+      <td>lib1</td>
+      <td>12C_d152</td>
+      <td>80</td>
+      <td>dilution</td>
+      <td>200910</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_40-12C_d152-80-escape</td>
+      <td>0.040</td>
+      <td>530574.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>12C_d152_80</td>
+      <td>lib2</td>
+      <td>12C_d152</td>
+      <td>80</td>
+      <td>dilution</td>
+      <td>200910</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_40-12C_d152-80-escape</td>
+      <td>0.052</td>
+      <td>528440.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>12C_d61_160</td>
+      <td>lib1</td>
+      <td>12C_d61</td>
+      <td>160</td>
+      <td>dilution</td>
+      <td>200910</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_37-12C_d61-160-escape</td>
+      <td>0.033</td>
+      <td>289524.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>12C_d61_160</td>
+      <td>lib2</td>
+      <td>12C_d61</td>
+      <td>160</td>
+      <td>dilution</td>
+      <td>200910</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_37-12C_d61-160-escape</td>
+      <td>0.031</td>
+      <td>373381.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>13_d121_1250</td>
+      <td>lib1</td>
+      <td>13_d121</td>
+      <td>1250</td>
+      <td>dilution</td>
+      <td>200917</td>
+      <td>expt_46-52-none-0-reference</td>
+      <td>expt_52-13_d121-1250-escape</td>
+      <td>0.042</td>
+      <td>521978.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>13_d121_1250</td>
+      <td>lib2</td>
+      <td>13_d121</td>
+      <td>1250</td>
+      <td>dilution</td>
+      <td>200917</td>
+      <td>expt_46-52-none-0-reference</td>
+      <td>expt_52-13_d121-1250-escape</td>
+      <td>0.048</td>
+      <td>631476.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>13_d15_200</td>
+      <td>lib1</td>
+      <td>13_d15</td>
+      <td>200</td>
+      <td>dilution</td>
+      <td>200904</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>expt_31-13_d15-200-escape</td>
+      <td>0.044</td>
+      <td>501386.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>13_d15_200</td>
+      <td>lib2</td>
+      <td>13_d15</td>
+      <td>200</td>
+      <td>dilution</td>
+      <td>200904</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>expt_31-13_d15-200-escape</td>
+      <td>0.057</td>
+      <td>502894.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>1C_d113_200</td>
+      <td>lib1</td>
+      <td>1C_d113</td>
+      <td>200</td>
+      <td>dilution</td>
+      <td>200917</td>
+      <td>expt_46-52-none-0-reference</td>
+      <td>expt_51-1C_d113-200-escape</td>
+      <td>0.037</td>
+      <td>445318.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>1C_d113_200</td>
+      <td>lib2</td>
+      <td>1C_d113</td>
+      <td>200</td>
+      <td>dilution</td>
+      <td>200917</td>
+      <td>expt_46-52-none-0-reference</td>
+      <td>expt_51-1C_d113-200-escape</td>
+      <td>0.047</td>
+      <td>576459.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>1C_d26_200</td>
+      <td>lib1</td>
+      <td>1C_d26</td>
+      <td>200</td>
+      <td>dilution</td>
+      <td>200910</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_41-1C_d26-200-escape</td>
+      <td>0.045</td>
+      <td>599453.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>1C_d26_200</td>
+      <td>lib2</td>
+      <td>1C_d26</td>
+      <td>200</td>
+      <td>dilution</td>
+      <td>200910</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_41-1C_d26-200-escape</td>
+      <td>0.036</td>
+      <td>522412.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
       <td>2196+2130_400</td>
       <td>lib1</td>
       <td>2196+2130</td>
@@ -887,6 +1221,448 @@ display(HTML(score_sample_df.to_html(index=False)))
       <td>expt_29-2196+2130-400-escape</td>
       <td>0.162</td>
       <td>1382411.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>22C_d104_200</td>
+      <td>lib1</td>
+      <td>22C_d104</td>
+      <td>200</td>
+      <td>dilution</td>
+      <td>200915</td>
+      <td>expt_42-45-none-0-reference</td>
+      <td>expt_45-22C_d104-200-escape</td>
+      <td>0.050</td>
+      <td>645592.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>22C_d104_200</td>
+      <td>lib2</td>
+      <td>22C_d104</td>
+      <td>200</td>
+      <td>dilution</td>
+      <td>200915</td>
+      <td>expt_42-45-none-0-reference</td>
+      <td>expt_45-22C_d104-200-escape</td>
+      <td>0.044</td>
+      <td>637035.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>22C_d28_200</td>
+      <td>lib1</td>
+      <td>22C_d28</td>
+      <td>200</td>
+      <td>dilution</td>
+      <td>200910</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_38-22C_d28-200-escape</td>
+      <td>0.047</td>
+      <td>532618.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>22C_d28_200</td>
+      <td>lib2</td>
+      <td>22C_d28</td>
+      <td>200</td>
+      <td>dilution</td>
+      <td>200910</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_38-22C_d28-200-escape</td>
+      <td>0.029</td>
+      <td>502292.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>23C_d102_80</td>
+      <td>lib1</td>
+      <td>23C_d102</td>
+      <td>80</td>
+      <td>dilution</td>
+      <td>200917</td>
+      <td>expt_46-52-none-0-reference</td>
+      <td>expt_47-23C_d102-80-escape</td>
+      <td>0.030</td>
+      <td>370503.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>23C_d102_80</td>
+      <td>lib2</td>
+      <td>23C_d102</td>
+      <td>80</td>
+      <td>dilution</td>
+      <td>200917</td>
+      <td>expt_46-52-none-0-reference</td>
+      <td>expt_47-23C_d102-80-escape</td>
+      <td>0.058</td>
+      <td>727991.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>23C_d26_80</td>
+      <td>lib1</td>
+      <td>23C_d26</td>
+      <td>80</td>
+      <td>dilution</td>
+      <td>200917</td>
+      <td>expt_46-52-none-0-reference</td>
+      <td>expt_46-23C_d26-80-escape</td>
+      <td>0.027</td>
+      <td>450907.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>23C_d26_80</td>
+      <td>lib2</td>
+      <td>23C_d26</td>
+      <td>80</td>
+      <td>dilution</td>
+      <td>200917</td>
+      <td>expt_46-52-none-0-reference</td>
+      <td>expt_46-23C_d26-80-escape</td>
+      <td>0.046</td>
+      <td>649814.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>23_d120_500</td>
+      <td>lib1</td>
+      <td>23_d120</td>
+      <td>500</td>
+      <td>dilution</td>
+      <td>200917</td>
+      <td>expt_46-52-none-0-reference</td>
+      <td>expt_50-23_d120-500-escape</td>
+      <td>0.045</td>
+      <td>467275.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>23_d120_500</td>
+      <td>lib2</td>
+      <td>23_d120</td>
+      <td>500</td>
+      <td>dilution</td>
+      <td>200917</td>
+      <td>expt_46-52-none-0-reference</td>
+      <td>expt_50-23_d120-500-escape</td>
+      <td>0.064</td>
+      <td>774180.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>23_d21_1250</td>
+      <td>lib1</td>
+      <td>23_d21</td>
+      <td>1250</td>
+      <td>dilution</td>
+      <td>200910</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_34-23_d21-1250-escape</td>
+      <td>0.026</td>
+      <td>203778.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>23_d21_1250</td>
+      <td>lib2</td>
+      <td>23_d21</td>
+      <td>1250</td>
+      <td>dilution</td>
+      <td>200910</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_34-23_d21-1250-escape</td>
+      <td>0.017</td>
+      <td>228514.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>23_d45_1250</td>
+      <td>lib1</td>
+      <td>23_d45</td>
+      <td>1250</td>
+      <td>dilution</td>
+      <td>200910</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_39-23_d45-1250-escape</td>
+      <td>0.031</td>
+      <td>459593.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>23_d45_1250</td>
+      <td>lib2</td>
+      <td>23_d45</td>
+      <td>1250</td>
+      <td>dilution</td>
+      <td>200910</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_39-23_d45-1250-escape</td>
+      <td>0.025</td>
+      <td>331160.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>24C_d104_200</td>
+      <td>lib1</td>
+      <td>24C_d104</td>
+      <td>200</td>
+      <td>dilution</td>
+      <td>200915</td>
+      <td>expt_42-45-none-0-reference</td>
+      <td>expt_44-24C_d104-200-escape</td>
+      <td>0.046</td>
+      <td>641483.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>24C_d104_200</td>
+      <td>lib2</td>
+      <td>24C_d104</td>
+      <td>200</td>
+      <td>dilution</td>
+      <td>200915</td>
+      <td>expt_42-45-none-0-reference</td>
+      <td>expt_44-24C_d104-200-escape</td>
+      <td>0.055</td>
+      <td>722686.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>24C_d32_200</td>
+      <td>lib1</td>
+      <td>24C_d32</td>
+      <td>200</td>
+      <td>dilution</td>
+      <td>200910</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_35-24C_d32-200-escape</td>
+      <td>0.067</td>
+      <td>569827.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>24C_d32_200</td>
+      <td>lib2</td>
+      <td>24C_d32</td>
+      <td>200</td>
+      <td>dilution</td>
+      <td>200910</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_35-24C_d32-200-escape</td>
+      <td>0.065</td>
+      <td>507246.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>25C_d115_80</td>
+      <td>lib1</td>
+      <td>25C_d115</td>
+      <td>80</td>
+      <td>dilution</td>
+      <td>200917</td>
+      <td>expt_46-52-none-0-reference</td>
+      <td>expt_49-25C_d115-80-escape</td>
+      <td>0.044</td>
+      <td>421799.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>25C_d115_80</td>
+      <td>lib2</td>
+      <td>25C_d115</td>
+      <td>80</td>
+      <td>dilution</td>
+      <td>200917</td>
+      <td>expt_46-52-none-0-reference</td>
+      <td>expt_49-25C_d115-80-escape</td>
+      <td>0.059</td>
+      <td>677714.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>25C_d48_200</td>
+      <td>lib1</td>
+      <td>25C_d48</td>
+      <td>200</td>
+      <td>dilution</td>
+      <td>200917</td>
+      <td>expt_46-52-none-0-reference</td>
+      <td>expt_48-25C_d48-200-escape</td>
+      <td>0.040</td>
+      <td>466102.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>25C_d48_200</td>
+      <td>lib2</td>
+      <td>25C_d48</td>
+      <td>200</td>
+      <td>dilution</td>
+      <td>200917</td>
+      <td>expt_46-52-none-0-reference</td>
+      <td>expt_48-25C_d48-200-escape</td>
+      <td>0.050</td>
+      <td>571563.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>25_d18_500</td>
+      <td>lib1</td>
+      <td>25_d18</td>
+      <td>500</td>
+      <td>dilution</td>
+      <td>200904</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>expt_32-25_d18-500-escape</td>
+      <td>0.051</td>
+      <td>547164.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>25_d18_500</td>
+      <td>lib2</td>
+      <td>25_d18</td>
+      <td>500</td>
+      <td>dilution</td>
+      <td>200904</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>expt_32-25_d18-500-escape</td>
+      <td>0.059</td>
+      <td>562520.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>25_d94_200</td>
+      <td>lib1</td>
+      <td>25_d94</td>
+      <td>200</td>
+      <td>dilution</td>
+      <td>200904</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>expt_33-25_d94-200-escape</td>
+      <td>0.052</td>
+      <td>382787.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>25_d94_200</td>
+      <td>lib2</td>
+      <td>25_d94</td>
+      <td>200</td>
+      <td>dilution</td>
+      <td>200904</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>expt_33-25_d94-200-escape</td>
+      <td>0.042</td>
+      <td>422273.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>6C_d33_500</td>
+      <td>lib1</td>
+      <td>6C_d33</td>
+      <td>500</td>
+      <td>dilution</td>
+      <td>200904</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>expt_30-6C_d33-500-escape</td>
+      <td>0.051</td>
+      <td>589736.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>6C_d33_500</td>
+      <td>lib2</td>
+      <td>6C_d33</td>
+      <td>500</td>
+      <td>dilution</td>
+      <td>200904</td>
+      <td>expt_24-33-none-0-reference</td>
+      <td>expt_30-6C_d33-500-escape</td>
+      <td>0.047</td>
+      <td>506366.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>6C_d76_500</td>
+      <td>lib1</td>
+      <td>6C_d76</td>
+      <td>500</td>
+      <td>dilution</td>
+      <td>200915</td>
+      <td>expt_42-45-none-0-reference</td>
+      <td>expt_42-6C_d76-500-escape</td>
+      <td>0.043</td>
+      <td>600854.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>6C_d76_500</td>
+      <td>lib2</td>
+      <td>6C_d76</td>
+      <td>500</td>
+      <td>dilution</td>
+      <td>200915</td>
+      <td>expt_42-45-none-0-reference</td>
+      <td>expt_42-6C_d76-500-escape</td>
+      <td>0.038</td>
+      <td>601796.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>7C_d103_200</td>
+      <td>lib1</td>
+      <td>7C_d103</td>
+      <td>200</td>
+      <td>dilution</td>
+      <td>200915</td>
+      <td>expt_42-45-none-0-reference</td>
+      <td>expt_43-7C_d103-200-escape</td>
+      <td>0.049</td>
+      <td>653383.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>7C_d103_200</td>
+      <td>lib2</td>
+      <td>7C_d103</td>
+      <td>200</td>
+      <td>dilution</td>
+      <td>200915</td>
+      <td>expt_42-45-none-0-reference</td>
+      <td>expt_43-7C_d103-200-escape</td>
+      <td>0.049</td>
+      <td>654893.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>7C_d29_500</td>
+      <td>lib1</td>
+      <td>7C_d29</td>
+      <td>500</td>
+      <td>dilution</td>
+      <td>200910</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_36-7C_d29-500-escape</td>
+      <td>0.061</td>
+      <td>625811.0</td>
+      <td>160000000.0</td>
+    </tr>
+    <tr>
+      <td>7C_d29_500</td>
+      <td>lib2</td>
+      <td>7C_d29</td>
+      <td>500</td>
+      <td>dilution</td>
+      <td>200910</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_36-7C_d29-500-escape</td>
+      <td>0.061</td>
+      <td>535256.0</td>
       <td>160000000.0</td>
     </tr>
     <tr>
@@ -1664,33 +2440,16 @@ display(HTML(escape_scores_homologs.head().to_html(index=False)))
   </thead>
   <tbody>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>SARS-CoV-2</td>
       <td>lib1</td>
-      <td>expt_24-33-none-0-reference</td>
-      <td>expt_29-2196+2130-400-escape</td>
-      <td>TTCCAAAATATTGTCA</td>
-      <td>0.239590</td>
-      <td>1.407219e-06</td>
-      <td>263040</td>
-      <td>47398</td>
-      <td>GAT59AAC TTT156TCG</td>
-      <td>2</td>
-      <td>D59N F156S</td>
-      <td>2</td>
-      <td>&gt;1 nonsynonymous</td>
-    </tr>
-    <tr>
-      <td>2196+2130_400</td>
-      <td>SARS-CoV-2</td>
-      <td>lib1</td>
-      <td>expt_24-33-none-0-reference</td>
-      <td>expt_29-2196+2130-400-escape</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_40-12C_d152-80-escape</td>
       <td>TAGTAACAATGCGGTA</td>
-      <td>0.029987</td>
-      <td>2.335863e-07</td>
-      <td>174279</td>
-      <td>3930</td>
+      <td>0.002678</td>
+      <td>8.346082e-09</td>
+      <td>200832</td>
+      <td>862</td>
       <td></td>
       <td>0</td>
       <td></td>
@@ -1698,16 +2457,33 @@ display(HTML(escape_scores_homologs.head().to_html(index=False)))
       <td>wildtype</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>SARS-CoV-2</td>
       <td>lib1</td>
-      <td>expt_24-33-none-0-reference</td>
-      <td>expt_29-2196+2130-400-escape</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_40-12C_d152-80-escape</td>
+      <td>TTCCAAAATATTGTCA</td>
+      <td>0.104824</td>
+      <td>4.563043e-07</td>
+      <td>164928</td>
+      <td>27725</td>
+      <td>GAT59AAC TTT156TCG</td>
+      <td>2</td>
+      <td>D59N F156S</td>
+      <td>2</td>
+      <td>&gt;1 nonsynonymous</td>
+    </tr>
+    <tr>
+      <td>12C_d152_80</td>
+      <td>SARS-CoV-2</td>
+      <td>lib1</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_40-12C_d152-80-escape</td>
       <td>TTAATTAGTATCAGGT</td>
-      <td>0.027291</td>
-      <td>6.129484e-07</td>
-      <td>60387</td>
-      <td>1239</td>
+      <td>0.023192</td>
+      <td>2.063353e-07</td>
+      <td>72580</td>
+      <td>2699</td>
       <td>GAC34CGC CTG125GTC</td>
       <td>2</td>
       <td>D34R L125V</td>
@@ -1715,36 +2491,36 @@ display(HTML(escape_scores_homologs.head().to_html(index=False)))
       <td>&gt;1 nonsynonymous</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>SARS-CoV-2</td>
       <td>lib1</td>
-      <td>expt_24-33-none-0-reference</td>
-      <td>expt_29-2196+2130-400-escape</td>
-      <td>TTAGATGAAGCCAGTA</td>
-      <td>1.000000</td>
-      <td>0.000000e+00</td>
-      <td>51224</td>
-      <td>55511</td>
-      <td>GAC90TAC GAC98TTC GGG174GAG</td>
-      <td>3</td>
-      <td>D90Y D98F G174E</td>
-      <td>3</td>
-      <td>&gt;1 nonsynonymous</td>
-    </tr>
-    <tr>
-      <td>2196+2130_400</td>
-      <td>SARS-CoV-2</td>
-      <td>lib1</td>
-      <td>expt_24-33-none-0-reference</td>
-      <td>expt_29-2196+2130-400-escape</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_40-12C_d152-80-escape</td>
       <td>TAATATGCAAGAGCCA</td>
-      <td>1.000000</td>
-      <td>0.000000e+00</td>
-      <td>48555</td>
-      <td>45191</td>
+      <td>0.044899</td>
+      <td>6.533481e-07</td>
+      <td>45851</td>
+      <td>3301</td>
       <td>CCT96TGC</td>
       <td>1</td>
       <td>P96C</td>
+      <td>1</td>
+      <td>1 nonsynonymous</td>
+    </tr>
+    <tr>
+      <td>12C_d152_80</td>
+      <td>SARS-CoV-2</td>
+      <td>lib1</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_40-12C_d152-80-escape</td>
+      <td>ATAAAAAGTCCATATG</td>
+      <td>0.003782</td>
+      <td>5.419200e-08</td>
+      <td>43774</td>
+      <td>265</td>
+      <td>CTT5AAG</td>
+      <td>1</td>
+      <td>L5K</td>
       <td>1</td>
       <td>1 nonsynonymous</td>
     </tr>
@@ -1776,68 +2552,68 @@ display(HTML(escape_scores_homologs.head().to_html(index=False)))
   </thead>
   <tbody>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>BM48-31</td>
       <td>lib1</td>
-      <td>expt_24-33-none-0-reference</td>
-      <td>expt_29-2196+2130-400-escape</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_40-12C_d152-80-escape</td>
       <td>BM48-31</td>
-      <td>1.000000</td>
-      <td>0.000000e+00</td>
-      <td>5747</td>
-      <td>7184</td>
+      <td>0.413966</td>
+      <td>6.587496e-05</td>
+      <td>6521</td>
+      <td>4315</td>
       <td>0</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>GD-Pangolin</td>
       <td>lib1</td>
-      <td>expt_24-33-none-0-reference</td>
-      <td>expt_29-2196+2130-400-escape</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_40-12C_d152-80-escape</td>
       <td>GD-Pangolin</td>
-      <td>0.008560</td>
-      <td>9.050843e-08</td>
-      <td>126756</td>
-      <td>814</td>
+      <td>0.003058</td>
+      <td>1.457457e-08</td>
+      <td>131846</td>
+      <td>644</td>
       <td>0</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>HKU3-1</td>
       <td>lib1</td>
-      <td>expt_24-33-none-0-reference</td>
-      <td>expt_29-2196+2130-400-escape</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_40-12C_d152-80-escape</td>
       <td>HKU3-1</td>
-      <td>1.000000</td>
-      <td>0.000000e+00</td>
-      <td>6847</td>
-      <td>10020</td>
+      <td>0.479859</td>
+      <td>7.505510e-05</td>
+      <td>7053</td>
+      <td>5410</td>
       <td>0</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>LYRa11</td>
       <td>lib1</td>
-      <td>expt_24-33-none-0-reference</td>
-      <td>expt_29-2196+2130-400-escape</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_40-12C_d152-80-escape</td>
       <td>LYRa11</td>
-      <td>1.000000</td>
-      <td>0.000000e+00</td>
-      <td>32125</td>
-      <td>34311</td>
+      <td>0.522851</td>
+      <td>1.786961e-05</td>
+      <td>33292</td>
+      <td>27825</td>
       <td>0</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>RaTG13</td>
       <td>lib1</td>
-      <td>expt_24-33-none-0-reference</td>
-      <td>expt_29-2196+2130-400-escape</td>
+      <td>expt_34-41-none-0-reference</td>
+      <td>expt_40-12C_d152-80-escape</td>
       <td>RaTG13</td>
-      <td>0.538574</td>
-      <td>9.181684e-06</td>
-      <td>108409</td>
-      <td>43829</td>
+      <td>0.330916</td>
+      <td>2.678892e-06</td>
+      <td>115308</td>
+      <td>60995</td>
       <td>0</td>
     </tr>
   </tbody>
@@ -1916,6 +2692,48 @@ display(HTML(pre_count_filter_cutoffs.to_html(float_format='%.1f')))
   </thead>
   <tbody>
     <tr>
+      <th rowspan="2" valign="top">expt_34-41-none-0-reference</th>
+      <th>lib1</th>
+      <td>61.0</td>
+      <td>195.0</td>
+      <td>254.0</td>
+      <td>329.0</td>
+      <td>388.0</td>
+      <td>488.0</td>
+      <td>1246.0</td>
+    </tr>
+    <tr>
+      <th>lib2</th>
+      <td>59.0</td>
+      <td>203.0</td>
+      <td>265.0</td>
+      <td>349.0</td>
+      <td>413.0</td>
+      <td>488.0</td>
+      <td>930.0</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">expt_46-52-none-0-reference</th>
+      <th>lib1</th>
+      <td>37.0</td>
+      <td>118.0</td>
+      <td>153.0</td>
+      <td>203.0</td>
+      <td>244.0</td>
+      <td>304.0</td>
+      <td>771.0</td>
+    </tr>
+    <tr>
+      <th>lib2</th>
+      <td>36.0</td>
+      <td>125.0</td>
+      <td>164.0</td>
+      <td>218.0</td>
+      <td>262.0</td>
+      <td>330.0</td>
+      <td>901.0</td>
+    </tr>
+    <tr>
       <th rowspan="2" valign="top">expt_24-33-none-0-reference</th>
       <th>lib1</th>
       <td>60.0</td>
@@ -1933,8 +2751,29 @@ display(HTML(pre_count_filter_cutoffs.to_html(float_format='%.1f')))
       <td>283.0</td>
       <td>366.0</td>
       <td>446.0</td>
-      <td>531.9</td>
+      <td>532.0</td>
       <td>1089.0</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">expt_42-45-none-0-reference</th>
+      <th>lib1</th>
+      <td>34.0</td>
+      <td>111.0</td>
+      <td>145.0</td>
+      <td>191.0</td>
+      <td>230.0</td>
+      <td>284.9</td>
+      <td>681.0</td>
+    </tr>
+    <tr>
+      <th>lib2</th>
+      <td>37.0</td>
+      <td>128.0</td>
+      <td>165.0</td>
+      <td>220.0</td>
+      <td>269.0</td>
+      <td>320.7</td>
+      <td>733.6</td>
     </tr>
     <tr>
       <th rowspan="2" valign="top">expt_53-59-none-0-reference</th>
@@ -2104,96 +2943,132 @@ display(HTML(pre_count_filter_cutoffs.to_html(float_format='%.1f')))
   <tbody>
     <tr>
       <th>0</th>
+      <td>expt_34-41-none-0-reference</td>
+      <td>lib1</td>
+      <td>388.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>expt_34-41-none-0-reference</td>
+      <td>lib2</td>
+      <td>413.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>expt_46-52-none-0-reference</td>
+      <td>lib1</td>
+      <td>244.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>expt_46-52-none-0-reference</td>
+      <td>lib2</td>
+      <td>262.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
       <td>expt_24-33-none-0-reference</td>
       <td>lib1</td>
       <td>387.0</td>
     </tr>
     <tr>
-      <th>1</th>
+      <th>5</th>
       <td>expt_24-33-none-0-reference</td>
       <td>lib2</td>
       <td>446.0</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th>6</th>
+      <td>expt_42-45-none-0-reference</td>
+      <td>lib1</td>
+      <td>230.0</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>expt_42-45-none-0-reference</td>
+      <td>lib2</td>
+      <td>269.0</td>
+    </tr>
+    <tr>
+      <th>8</th>
       <td>expt_53-59-none-0-reference</td>
       <td>lib1</td>
       <td>206.0</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th>9</th>
       <td>expt_53-59-none-0-reference</td>
       <td>lib2</td>
       <td>266.0</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>10</th>
       <td>expt_60-64-none-0-reference</td>
       <td>lib1</td>
       <td>188.0</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>11</th>
       <td>expt_60-64-none-0-reference</td>
       <td>lib2</td>
       <td>231.0</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>12</th>
       <td>expt_13-16-none-0-reference</td>
       <td>lib1</td>
       <td>42.0</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>13</th>
       <td>expt_13-16-none-0-reference</td>
       <td>lib2</td>
       <td>37.0</td>
     </tr>
     <tr>
-      <th>8</th>
-      <td>expt_7-11-none-0-reference</td>
-      <td>lib1</td>
-      <td>21.0</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>expt_7-11-none-0-reference</td>
-      <td>lib2</td>
-      <td>19.0</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>expt_22-23-none-0-reference</td>
-      <td>lib1</td>
-      <td>174.4</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>expt_22-23-none-0-reference</td>
-      <td>lib2</td>
-      <td>176.4</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>expt_65-67-none-0-reference</td>
-      <td>lib1</td>
-      <td>156.0</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>expt_65-67-none-0-reference</td>
-      <td>lib2</td>
-      <td>185.7</td>
-    </tr>
-    <tr>
       <th>14</th>
-      <td>expt_3-6-none-0-reference</td>
+      <td>expt_7-11-none-0-reference</td>
       <td>lib1</td>
       <td>21.0</td>
     </tr>
     <tr>
       <th>15</th>
+      <td>expt_7-11-none-0-reference</td>
+      <td>lib2</td>
+      <td>19.0</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>expt_22-23-none-0-reference</td>
+      <td>lib1</td>
+      <td>174.4</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>expt_22-23-none-0-reference</td>
+      <td>lib2</td>
+      <td>176.4</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>expt_65-67-none-0-reference</td>
+      <td>lib1</td>
+      <td>156.0</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>expt_65-67-none-0-reference</td>
+      <td>lib2</td>
+      <td>185.7</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>expt_3-6-none-0-reference</td>
+      <td>lib1</td>
+      <td>21.0</td>
+    </tr>
+    <tr>
+      <th>21</th>
       <td>expt_3-6-none-0-reference</td>
       <td>lib2</td>
       <td>16.7</td>

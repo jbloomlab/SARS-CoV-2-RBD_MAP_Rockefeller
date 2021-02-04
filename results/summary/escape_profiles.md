@@ -133,78 +133,78 @@ display(HTML(escape_fracs.head().to_html(index=False)))
   </thead>
   <tbody>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>A</td>
       <td>E</td>
       <td>331</td>
-      <td>0.002957</td>
-      <td>0.000735</td>
-      <td>0.04652</td>
-      <td>0.03689</td>
-      <td>0.002907</td>
-      <td>0.002305</td>
+      <td>0.002020</td>
+      <td>0.001326</td>
+      <td>0.04926</td>
+      <td>0.0478</td>
+      <td>0.003079</td>
+      <td>0.002988</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>D</td>
       <td>E</td>
       <td>331</td>
-      <td>0.002916</td>
-      <td>0.000800</td>
-      <td>0.04652</td>
-      <td>0.03689</td>
-      <td>0.002907</td>
-      <td>0.002305</td>
+      <td>0.005616</td>
+      <td>0.000537</td>
+      <td>0.04926</td>
+      <td>0.0478</td>
+      <td>0.003079</td>
+      <td>0.002988</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>E</td>
       <td>E</td>
       <td>331</td>
-      <td>0.002804</td>
-      <td>0.001046</td>
-      <td>0.04652</td>
-      <td>0.03689</td>
-      <td>0.002907</td>
-      <td>0.002305</td>
+      <td>0.002535</td>
+      <td>0.000482</td>
+      <td>0.04926</td>
+      <td>0.0478</td>
+      <td>0.003079</td>
+      <td>0.002988</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>F</td>
       <td>E</td>
       <td>331</td>
-      <td>0.003562</td>
-      <td>0.000688</td>
-      <td>0.04652</td>
-      <td>0.03689</td>
-      <td>0.002907</td>
-      <td>0.002305</td>
+      <td>0.003032</td>
+      <td>0.005816</td>
+      <td>0.04926</td>
+      <td>0.0478</td>
+      <td>0.003079</td>
+      <td>0.002988</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>G</td>
       <td>E</td>
       <td>331</td>
-      <td>0.003011</td>
-      <td>0.003503</td>
-      <td>0.04652</td>
-      <td>0.03689</td>
-      <td>0.002907</td>
-      <td>0.002305</td>
+      <td>0.003113</td>
+      <td>0.001273</td>
+      <td>0.04926</td>
+      <td>0.0478</td>
+      <td>0.003079</td>
+      <td>0.002988</td>
       <td>2</td>
     </tr>
   </tbody>
@@ -660,7 +660,7 @@ with multiprocessing.Pool(ncpus) as pool:
         
 ```
 
-    Drawing 13 profiles using 16 CPUs...
+    Drawing 14 profiles using 16 CPUs...
     
     Plotted profile 1 to:
      results/escape_profiles/Rockefeller_antibodies_stackedlogo.pdf
@@ -814,6 +814,18 @@ with multiprocessing.Pool(ncpus) as pool:
 
     
 ![png](escape_profiles_files/escape_profiles_26_25.png)
+    
+
+
+    
+    Plotted profile 14 to:
+     results/escape_profiles/HAARVI_sera_stackedlogo.pdf
+     results/escape_profiles/HAARVI_sera_stackedlogo.png.
+
+
+
+    
+![png](escape_profiles_files/escape_profiles_26_27.png)
     
 
 

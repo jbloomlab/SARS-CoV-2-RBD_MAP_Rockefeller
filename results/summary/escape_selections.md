@@ -108,52 +108,52 @@ display(HTML(escape_dms.head().to_html(index=False)))
   </thead>
   <tbody>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>A</td>
-      <td>0.002957</td>
-      <td>0.04652</td>
+      <td>0.002020</td>
+      <td>0.04926</td>
       <td>-0.03</td>
       <td>-0.11</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>D</td>
-      <td>0.002916</td>
-      <td>0.04652</td>
+      <td>0.005616</td>
+      <td>0.04926</td>
       <td>0.03</td>
       <td>-0.44</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>E</td>
-      <td>0.002804</td>
-      <td>0.04652</td>
+      <td>0.002535</td>
+      <td>0.04926</td>
       <td>0.00</td>
       <td>-0.31</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>F</td>
-      <td>0.003562</td>
-      <td>0.04652</td>
+      <td>0.003032</td>
+      <td>0.04926</td>
       <td>-0.10</td>
       <td>-0.70</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>G</td>
-      <td>0.003011</td>
-      <td>0.04652</td>
+      <td>0.003113</td>
+      <td>0.04926</td>
       <td>-0.04</td>
       <td>-0.25</td>
     </tr>
@@ -376,8 +376,8 @@ display(HTML(escape_dms_selection.head().to_html(index=False)))
       <td>331</td>
       <td>N</td>
       <td>A</td>
-      <td>0.001875</td>
-      <td>0.02987</td>
+      <td>0.001769</td>
+      <td>0.02874</td>
       <td>-0.03</td>
       <td>-0.11</td>
       <td>Weisblum_selections</td>
@@ -386,16 +386,16 @@ display(HTML(escape_dms_selection.head().to_html(index=False)))
       <td>C121</td>
       <td>85</td>
       <td>False</td>
-      <td>0.001977</td>
-      <td>0.001867</td>
+      <td>0.002123</td>
+      <td>0.001796</td>
     </tr>
     <tr>
       <td>C121_400</td>
       <td>331</td>
       <td>N</td>
       <td>D</td>
-      <td>0.001697</td>
-      <td>0.02987</td>
+      <td>0.001869</td>
+      <td>0.02874</td>
       <td>0.03</td>
       <td>-0.44</td>
       <td>Weisblum_selections</td>
@@ -404,16 +404,16 @@ display(HTML(escape_dms_selection.head().to_html(index=False)))
       <td>C121</td>
       <td>85</td>
       <td>False</td>
-      <td>0.001977</td>
-      <td>0.001867</td>
+      <td>0.002123</td>
+      <td>0.001796</td>
     </tr>
     <tr>
       <td>C121_400</td>
       <td>331</td>
       <td>N</td>
       <td>E</td>
-      <td>0.001804</td>
-      <td>0.02987</td>
+      <td>0.001578</td>
+      <td>0.02874</td>
       <td>0.00</td>
       <td>-0.31</td>
       <td>Weisblum_selections</td>
@@ -422,16 +422,16 @@ display(HTML(escape_dms_selection.head().to_html(index=False)))
       <td>C121</td>
       <td>85</td>
       <td>False</td>
-      <td>0.001977</td>
-      <td>0.001867</td>
+      <td>0.002123</td>
+      <td>0.001796</td>
     </tr>
     <tr>
       <td>C121_400</td>
       <td>331</td>
       <td>N</td>
       <td>F</td>
-      <td>0.001876</td>
-      <td>0.02987</td>
+      <td>0.001778</td>
+      <td>0.02874</td>
       <td>-0.10</td>
       <td>-0.70</td>
       <td>Weisblum_selections</td>
@@ -440,16 +440,16 @@ display(HTML(escape_dms_selection.head().to_html(index=False)))
       <td>C121</td>
       <td>85</td>
       <td>False</td>
-      <td>0.001977</td>
-      <td>0.001867</td>
+      <td>0.002123</td>
+      <td>0.001796</td>
     </tr>
     <tr>
       <td>C121_400</td>
       <td>331</td>
       <td>N</td>
       <td>G</td>
-      <td>0.001843</td>
-      <td>0.02987</td>
+      <td>0.001655</td>
+      <td>0.02874</td>
       <td>-0.04</td>
       <td>-0.25</td>
       <td>Weisblum_selections</td>
@@ -458,8 +458,8 @@ display(HTML(escape_dms_selection.head().to_html(index=False)))
       <td>C121</td>
       <td>85</td>
       <td>False</td>
-      <td>0.001977</td>
-      <td>0.001867</td>
+      <td>0.002123</td>
+      <td>0.001796</td>
     </tr>
   </tbody>
 </table>
@@ -531,8 +531,8 @@ display(HTML(escape_dms_selection.head().to_html(index=False)))
       <td>331</td>
       <td>N</td>
       <td>A</td>
-      <td>0.001875</td>
-      <td>0.02987</td>
+      <td>0.001769</td>
+      <td>0.02874</td>
       <td>-0.03</td>
       <td>-0.11</td>
       <td>Weisblum_selections</td>
@@ -541,8 +541,8 @@ display(HTML(escape_dms_selection.head().to_html(index=False)))
       <td>C121</td>
       <td>85</td>
       <td>False</td>
-      <td>0.001977</td>
-      <td>0.001867</td>
+      <td>0.002123</td>
+      <td>0.001796</td>
       <td>AAC</td>
       <td>N</td>
       <td>False</td>
@@ -552,8 +552,8 @@ display(HTML(escape_dms_selection.head().to_html(index=False)))
       <td>331</td>
       <td>N</td>
       <td>D</td>
-      <td>0.001697</td>
-      <td>0.02987</td>
+      <td>0.001869</td>
+      <td>0.02874</td>
       <td>0.03</td>
       <td>-0.44</td>
       <td>Weisblum_selections</td>
@@ -562,8 +562,8 @@ display(HTML(escape_dms_selection.head().to_html(index=False)))
       <td>C121</td>
       <td>85</td>
       <td>False</td>
-      <td>0.001977</td>
-      <td>0.001867</td>
+      <td>0.002123</td>
+      <td>0.001796</td>
       <td>AAC</td>
       <td>N</td>
       <td>True</td>
@@ -573,8 +573,8 @@ display(HTML(escape_dms_selection.head().to_html(index=False)))
       <td>331</td>
       <td>N</td>
       <td>E</td>
-      <td>0.001804</td>
-      <td>0.02987</td>
+      <td>0.001578</td>
+      <td>0.02874</td>
       <td>0.00</td>
       <td>-0.31</td>
       <td>Weisblum_selections</td>
@@ -583,8 +583,8 @@ display(HTML(escape_dms_selection.head().to_html(index=False)))
       <td>C121</td>
       <td>85</td>
       <td>False</td>
-      <td>0.001977</td>
-      <td>0.001867</td>
+      <td>0.002123</td>
+      <td>0.001796</td>
       <td>AAC</td>
       <td>N</td>
       <td>False</td>
@@ -594,8 +594,8 @@ display(HTML(escape_dms_selection.head().to_html(index=False)))
       <td>331</td>
       <td>N</td>
       <td>F</td>
-      <td>0.001876</td>
-      <td>0.02987</td>
+      <td>0.001778</td>
+      <td>0.02874</td>
       <td>-0.10</td>
       <td>-0.70</td>
       <td>Weisblum_selections</td>
@@ -604,8 +604,8 @@ display(HTML(escape_dms_selection.head().to_html(index=False)))
       <td>C121</td>
       <td>85</td>
       <td>False</td>
-      <td>0.001977</td>
-      <td>0.001867</td>
+      <td>0.002123</td>
+      <td>0.001796</td>
       <td>AAC</td>
       <td>N</td>
       <td>False</td>
@@ -615,8 +615,8 @@ display(HTML(escape_dms_selection.head().to_html(index=False)))
       <td>331</td>
       <td>N</td>
       <td>G</td>
-      <td>0.001843</td>
-      <td>0.02987</td>
+      <td>0.001655</td>
+      <td>0.02874</td>
       <td>-0.04</td>
       <td>-0.25</td>
       <td>Weisblum_selections</td>
@@ -625,8 +625,8 @@ display(HTML(escape_dms_selection.head().to_html(index=False)))
       <td>C121</td>
       <td>85</td>
       <td>False</td>
-      <td>0.001977</td>
-      <td>0.001867</td>
+      <td>0.002123</td>
+      <td>0.001796</td>
       <td>AAC</td>
       <td>N</td>
       <td>False</td>

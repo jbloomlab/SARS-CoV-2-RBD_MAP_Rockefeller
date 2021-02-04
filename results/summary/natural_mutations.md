@@ -124,48 +124,48 @@ escape_fracs
   <tbody>
     <tr>
       <th>0</th>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>A</td>
-      <td>0.002957</td>
-      <td>0.04652</td>
+      <td>0.002020</td>
+      <td>0.04926</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>D</td>
-      <td>0.002916</td>
-      <td>0.04652</td>
+      <td>0.005616</td>
+      <td>0.04926</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>E</td>
-      <td>0.002804</td>
-      <td>0.04652</td>
+      <td>0.002535</td>
+      <td>0.04926</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>F</td>
-      <td>0.003562</td>
-      <td>0.04652</td>
+      <td>0.003032</td>
+      <td>0.04926</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>G</td>
-      <td>0.003011</td>
-      <td>0.04652</td>
+      <td>0.003113</td>
+      <td>0.04926</td>
     </tr>
     <tr>
       <th>...</th>
@@ -177,53 +177,53 @@ escape_fracs
       <td>...</td>
     </tr>
     <tr>
-      <th>54547</th>
+      <th>99288</th>
       <td>REGN10987_400</td>
       <td>531</td>
       <td>T</td>
       <td>R</td>
-      <td>0.002305</td>
-      <td>0.04055</td>
+      <td>0.002448</td>
+      <td>0.04056</td>
     </tr>
     <tr>
-      <th>54548</th>
+      <th>99289</th>
       <td>REGN10987_400</td>
       <td>531</td>
       <td>T</td>
       <td>S</td>
-      <td>0.002368</td>
-      <td>0.04055</td>
+      <td>0.002555</td>
+      <td>0.04056</td>
     </tr>
     <tr>
-      <th>54549</th>
+      <th>99290</th>
       <td>REGN10987_400</td>
       <td>531</td>
       <td>T</td>
       <td>V</td>
-      <td>0.002198</td>
-      <td>0.04055</td>
+      <td>0.002227</td>
+      <td>0.04056</td>
     </tr>
     <tr>
-      <th>54550</th>
+      <th>99291</th>
       <td>REGN10987_400</td>
       <td>531</td>
       <td>T</td>
       <td>W</td>
-      <td>0.001965</td>
-      <td>0.04055</td>
+      <td>0.001916</td>
+      <td>0.04056</td>
     </tr>
     <tr>
-      <th>54551</th>
+      <th>99292</th>
       <td>REGN10987_400</td>
       <td>531</td>
       <td>T</td>
       <td>Y</td>
-      <td>0.002373</td>
-      <td>0.04055</td>
+      <td>0.002564</td>
+      <td>0.04056</td>
     </tr>
   </tbody>
 </table>
-<p>54552 rows × 6 columns</p>
+<p>99293 rows × 6 columns</p>
 </div>
 
 
@@ -282,11 +282,47 @@ display(HTML(sitecounts_strong_sites.head(n=20).to_html(index=False)))
   </thead>
   <tbody>
     <tr>
-      <td>COV-021_500</td>
+      <td>COV2-2499_400</td>
       <td>sensitive</td>
       <td>501</td>
       <td>N</td>
-      <td>0.4103</td>
+      <td>0.4765</td>
+      <td>11434</td>
+      <td>N501Y (11216), N501T (209), N501S (6), N501I (3)</td>
+    </tr>
+    <tr>
+      <td>22C_d28_200</td>
+      <td>sensitive</td>
+      <td>501</td>
+      <td>N</td>
+      <td>1.2370</td>
+      <td>11434</td>
+      <td>N501Y (11216), N501T (209), N501S (6), N501I (3)</td>
+    </tr>
+    <tr>
+      <td>25C_d115_80</td>
+      <td>sensitive_max_mut</td>
+      <td>501</td>
+      <td>N</td>
+      <td>0.9038</td>
+      <td>11434</td>
+      <td>N501Y (11216), N501T (209), N501S (6), N501I (3)</td>
+    </tr>
+    <tr>
+      <td>25_d18_500</td>
+      <td>sensitive</td>
+      <td>501</td>
+      <td>N</td>
+      <td>0.6856</td>
+      <td>11434</td>
+      <td>N501Y (11216), N501T (209), N501S (6), N501I (3)</td>
+    </tr>
+    <tr>
+      <td>25_d18_500</td>
+      <td>sensitive_max_mut</td>
+      <td>501</td>
+      <td>N</td>
+      <td>0.6856</td>
       <td>11434</td>
       <td>N501Y (11216), N501T (209), N501S (6), N501I (3)</td>
     </tr>
@@ -295,34 +331,25 @@ display(HTML(sitecounts_strong_sites.head(n=20).to_html(index=False)))
       <td>sensitive_max_mut</td>
       <td>501</td>
       <td>N</td>
-      <td>0.5019</td>
+      <td>0.4765</td>
       <td>11434</td>
       <td>N501Y (11216), N501T (209), N501S (6), N501I (3)</td>
     </tr>
     <tr>
-      <td>CB6_400</td>
+      <td>22C_d28_200</td>
       <td>sensitive_max_mut</td>
       <td>501</td>
       <td>N</td>
-      <td>1.4430</td>
+      <td>1.2370</td>
       <td>11434</td>
       <td>N501Y (11216), N501T (209), N501S (6), N501I (3)</td>
     </tr>
     <tr>
-      <td>COV2-2499_400</td>
+      <td>25C_d115_80</td>
       <td>sensitive</td>
       <td>501</td>
       <td>N</td>
-      <td>0.5019</td>
-      <td>11434</td>
-      <td>N501Y (11216), N501T (209), N501S (6), N501I (3)</td>
-    </tr>
-    <tr>
-      <td>COV-021_500</td>
-      <td>sensitive_max_mut</td>
-      <td>501</td>
-      <td>N</td>
-      <td>0.4103</td>
+      <td>0.9038</td>
       <td>11434</td>
       <td>N501Y (11216), N501T (209), N501S (6), N501I (3)</td>
     </tr>
@@ -331,97 +358,88 @@ display(HTML(sitecounts_strong_sites.head(n=20).to_html(index=False)))
       <td>sensitive</td>
       <td>501</td>
       <td>N</td>
-      <td>1.4430</td>
+      <td>1.5790</td>
+      <td>11434</td>
+      <td>N501Y (11216), N501T (209), N501S (6), N501I (3)</td>
+    </tr>
+    <tr>
+      <td>CB6_400</td>
+      <td>sensitive_max_mut</td>
+      <td>501</td>
+      <td>N</td>
+      <td>1.5790</td>
+      <td>11434</td>
+      <td>N501Y (11216), N501T (209), N501S (6), N501I (3)</td>
+    </tr>
+    <tr>
+      <td>COV-021_500</td>
+      <td>sensitive</td>
+      <td>501</td>
+      <td>N</td>
+      <td>0.3541</td>
+      <td>11434</td>
+      <td>N501Y (11216), N501T (209), N501S (6), N501I (3)</td>
+    </tr>
+    <tr>
+      <td>COV-021_500</td>
+      <td>sensitive_max_mut</td>
+      <td>501</td>
+      <td>N</td>
+      <td>0.3541</td>
       <td>11434</td>
       <td>N501Y (11216), N501T (209), N501S (6), N501I (3)</td>
     </tr>
     <tr>
       <td>REGN10987_400</td>
-      <td>default</td>
+      <td>sensitive</td>
       <td>439</td>
       <td>N</td>
-      <td>2.1500</td>
+      <td>2.1660</td>
+      <td>5262</td>
+      <td>N439K (5262)</td>
+    </tr>
+    <tr>
+      <td>25_d18_500</td>
+      <td>sensitive_max_mut</td>
+      <td>439</td>
+      <td>N</td>
+      <td>0.6198</td>
       <td>5262</td>
       <td>N439K (5262)</td>
     </tr>
     <tr>
       <td>REGN10987_400</td>
+      <td>sensitive_max_mut</td>
+      <td>439</td>
+      <td>N</td>
+      <td>2.1660</td>
+      <td>5262</td>
+      <td>N439K (5262)</td>
+    </tr>
+    <tr>
+      <td>25_d18_500</td>
       <td>sensitive</td>
       <td>439</td>
       <td>N</td>
-      <td>2.1500</td>
+      <td>0.6198</td>
       <td>5262</td>
       <td>N439K (5262)</td>
     </tr>
     <tr>
       <td>REGN10987_400</td>
-      <td>sensitive_max_mut</td>
+      <td>default</td>
       <td>439</td>
       <td>N</td>
-      <td>2.1500</td>
+      <td>2.1660</td>
       <td>5262</td>
       <td>N439K (5262)</td>
     </tr>
     <tr>
-      <td>REGN10933_400</td>
-      <td>default</td>
-      <td>453</td>
-      <td>Y</td>
-      <td>4.1070</td>
-      <td>994</td>
-      <td>Y453F (994)</td>
-    </tr>
-    <tr>
-      <td>REGN10933+REGN10987_400</td>
-      <td>sensitive</td>
-      <td>453</td>
-      <td>Y</td>
-      <td>0.1267</td>
-      <td>994</td>
-      <td>Y453F (994)</td>
-    </tr>
-    <tr>
       <td>C105_400</td>
       <td>sensitive_max_mut</td>
       <td>453</td>
       <td>Y</td>
-      <td>2.0470</td>
-      <td>994</td>
-      <td>Y453F (994)</td>
-    </tr>
-    <tr>
-      <td>REGN10933+REGN10987_400</td>
-      <td>sensitive_max_mut</td>
-      <td>453</td>
-      <td>Y</td>
-      <td>0.1267</td>
-      <td>994</td>
-      <td>Y453F (994)</td>
-    </tr>
-    <tr>
-      <td>REGN10933_400</td>
-      <td>sensitive</td>
-      <td>453</td>
-      <td>Y</td>
-      <td>4.1070</td>
-      <td>994</td>
-      <td>Y453F (994)</td>
-    </tr>
-    <tr>
-      <td>REGN10933_400</td>
-      <td>sensitive_max_mut</td>
-      <td>453</td>
-      <td>Y</td>
-      <td>4.1070</td>
-      <td>994</td>
-      <td>Y453F (994)</td>
-    </tr>
-    <tr>
-      <td>C105_400</td>
-      <td>sensitive</td>
-      <td>453</td>
-      <td>Y</td>
-      <td>2.0470</td>
+      <td>2.0130</td>
       <td>994</td>
       <td>Y453F (994)</td>
     </tr>
@@ -430,36 +448,18 @@ display(HTML(sitecounts_strong_sites.head(n=20).to_html(index=False)))
       <td>default</td>
       <td>453</td>
       <td>Y</td>
-      <td>2.0470</td>
+      <td>2.0130</td>
       <td>994</td>
       <td>Y453F (994)</td>
     </tr>
     <tr>
-      <td>COV-021_500</td>
-      <td>sensitive</td>
-      <td>484</td>
-      <td>E</td>
-      <td>2.5080</td>
-      <td>615</td>
-      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
-    </tr>
-    <tr>
-      <td>COV-021_500</td>
-      <td>sensitive_max_mut</td>
-      <td>484</td>
-      <td>E</td>
-      <td>2.5080</td>
-      <td>615</td>
-      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
-    </tr>
-    <tr>
       <td>REGN10933_400</td>
-      <td>sensitive_max_mut</td>
-      <td>484</td>
-      <td>E</td>
-      <td>2.9970</td>
-      <td>615</td>
-      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+      <td>default</td>
+      <td>453</td>
+      <td>Y</td>
+      <td>4.1080</td>
+      <td>994</td>
+      <td>Y453F (994)</td>
     </tr>
   </tbody>
 </table>
@@ -565,14 +565,6 @@ for name, specs in escape_profiles_config.items():
   </thead>
   <tbody>
     <tr>
-      <td>COV-047</td>
-      <td>default</td>
-      <td>484</td>
-      <td>E</td>
-      <td>615</td>
-      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
-    </tr>
-    <tr>
       <td>COV-021</td>
       <td>default</td>
       <td>484</td>
@@ -581,7 +573,7 @@ for name, specs in escape_profiles_config.items():
       <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
     </tr>
     <tr>
-      <td>COV-057</td>
+      <td>COV-047</td>
       <td>default</td>
       <td>484</td>
       <td>E</td>
@@ -590,6 +582,14 @@ for name, specs in escape_profiles_config.items():
     </tr>
     <tr>
       <td>COV-072</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>COV-057</td>
       <td>default</td>
       <td>484</td>
       <td>E</td>
@@ -676,14 +676,6 @@ for name, specs in escape_profiles_config.items():
   </thead>
   <tbody>
     <tr>
-      <td>REGN10933</td>
-      <td>default</td>
-      <td>453</td>
-      <td>Y</td>
-      <td>994</td>
-      <td>Y453F (994)</td>
-    </tr>
-    <tr>
       <td>C105</td>
       <td>default</td>
       <td>453</td>
@@ -694,10 +686,10 @@ for name, specs in escape_profiles_config.items():
     <tr>
       <td>REGN10933</td>
       <td>default</td>
-      <td>484</td>
-      <td>E</td>
-      <td>615</td>
-      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+      <td>453</td>
+      <td>Y</td>
+      <td>994</td>
+      <td>Y453F (994)</td>
     </tr>
     <tr>
       <td>COV2-2832</td>
@@ -708,12 +700,12 @@ for name, specs in escape_profiles_config.items():
       <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
     </tr>
     <tr>
-      <td>LY-CoV016</td>
+      <td>REGN10933</td>
       <td>default</td>
-      <td>417</td>
-      <td>K</td>
-      <td>349</td>
-      <td>K417N (347), K417R (2)</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
     </tr>
     <tr>
       <td>REGN10933</td>
@@ -734,13 +726,13 @@ for name, specs in escape_profiles_config.items():
     <tr>
       <td>LY-CoV016</td>
       <td>default</td>
-      <td>475</td>
-      <td>A</td>
-      <td>110</td>
-      <td>A475S (59), A475V (50), A475T (1)</td>
+      <td>417</td>
+      <td>K</td>
+      <td>349</td>
+      <td>K417N (347), K417R (2)</td>
     </tr>
     <tr>
-      <td>COV2-2832</td>
+      <td>REGN10933</td>
       <td>default</td>
       <td>475</td>
       <td>A</td>
@@ -748,7 +740,15 @@ for name, specs in escape_profiles_config.items():
       <td>A475S (59), A475V (50), A475T (1)</td>
     </tr>
     <tr>
-      <td>COV2-2196</td>
+      <td>LY-CoV016</td>
+      <td>default</td>
+      <td>475</td>
+      <td>A</td>
+      <td>110</td>
+      <td>A475S (59), A475V (50), A475T (1)</td>
+    </tr>
+    <tr>
+      <td>COV2-2832</td>
       <td>default</td>
       <td>475</td>
       <td>A</td>
@@ -787,7 +787,7 @@ for name, specs in escape_profiles_config.items():
   </thead>
   <tbody>
     <tr>
-      <td>COV2-2479</td>
+      <td>C144</td>
       <td>default</td>
       <td>484</td>
       <td>E</td>
@@ -796,14 +796,6 @@ for name, specs in escape_profiles_config.items():
     </tr>
     <tr>
       <td>C121</td>
-      <td>default</td>
-      <td>484</td>
-      <td>E</td>
-      <td>615</td>
-      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
-    </tr>
-    <tr>
-      <td>C144</td>
       <td>default</td>
       <td>484</td>
       <td>E</td>
@@ -820,6 +812,14 @@ for name, specs in escape_profiles_config.items():
     </tr>
     <tr>
       <td>C002</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>COV2-2479</td>
       <td>default</td>
       <td>484</td>
       <td>E</td>
@@ -843,7 +843,15 @@ for name, specs in escape_profiles_config.items():
       <td>V483A (67), V483F (62), V483L (5), V483I (4)</td>
     </tr>
     <tr>
-      <td>C121</td>
+      <td>COV2-2050</td>
+      <td>default</td>
+      <td>490</td>
+      <td>F</td>
+      <td>85</td>
+      <td>F490S (60), F490L (21), F490V (4)</td>
+    </tr>
+    <tr>
+      <td>C144</td>
       <td>default</td>
       <td>490</td>
       <td>F</td>
@@ -852,14 +860,6 @@ for name, specs in escape_profiles_config.items():
     </tr>
     <tr>
       <td>COV2-2479</td>
-      <td>default</td>
-      <td>490</td>
-      <td>F</td>
-      <td>85</td>
-      <td>F490S (60), F490L (21), F490V (4)</td>
-    </tr>
-    <tr>
-      <td>COV2-2050</td>
       <td>default</td>
       <td>490</td>
       <td>F</td>
@@ -914,6 +914,14 @@ for name, specs in escape_profiles_config.items():
       <td>L452R (385), L452M (57), L452Q (7), L452P (1)</td>
     </tr>
     <tr>
+      <td>COV2-2130</td>
+      <td>default</td>
+      <td>494</td>
+      <td>S</td>
+      <td>275</td>
+      <td>S494P (256), S494L (13), S494A (6)</td>
+    </tr>
+    <tr>
       <td>C110</td>
       <td>default</td>
       <td>494</td>
@@ -922,23 +930,7 @@ for name, specs in escape_profiles_config.items():
       <td>S494P (256), S494L (13), S494A (6)</td>
     </tr>
     <tr>
-      <td>COV2-2130</td>
-      <td>default</td>
-      <td>494</td>
-      <td>S</td>
-      <td>275</td>
-      <td>S494P (256), S494L (13), S494A (6)</td>
-    </tr>
-    <tr>
-      <td>COV2-2499</td>
-      <td>default</td>
-      <td>446</td>
-      <td>G</td>
-      <td>101</td>
-      <td>G446V (90), G446S (8), G446A (2), G446D (1)</td>
-    </tr>
-    <tr>
-      <td>COV2-2130</td>
+      <td>C110</td>
       <td>default</td>
       <td>446</td>
       <td>G</td>
@@ -954,7 +946,15 @@ for name, specs in escape_profiles_config.items():
       <td>G446V (90), G446S (8), G446A (2), G446D (1)</td>
     </tr>
     <tr>
-      <td>C110</td>
+      <td>COV2-2130</td>
+      <td>default</td>
+      <td>446</td>
+      <td>G</td>
+      <td>101</td>
+      <td>G446V (90), G446S (8), G446A (2), G446D (1)</td>
+    </tr>
+    <tr>
+      <td>COV2-2499</td>
       <td>default</td>
       <td>446</td>
       <td>G</td>
@@ -987,6 +987,117 @@ for name, specs in escape_profiles_config.items():
 
     
 ![png](natural_mutations_files/natural_mutations_20_15.png)
+    
+
+
+    
+    Analyzing natural mutations for HAARVI_sera
+    Writing counts of mutations at sites of strong escape to results/GISAID_mutations/HAARVI_sera_mutation_counts.csv. First few lines:
+
+
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>condition</th>
+      <th>threshold</th>
+      <th>site</th>
+      <th>wildtype</th>
+      <th>count</th>
+      <th>counts_by_mutation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>subject E (day 104)</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>subject E (day 28)</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>subject B (day 26)</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>subject C (day 104)</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>subject G (day 18)</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>subject F (day 48)</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>subject C (day 32)</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>subject D (day 33)</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>subject F (day 115)</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>subject A (day 21)</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>615</td>
+      <td>E484K (536), E484Q (54), E484A (8), E484G (7), E484D (6), E484R (3), E484V (1)</td>
+    </tr>
+  </tbody>
+</table>
+
+
+    Plotting which antibodies / sera are escaped by mutations at all sites of escape with at least 5 mutation counts and saving to results/GISAID_mutations/HAARVI_sera_mutation_counts.pdf.
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_20_19.png)
     
 
 
@@ -1035,70 +1146,70 @@ display(HTML(escape_and_freq.head().to_html()))
   <tbody>
     <tr>
       <th>0</th>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>A</td>
-      <td>0.002957</td>
-      <td>0.04652</td>
-      <td>0.003562</td>
-      <td>0.002907</td>
+      <td>0.002020</td>
+      <td>0.04926</td>
+      <td>0.007632</td>
+      <td>0.003079</td>
       <td>0.0</td>
       <td>0.000003</td>
       <td>N331A</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>D</td>
-      <td>0.002916</td>
-      <td>0.04652</td>
-      <td>0.003562</td>
-      <td>0.002907</td>
+      <td>0.005616</td>
+      <td>0.04926</td>
+      <td>0.007632</td>
+      <td>0.003079</td>
       <td>0.0</td>
       <td>0.000003</td>
       <td>N331D</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>E</td>
-      <td>0.002804</td>
-      <td>0.04652</td>
-      <td>0.003562</td>
-      <td>0.002907</td>
+      <td>0.002535</td>
+      <td>0.04926</td>
+      <td>0.007632</td>
+      <td>0.003079</td>
       <td>0.0</td>
       <td>0.000003</td>
       <td>N331E</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>F</td>
-      <td>0.003562</td>
-      <td>0.04652</td>
-      <td>0.003562</td>
-      <td>0.002907</td>
+      <td>0.003032</td>
+      <td>0.04926</td>
+      <td>0.007632</td>
+      <td>0.003079</td>
       <td>0.0</td>
       <td>0.000003</td>
       <td>N331F</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>G</td>
-      <td>0.003011</td>
-      <td>0.04652</td>
-      <td>0.003562</td>
-      <td>0.002907</td>
+      <td>0.003113</td>
+      <td>0.04926</td>
+      <td>0.007632</td>
+      <td>0.003079</td>
       <td>0.0</td>
       <td>0.000003</td>
       <td>N331G</td>
@@ -1318,10 +1429,9 @@ for name, specs in escape_profiles_config.items():
     
 
 
-
     
-![png](natural_mutations_files/natural_mutations_24_16.png)
-    
+    Analyzing natural mutations for HAARVI_sera
+    Plotting each condition and saving to results/GISAID_mutations/HAARVI_sera_escape_vs_freq_by-condition.pdf
 
 
 
@@ -1330,10 +1440,7 @@ for name, specs in escape_profiles_config.items():
     
 
 
-
-    
-![png](natural_mutations_files/natural_mutations_24_18.png)
-    
+    Plotting average across conditions and saving to results/GISAID_mutations/HAARVI_sera_escape_vs_freq_average.pdf
 
 
 
@@ -1363,6 +1470,42 @@ for name, specs in escape_profiles_config.items():
 
     
 ![png](natural_mutations_files/natural_mutations_24_23.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_24.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_25.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_26.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_27.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_28.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_29.png)
     
 
 

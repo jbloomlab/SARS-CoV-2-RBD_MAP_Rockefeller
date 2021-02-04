@@ -107,54 +107,54 @@ display(HTML(escape_fracs.head().to_html(index=False)))
   </thead>
   <tbody>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
-      <td>0.046514</td>
-      <td>0.003562</td>
-      <td>0.41504</td>
-      <td>0.1983</td>
-      <td>0.112071</td>
-      <td>0.017963</td>
+      <td>0.049257</td>
+      <td>0.007632</td>
+      <td>2.99825</td>
+      <td>0.2456</td>
+      <td>0.016428</td>
+      <td>0.031075</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>332</td>
-      <td>0.059104</td>
-      <td>0.004257</td>
-      <td>0.41504</td>
-      <td>0.1983</td>
-      <td>0.142406</td>
-      <td>0.021467</td>
+      <td>0.109619</td>
+      <td>0.015340</td>
+      <td>2.99825</td>
+      <td>0.2456</td>
+      <td>0.036561</td>
+      <td>0.062459</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>333</td>
-      <td>0.048472</td>
-      <td>0.003397</td>
-      <td>0.41504</td>
-      <td>0.1983</td>
-      <td>0.116789</td>
-      <td>0.017131</td>
+      <td>0.051312</td>
+      <td>0.008701</td>
+      <td>2.99825</td>
+      <td>0.2456</td>
+      <td>0.017114</td>
+      <td>0.035428</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>334</td>
-      <td>0.053040</td>
-      <td>0.004178</td>
-      <td>0.41504</td>
-      <td>0.1983</td>
-      <td>0.127795</td>
-      <td>0.021069</td>
+      <td>0.153061</td>
+      <td>0.030090</td>
+      <td>2.99825</td>
+      <td>0.2456</td>
+      <td>0.051050</td>
+      <td>0.122516</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>335</td>
-      <td>0.058156</td>
-      <td>0.004501</td>
-      <td>0.41504</td>
-      <td>0.1983</td>
-      <td>0.140121</td>
-      <td>0.022698</td>
+      <td>0.115742</td>
+      <td>0.021650</td>
+      <td>2.99825</td>
+      <td>0.2456</td>
+      <td>0.038603</td>
+      <td>0.088151</td>
     </tr>
   </tbody>
 </table>
@@ -211,13 +211,128 @@ for name, specs in output_pdbs_config.items():
 
     
     Making PDB mappings for 6m0j to data/pdbs/6M0J.pdb
-    Making mappings for 28 conditions.
+    Making mappings for 51 conditions.
     Mapping to the following chains: E
+      Writing B-factor re-assigned PDBs for 12C_d152_80 to:
+        results/pdb_outputs/12C_d152_80_6m0j_total_escape.pdb
+        results/pdb_outputs/12C_d152_80_6m0j_max_escape.pdb
+        results/pdb_outputs/12C_d152_80_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/12C_d152_80_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 12C_d61_160 to:
+        results/pdb_outputs/12C_d61_160_6m0j_total_escape.pdb
+        results/pdb_outputs/12C_d61_160_6m0j_max_escape.pdb
+        results/pdb_outputs/12C_d61_160_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/12C_d61_160_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 13_d121_1250 to:
+        results/pdb_outputs/13_d121_1250_6m0j_total_escape.pdb
+        results/pdb_outputs/13_d121_1250_6m0j_max_escape.pdb
+        results/pdb_outputs/13_d121_1250_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/13_d121_1250_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 13_d15_200 to:
+        results/pdb_outputs/13_d15_200_6m0j_total_escape.pdb
+        results/pdb_outputs/13_d15_200_6m0j_max_escape.pdb
+        results/pdb_outputs/13_d15_200_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/13_d15_200_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 1C_d113_200 to:
+        results/pdb_outputs/1C_d113_200_6m0j_total_escape.pdb
+        results/pdb_outputs/1C_d113_200_6m0j_max_escape.pdb
+        results/pdb_outputs/1C_d113_200_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/1C_d113_200_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 1C_d26_200 to:
+        results/pdb_outputs/1C_d26_200_6m0j_total_escape.pdb
+        results/pdb_outputs/1C_d26_200_6m0j_max_escape.pdb
+        results/pdb_outputs/1C_d26_200_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/1C_d26_200_6m0j_norm_max_escape.pdb
       Writing B-factor re-assigned PDBs for 2196+2130_400 to:
         results/pdb_outputs/2196+2130_400_6m0j_total_escape.pdb
         results/pdb_outputs/2196+2130_400_6m0j_max_escape.pdb
         results/pdb_outputs/2196+2130_400_6m0j_norm_total_escape.pdb
         results/pdb_outputs/2196+2130_400_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 22C_d104_200 to:
+        results/pdb_outputs/22C_d104_200_6m0j_total_escape.pdb
+        results/pdb_outputs/22C_d104_200_6m0j_max_escape.pdb
+        results/pdb_outputs/22C_d104_200_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/22C_d104_200_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 22C_d28_200 to:
+        results/pdb_outputs/22C_d28_200_6m0j_total_escape.pdb
+        results/pdb_outputs/22C_d28_200_6m0j_max_escape.pdb
+        results/pdb_outputs/22C_d28_200_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/22C_d28_200_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 23C_d102_80 to:
+        results/pdb_outputs/23C_d102_80_6m0j_total_escape.pdb
+        results/pdb_outputs/23C_d102_80_6m0j_max_escape.pdb
+        results/pdb_outputs/23C_d102_80_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/23C_d102_80_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 23C_d26_80 to:
+        results/pdb_outputs/23C_d26_80_6m0j_total_escape.pdb
+        results/pdb_outputs/23C_d26_80_6m0j_max_escape.pdb
+        results/pdb_outputs/23C_d26_80_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/23C_d26_80_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 23_d120_500 to:
+        results/pdb_outputs/23_d120_500_6m0j_total_escape.pdb
+        results/pdb_outputs/23_d120_500_6m0j_max_escape.pdb
+        results/pdb_outputs/23_d120_500_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/23_d120_500_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 23_d21_1250 to:
+        results/pdb_outputs/23_d21_1250_6m0j_total_escape.pdb
+        results/pdb_outputs/23_d21_1250_6m0j_max_escape.pdb
+        results/pdb_outputs/23_d21_1250_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/23_d21_1250_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 23_d45_1250 to:
+        results/pdb_outputs/23_d45_1250_6m0j_total_escape.pdb
+        results/pdb_outputs/23_d45_1250_6m0j_max_escape.pdb
+        results/pdb_outputs/23_d45_1250_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/23_d45_1250_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 24C_d104_200 to:
+        results/pdb_outputs/24C_d104_200_6m0j_total_escape.pdb
+        results/pdb_outputs/24C_d104_200_6m0j_max_escape.pdb
+        results/pdb_outputs/24C_d104_200_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/24C_d104_200_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 24C_d32_200 to:
+        results/pdb_outputs/24C_d32_200_6m0j_total_escape.pdb
+        results/pdb_outputs/24C_d32_200_6m0j_max_escape.pdb
+        results/pdb_outputs/24C_d32_200_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/24C_d32_200_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 25C_d115_80 to:
+        results/pdb_outputs/25C_d115_80_6m0j_total_escape.pdb
+        results/pdb_outputs/25C_d115_80_6m0j_max_escape.pdb
+        results/pdb_outputs/25C_d115_80_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/25C_d115_80_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 25C_d48_200 to:
+        results/pdb_outputs/25C_d48_200_6m0j_total_escape.pdb
+        results/pdb_outputs/25C_d48_200_6m0j_max_escape.pdb
+        results/pdb_outputs/25C_d48_200_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/25C_d48_200_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 25_d18_500 to:
+        results/pdb_outputs/25_d18_500_6m0j_total_escape.pdb
+        results/pdb_outputs/25_d18_500_6m0j_max_escape.pdb
+        results/pdb_outputs/25_d18_500_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/25_d18_500_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 25_d94_200 to:
+        results/pdb_outputs/25_d94_200_6m0j_total_escape.pdb
+        results/pdb_outputs/25_d94_200_6m0j_max_escape.pdb
+        results/pdb_outputs/25_d94_200_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/25_d94_200_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 6C_d33_500 to:
+        results/pdb_outputs/6C_d33_500_6m0j_total_escape.pdb
+        results/pdb_outputs/6C_d33_500_6m0j_max_escape.pdb
+        results/pdb_outputs/6C_d33_500_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/6C_d33_500_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 6C_d76_500 to:
+        results/pdb_outputs/6C_d76_500_6m0j_total_escape.pdb
+        results/pdb_outputs/6C_d76_500_6m0j_max_escape.pdb
+        results/pdb_outputs/6C_d76_500_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/6C_d76_500_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 7C_d103_200 to:
+        results/pdb_outputs/7C_d103_200_6m0j_total_escape.pdb
+        results/pdb_outputs/7C_d103_200_6m0j_max_escape.pdb
+        results/pdb_outputs/7C_d103_200_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/7C_d103_200_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for 7C_d29_500 to:
+        results/pdb_outputs/7C_d29_500_6m0j_total_escape.pdb
+        results/pdb_outputs/7C_d29_500_6m0j_max_escape.pdb
+        results/pdb_outputs/7C_d29_500_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/7C_d29_500_6m0j_norm_max_escape.pdb
       Writing B-factor re-assigned PDBs for C002_400 to:
         results/pdb_outputs/C002_400_6m0j_total_escape.pdb
         results/pdb_outputs/C002_400_6m0j_max_escape.pdb
