@@ -91,78 +91,78 @@ display(HTML(escape_fracs.head().to_html(index=False)))
   </thead>
   <tbody>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>A</td>
       <td>E</td>
       <td>331</td>
-      <td>0.002957</td>
-      <td>0.000735</td>
-      <td>0.04652</td>
-      <td>0.03689</td>
-      <td>0.002907</td>
-      <td>0.002305</td>
+      <td>0.002020</td>
+      <td>0.001326</td>
+      <td>0.04926</td>
+      <td>0.0478</td>
+      <td>0.003079</td>
+      <td>0.002988</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>D</td>
       <td>E</td>
       <td>331</td>
-      <td>0.002916</td>
-      <td>0.000800</td>
-      <td>0.04652</td>
-      <td>0.03689</td>
-      <td>0.002907</td>
-      <td>0.002305</td>
+      <td>0.005616</td>
+      <td>0.000537</td>
+      <td>0.04926</td>
+      <td>0.0478</td>
+      <td>0.003079</td>
+      <td>0.002988</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>E</td>
       <td>E</td>
       <td>331</td>
-      <td>0.002804</td>
-      <td>0.001046</td>
-      <td>0.04652</td>
-      <td>0.03689</td>
-      <td>0.002907</td>
-      <td>0.002305</td>
+      <td>0.002535</td>
+      <td>0.000482</td>
+      <td>0.04926</td>
+      <td>0.0478</td>
+      <td>0.003079</td>
+      <td>0.002988</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>F</td>
       <td>E</td>
       <td>331</td>
-      <td>0.003562</td>
-      <td>0.000688</td>
-      <td>0.04652</td>
-      <td>0.03689</td>
-      <td>0.002907</td>
-      <td>0.002305</td>
+      <td>0.003032</td>
+      <td>0.005816</td>
+      <td>0.04926</td>
+      <td>0.0478</td>
+      <td>0.003079</td>
+      <td>0.002988</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>2196+2130_400</td>
+      <td>12C_d152_80</td>
       <td>331</td>
       <td>N</td>
       <td>G</td>
       <td>E</td>
       <td>331</td>
-      <td>0.003011</td>
-      <td>0.003503</td>
-      <td>0.04652</td>
-      <td>0.03689</td>
-      <td>0.002907</td>
-      <td>0.002305</td>
+      <td>0.003113</td>
+      <td>0.001273</td>
+      <td>0.04926</td>
+      <td>0.0478</td>
+      <td>0.003079</td>
+      <td>0.002988</td>
       <td>2</td>
     </tr>
   </tbody>
@@ -341,15 +341,15 @@ strong_sites.to_csv(config['strong_escape_sites'], index=False)
   <tbody>
     <tr>
       <th>default</th>
-      <td>48</td>
+      <td>54</td>
     </tr>
     <tr>
       <th>sensitive</th>
-      <td>61</td>
+      <td>74</td>
     </tr>
     <tr>
       <th>sensitive_max_mut</th>
-      <td>64</td>
+      <td>75</td>
     </tr>
   </tbody>
 </table>
@@ -384,16 +384,16 @@ strong_sites.to_csv(config['strong_escape_sites'], index=False)
   <tbody>
     <tr>
       <th>0</th>
-      <td>C002_400</td>
-      <td>452</td>
-      <td>3.465</td>
-      <td>0.9900</td>
+      <td>12C_d152_80</td>
+      <td>446</td>
+      <td>1.051</td>
+      <td>0.1430</td>
       <td>default</td>
-      <td>0.027</td>
-      <td>17.45</td>
-      <td>0.27</td>
+      <td>0.1038</td>
+      <td>2.998</td>
+      <td>1.038</td>
       <td>True</td>
-      <td>1.745</td>
+      <td>0.2998</td>
       <td>True</td>
       <td>0</td>
       <td>True</td>
@@ -403,16 +403,16 @@ strong_sites.to_csv(config['strong_escape_sites'], index=False)
     </tr>
     <tr>
       <th>1</th>
-      <td>C002_400</td>
-      <td>455</td>
-      <td>6.300</td>
-      <td>0.9436</td>
+      <td>12C_d152_80</td>
+      <td>447</td>
+      <td>2.226</td>
+      <td>0.2120</td>
       <td>default</td>
-      <td>0.027</td>
-      <td>17.45</td>
-      <td>0.27</td>
+      <td>0.1038</td>
+      <td>2.998</td>
+      <td>1.038</td>
       <td>True</td>
-      <td>1.745</td>
+      <td>0.2998</td>
       <td>True</td>
       <td>0</td>
       <td>True</td>
@@ -422,16 +422,16 @@ strong_sites.to_csv(config['strong_escape_sites'], index=False)
     </tr>
     <tr>
       <th>2</th>
-      <td>C002_400</td>
-      <td>456</td>
-      <td>8.613</td>
-      <td>1.0000</td>
+      <td>12C_d152_80</td>
+      <td>448</td>
+      <td>2.107</td>
+      <td>0.2296</td>
       <td>default</td>
-      <td>0.027</td>
-      <td>17.45</td>
-      <td>0.27</td>
+      <td>0.1038</td>
+      <td>2.998</td>
+      <td>1.038</td>
       <td>True</td>
-      <td>1.745</td>
+      <td>0.2998</td>
       <td>True</td>
       <td>0</td>
       <td>True</td>
@@ -441,16 +441,16 @@ strong_sites.to_csv(config['strong_escape_sites'], index=False)
     </tr>
     <tr>
       <th>3</th>
-      <td>C002_400</td>
-      <td>472</td>
-      <td>4.913</td>
-      <td>0.9498</td>
+      <td>12C_d152_80</td>
+      <td>449</td>
+      <td>2.872</td>
+      <td>0.2164</td>
       <td>default</td>
-      <td>0.027</td>
-      <td>17.45</td>
-      <td>0.27</td>
+      <td>0.1038</td>
+      <td>2.998</td>
+      <td>1.038</td>
       <td>True</td>
-      <td>1.745</td>
+      <td>0.2998</td>
       <td>True</td>
       <td>0</td>
       <td>True</td>
@@ -460,16 +460,16 @@ strong_sites.to_csv(config['strong_escape_sites'], index=False)
     </tr>
     <tr>
       <th>4</th>
-      <td>C002_400</td>
-      <td>473</td>
-      <td>1.803</td>
-      <td>0.9117</td>
+      <td>12C_d152_80</td>
+      <td>452</td>
+      <td>2.547</td>
+      <td>0.1929</td>
       <td>default</td>
-      <td>0.027</td>
-      <td>17.45</td>
-      <td>0.27</td>
+      <td>0.1038</td>
+      <td>2.998</td>
+      <td>1.038</td>
       <td>True</td>
-      <td>1.745</td>
+      <td>0.2998</td>
       <td>True</td>
       <td>0</td>
       <td>True</td>

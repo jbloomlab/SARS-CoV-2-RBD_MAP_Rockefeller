@@ -147,46 +147,6 @@ Rockefeller_antibodies:
       490: [gray, 0.15]
       494: [gray, 0.15]
   analyze_natural_mutations: false
-  analyze_natural_mutations_specs:
-    maxcol: 3
-    also_label: [346, 417, 439, 444, 452, 453, 455, 472, 484, 486, 490, 493, 494, 501]
-    label_font_size: 7
-    default_color: '#999999'
-    default_alpha: 0.6
-    set_point_alpha:
-      490: 1
-      493: 1
-      455: 1
-      444: 1
-      346: 1
-      452: 1
-      494: 1
-      453: 1
-      472: 1
-      484: 1
-      486: 1
-      417: 1
-      439: 1
-      501: 1
-    set_point_color:
-      472: '#6A0DAD'
-      490: '#6A0DAD'
-      493: '#6A0DAD'
-      455: '#A81AA1'
-      486: '#A81AA1'
-      444: '#66CCEE'
-      346: '#66CCEE'
-      452: '#66CCEE'
-      494: '#6A0DAD'
-      453: '#E52794'
-      484: '#6A0DAD'
-      417: '#E52794'
-      439: '#66CCEE'
-      501: '#66CCEE'
-    escape: tot_site_escape
-    ylabel: total escape at site
-    label_minescape: 2
-    label_minfreq: 5e-5
 
 Nussenzweig_serum:
   conditions:
@@ -215,7 +175,7 @@ Nussenzweig_serum:
   analyze_natural_mutations: true
   analyze_natural_mutations_specs:
     maxcol: 6
-    also_label: [346, 417, 439, 444, 452, 453, 455, 472, 484, 486, 490, 493, 494, 501]
+    also_label: [346, 417, 439, 444, 452, 453, 455, 472, 484, 486, 490, 493, 494, 501, 477]
     label_font_size: 7
     default_color: '#999999'
     default_alpha: 0.6
@@ -233,7 +193,6 @@ Nussenzweig_serum:
       486: 1
       417: 1
       439: 1
-      501: 1
     set_point_color:
       472: '#6A0DAD'
       490: '#6A0DAD'
@@ -248,7 +207,6 @@ Nussenzweig_serum:
       484: '#6A0DAD'
       417: '#E52794'
       439: '#66CCEE'
-      501: '#66CCEE'
     escape: tot_site_escape
     ylabel: total escape at site
     label_minescape: 2
@@ -487,3 +445,95 @@ all_class3_abs:
     ylabel: total escape at site
     label_minescape: 2
     label_minfreq: 5e-5
+
+HAARVI_sera:  # name of plot
+  conditions:  # antibodies / sera to show and names to use for them
+    23_d21_1250: subject A (day 21)
+    23_d45_1250: subject A (day 45)
+    23_d120_500: subject A (day 120)
+    1C_d26_200: subject B (day 26)
+    1C_d113_200: subject B (day 113)
+    24C_d32_200: subject C (day 32)
+    24C_d104_200: subject C (day 104)
+    6C_d33_500: subject D (day 33)
+    6C_d76_500: subject D (day 76)
+    22C_d28_200: subject E (day 28)
+    22C_d104_200: subject E (day 104)
+    25C_d48_200: subject F (day 48)
+    25C_d115_80: subject F (day 115)
+    25_d18_500: subject G (day 18)
+    25_d94_200: subject G (day 94)
+    12C_d61_160: subject H (day 61)
+    12C_d152_80: subject H (day 152)
+    23C_d26_80: subject I (day 26)
+    23C_d102_80: subject I (day 102)
+    13_d15_200: subject J (day 15)
+    13_d121_1250: subject J (day 121)
+    7C_d29_500: subject K (day 29)
+    7C_d103_200: subject K (day 103)
+  # plot automatically identified sites?
+  plot_auto_identified_sites: default
+  # add these sites if they aren't automatically identified
+  add_sites: [417,501]
+  # exclude these sites even if not automatically identified
+  exclude_sites: [361]
+  # name of site-level color scheme in `site_color_schemes.csv` **or**
+  # color for all sites
+  site_color_scheme: barnes_classes
+  # make escape profiles colored by DMS bind / expr measurements?
+  color_by_dms: False
+  # make supplemental data files for this antibody set
+  make_supp_data: False
+  # analyze naturally occurring mutations at strong sites of escape
+  analyze_natural_mutations: true
+  natural_mutations_mincounts: 5  # plot sites with >= this many mutation counts
+  analyze_natural_mutations_specs:
+    maxcol: 6
+    also_label: [346, 417, 439, 444, 452, 453, 455, 472, 484, 486, 490, 493, 494, 501, 477]
+    label_font_size: 7
+    default_color: '#999999'
+    default_alpha: 0.6
+    set_point_alpha:
+      490: 1
+      493: 1
+      455: 1
+      444: 1
+      346: 1
+      452: 1
+      494: 1
+      453: 1
+      472: 1
+      484: 1
+      486: 1
+      417: 1
+      439: 1
+    set_point_color:
+      472: '#6A0DAD'
+      490: '#6A0DAD'
+      493: '#6A0DAD'
+      455: '#A81AA1'
+      486: '#A81AA1'
+      444: '#66CCEE'
+      346: '#66CCEE'
+      452: '#66CCEE'
+      494: '#6A0DAD'
+      453: '#E52794'
+      484: '#6A0DAD'
+      417: '#E52794'
+      439: '#66CCEE'
+    escape: tot_site_escape
+    ylabel: total escape at site
+    label_minescape: 2
+    label_minfreq: 5e-5
+  escape_profile_ymax:
+    quantile: 0.5
+    frac: 0.05
+    min_ymax: 1
+  dmslogo_facet_plot_kwargs:
+    height_per_ax: 2.0
+  dmslogo_draw_line_kwargs:
+    widthscale: 0.5
+    axisfontscale: 1.5
+  dmslogo_draw_logo_kwargs:
+    widthscale: 0.75
+    axisfontscale: 1.5

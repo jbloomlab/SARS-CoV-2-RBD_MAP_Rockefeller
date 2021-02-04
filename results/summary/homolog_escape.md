@@ -194,6 +194,16 @@ for name, specs in escape_profiles_config.items():
     
 
 
+    
+    Analyzing homolog escape for HAARVI_sera, saving plot to results/homologs/HAARVI_sera_homolog_escape.pdf
+
+
+
+    
+![png](homolog_escape_files/homolog_escape_14_15.png)
+    
+
+
 
 ```python
 
