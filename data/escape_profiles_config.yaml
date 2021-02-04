@@ -65,6 +65,7 @@ Rockefeller_antibodies:
       417: [gray, 0.15]
       421: [gray, 0.15]
       453: [gray, 0.15]
+      455: [gray, 0.15]
       456: [gray, 0.15]
       460: [gray, 0.15]
       473: [gray, 0.15]
@@ -72,6 +73,7 @@ Rockefeller_antibodies:
       476: [gray, 0.15]
       486: [gray, 0.15]
       487: [gray, 0.15]
+      489: [gray, 0.15]
     LY-CoV016:
       405: [gray, 0.15] # will be added due to adding CB6
       417: [gray, 0.15]
@@ -212,7 +214,7 @@ Nussenzweig_serum:
     axisfontscale: 1.5
   analyze_natural_mutations: true
   analyze_natural_mutations_specs:
-    maxcol: 3
+    maxcol: 6
     also_label: [346, 417, 439, 444, 452, 453, 455, 472, 484, 486, 490, 493, 494, 501]
     label_font_size: 7
     default_color: '#999999'
