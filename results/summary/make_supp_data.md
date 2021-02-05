@@ -153,7 +153,7 @@ for metric_type, (set_name, condition_set) in itertools.product(['mutation', 'si
 
     # plot correlations
     nfacets = df_wide['selection'].nunique()
-    ncol = min(nfacets, 5)
+    ncol = min(nfacets, 6)
     nrow = math.ceil(nfacets / ncol)
     xmin = df_wide[libraries[0]].min()
     xspan = df_wide[libraries[0]].max() - xmin

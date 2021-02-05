@@ -1342,7 +1342,7 @@ for name, specs in escape_profiles_config.items():
              scale_alpha_continuous(limits=(0, 1), range=(0, 1))
              )
         if not avg_conditions:
-            p = p + facet_wrap('~ condition', ncol=ncol)
+            p = p + facet_wrap('~ condition', ncol=ncol, scales='free_y')
         p.save(plotfile, verbose=False)
         fig = p.draw()
         display(fig)
@@ -1354,9 +1354,13 @@ for name, specs in escape_profiles_config.items():
     Plotting each condition and saving to results/GISAID_mutations/Nussenzweig_serum_escape_vs_freq_by-condition.pdf
 
 
+    /fh/fast/bloom_j/software/miniconda3/envs/SARS-CoV-2-RBD_MAP/lib/python3.7/site-packages/plotnine/facets/facet.py:552: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'.
+    /fh/fast/bloom_j/software/miniconda3/envs/SARS-CoV-2-RBD_MAP/lib/python3.7/site-packages/plotnine/facets/facet.py:552: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'.
+
+
 
     
-![png](natural_mutations_files/natural_mutations_24_1.png)
+![png](natural_mutations_files/natural_mutations_24_2.png)
     
 
 
@@ -1365,7 +1369,7 @@ for name, specs in escape_profiles_config.items():
 
 
     
-![png](natural_mutations_files/natural_mutations_24_3.png)
+![png](natural_mutations_files/natural_mutations_24_4.png)
     
 
 
@@ -1374,13 +1378,8 @@ for name, specs in escape_profiles_config.items():
     Plotting each condition and saving to results/GISAID_mutations/all_class1_abs_escape_vs_freq_by-condition.pdf
 
 
-
-    
-![png](natural_mutations_files/natural_mutations_24_5.png)
-    
-
-
-    Plotting average across conditions and saving to results/GISAID_mutations/all_class1_abs_escape_vs_freq_average.pdf
+    /fh/fast/bloom_j/software/miniconda3/envs/SARS-CoV-2-RBD_MAP/lib/python3.7/site-packages/plotnine/facets/facet.py:552: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'.
+    /fh/fast/bloom_j/software/miniconda3/envs/SARS-CoV-2-RBD_MAP/lib/python3.7/site-packages/plotnine/facets/facet.py:552: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'.
 
 
 
@@ -1389,9 +1388,7 @@ for name, specs in escape_profiles_config.items():
     
 
 
-    
-    Analyzing natural mutations for all_class2_abs
-    Plotting each condition and saving to results/GISAID_mutations/all_class2_abs_escape_vs_freq_by-condition.pdf
+    Plotting average across conditions and saving to results/GISAID_mutations/all_class1_abs_escape_vs_freq_average.pdf
 
 
 
@@ -1400,12 +1397,27 @@ for name, specs in escape_profiles_config.items():
     
 
 
+    
+    Analyzing natural mutations for all_class2_abs
+    Plotting each condition and saving to results/GISAID_mutations/all_class2_abs_escape_vs_freq_by-condition.pdf
+
+
+    /fh/fast/bloom_j/software/miniconda3/envs/SARS-CoV-2-RBD_MAP/lib/python3.7/site-packages/plotnine/facets/facet.py:552: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'.
+    /fh/fast/bloom_j/software/miniconda3/envs/SARS-CoV-2-RBD_MAP/lib/python3.7/site-packages/plotnine/facets/facet.py:552: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'.
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_12.png)
+    
+
+
     Plotting average across conditions and saving to results/GISAID_mutations/all_class2_abs_escape_vs_freq_average.pdf
 
 
 
     
-![png](natural_mutations_files/natural_mutations_24_11.png)
+![png](natural_mutations_files/natural_mutations_24_14.png)
     
 
 
@@ -1414,24 +1426,8 @@ for name, specs in escape_profiles_config.items():
     Plotting each condition and saving to results/GISAID_mutations/all_class3_abs_escape_vs_freq_by-condition.pdf
 
 
-
-    
-![png](natural_mutations_files/natural_mutations_24_13.png)
-    
-
-
-    Plotting average across conditions and saving to results/GISAID_mutations/all_class3_abs_escape_vs_freq_average.pdf
-
-
-
-    
-![png](natural_mutations_files/natural_mutations_24_15.png)
-    
-
-
-    
-    Analyzing natural mutations for HAARVI_sera
-    Plotting each condition and saving to results/GISAID_mutations/HAARVI_sera_escape_vs_freq_by-condition.pdf
+    /fh/fast/bloom_j/software/miniconda3/envs/SARS-CoV-2-RBD_MAP/lib/python3.7/site-packages/plotnine/facets/facet.py:552: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'.
+    /fh/fast/bloom_j/software/miniconda3/envs/SARS-CoV-2-RBD_MAP/lib/python3.7/site-packages/plotnine/facets/facet.py:552: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'.
 
 
 
@@ -1440,7 +1436,7 @@ for name, specs in escape_profiles_config.items():
     
 
 
-    Plotting average across conditions and saving to results/GISAID_mutations/HAARVI_sera_escape_vs_freq_average.pdf
+    Plotting average across conditions and saving to results/GISAID_mutations/all_class3_abs_escape_vs_freq_average.pdf
 
 
 
@@ -1449,16 +1445,13 @@ for name, specs in escape_profiles_config.items():
     
 
 
-
     
-![png](natural_mutations_files/natural_mutations_24_20.png)
-    
-
+    Analyzing natural mutations for HAARVI_sera
+    Plotting each condition and saving to results/GISAID_mutations/HAARVI_sera_escape_vs_freq_by-condition.pdf
 
 
-    
-![png](natural_mutations_files/natural_mutations_24_21.png)
-    
+    /fh/fast/bloom_j/software/miniconda3/envs/SARS-CoV-2-RBD_MAP/lib/python3.7/site-packages/plotnine/facets/facet.py:552: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'.
+    /fh/fast/bloom_j/software/miniconda3/envs/SARS-CoV-2-RBD_MAP/lib/python3.7/site-packages/plotnine/facets/facet.py:552: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'.
 
 
 
@@ -1467,10 +1460,7 @@ for name, specs in escape_profiles_config.items():
     
 
 
-
-    
-![png](natural_mutations_files/natural_mutations_24_23.png)
-    
+    Plotting average across conditions and saving to results/GISAID_mutations/HAARVI_sera_escape_vs_freq_average.pdf
 
 
 
@@ -1506,6 +1496,36 @@ for name, specs in escape_profiles_config.items():
 
     
 ![png](natural_mutations_files/natural_mutations_24_29.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_30.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_31.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_32.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_33.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_34.png)
     
 
 
