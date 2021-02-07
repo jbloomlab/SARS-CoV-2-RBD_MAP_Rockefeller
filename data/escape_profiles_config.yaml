@@ -215,6 +215,7 @@ Nussenzweig_serum:
 NY_mabs_sera:
   conditions:
     C105_400: C105 # class 1, COV-107
+    CB6_400: LY-CoV016 # class 1
     C144_400: C144 # class 2, clinical trials, COV-047
     C002_400: C002 # class 2, COV-021
     C121_400: C121 # class 2, COV-107

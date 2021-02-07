@@ -96,3 +96,11 @@
     - C
   conditions:
     - C110_400
+
+# 7C01 is CB6 bound to RBD
+7c01:
+  pdbfile: data/pdbs/7c01_single.pdb
+  chains:
+    - A
+  conditions:
+    - CB6_400
