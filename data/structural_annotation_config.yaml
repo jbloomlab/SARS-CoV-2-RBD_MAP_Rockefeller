@@ -58,7 +58,7 @@ REGN10987:
 
 # 7C01 is CB6 bound to RBD
 7c01:
-  name: CB6
+  name: LY-CoV016
   pdbfile: data/pdbs/7c01_single.pdb
   chains_RBD:
     - A

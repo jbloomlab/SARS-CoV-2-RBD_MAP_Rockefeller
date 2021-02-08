@@ -10,7 +10,7 @@ editor_options:
   chunk_output_type: inline
 ---
 
-This notebook does some random analyses on the clinical antibodies set that vary from the more constrained global pipeline.
+Make plots comparing sites of escape and structural contacts.
 
 ```{r setup, message=FALSE, warning=FALSE, error=FALSE}
 require("knitr")
@@ -120,7 +120,7 @@ for (antibody in bjorkman_mabs){
   contacts_8A <- c()
   unresolved <- c()
   
-  for(entry in contacts_config){
+  for(entry in structural_contacts_config){
     if ((unlist(strsplit(entry$name,'_'))[1] == antibody)){
       print(antibody)
       pdb <- read.pdb(file=entry$pdbfile)
@@ -154,6 +154,7 @@ for (antibody in bjorkman_mabs){
     }
   }
   contacts_4A <- contacts_4A %>% unique()
+  print(contacts_4A)
   contacts_8A <- contacts_8A %>% unique()
   contacts_4Ato8A <- contacts_8A[!(contacts_8A %in% contacts_4A)]
   # if an unresolved site is called as a contact site in any other chain, exclude
@@ -222,12 +223,12 @@ Next, make jitterplots showing site total escape for the three categories of str
 site_dataframe$site_category <- factor(site_dataframe$site_category, 
                                        levels=c("contact", "proximal", "distal", "unresolved"))
 site_dataframe$antibody <- factor(site_dataframe$antibody, 
-                                  levels=c("C105", "C144", "C002", "C121", "C135", "C110"))
+                                  levels=c("C105", "LY-CoV016", "C144", "C002", "C121", "C135", "C110"))
 site_dataframe$strong_escape_site <- factor(site_dataframe$strong_escape_site, 
                                   levels=c(TRUE, FALSE))
 
 site_dataframe_labels$antibody <- factor(site_dataframe_labels$antibody, 
-                                  levels=c("C105", "C144", "C002", "C121", "C135", "C110")) 
+                                  levels=c("C105", "LY-CoV016", "C144", "C002", "C121", "C135", "C110")) 
   
 ggplot(site_dataframe, 
        aes(x=site_category, y=site_total_escape, color=strong_escape_site)) +
