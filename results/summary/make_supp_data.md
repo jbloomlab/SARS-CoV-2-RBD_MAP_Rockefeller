@@ -492,6 +492,7 @@ for set_name, condition_set in condition_sets.items():
     Writing `dms-view` input file for Rockefeller_antibodies mapped to PDB 7k8y to results/supp_data/Rockefeller_antibodies_7k8y_dms-view_data.csv
     Writing `dms-view` input file for Rockefeller_antibodies mapped to PDB 7k8z to results/supp_data/Rockefeller_antibodies_7k8z_dms-view_data.csv
     Writing `dms-view` input file for Rockefeller_antibodies mapped to PDB 7k8v to results/supp_data/Rockefeller_antibodies_7k8v_dms-view_data.csv
+    Writing `dms-view` input file for Rockefeller_antibodies mapped to PDB 7c01 to results/supp_data/Rockefeller_antibodies_7c01_dms-view_data.csv
     Writing `dms-view` input file for Nussenzweig_serum mapped to PDB 6m0j to results/supp_data/Nussenzweig_serum_6m0j_dms-view_data.csv
     Writing `dms-view` input file for NY_mabs_sera mapped to PDB 6m0j to results/supp_data/NY_mabs_sera_6m0j_dms-view_data.csv
     Writing `dms-view` input file for NY_mabs_sera mapped to PDB 6xcm to results/supp_data/NY_mabs_sera_6xcm_dms-view_data.csv
@@ -503,6 +504,7 @@ for set_name, condition_set in condition_sets.items():
     Writing `dms-view` input file for NY_mabs_sera mapped to PDB 7k8y to results/supp_data/NY_mabs_sera_7k8y_dms-view_data.csv
     Writing `dms-view` input file for NY_mabs_sera mapped to PDB 7k8z to results/supp_data/NY_mabs_sera_7k8z_dms-view_data.csv
     Writing `dms-view` input file for NY_mabs_sera mapped to PDB 7k8v to results/supp_data/NY_mabs_sera_7k8v_dms-view_data.csv
+    Writing `dms-view` input file for NY_mabs_sera mapped to PDB 7c01 to results/supp_data/NY_mabs_sera_7c01_dms-view_data.csv
 
 
 

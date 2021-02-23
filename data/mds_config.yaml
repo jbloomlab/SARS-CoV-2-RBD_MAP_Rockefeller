@@ -54,6 +54,7 @@ Rockefeller_v_pub:
   default_circle_color: none
   circle_colors:
     C105: '#E52794'
+    LY-CoV016: '#E52794'
     C144: '#6A0DAD'
     C002: '#6A0DAD'
     C121: '#6A0DAD'
@@ -62,6 +63,7 @@ Rockefeller_v_pub:
   default_label_color: gray
   label_colors:
     C105: '#E52794'
+    LY-CoV016: '#E52794'
     C144: '#6A0DAD'
     C002: '#6A0DAD'
     C121: '#6A0DAD'

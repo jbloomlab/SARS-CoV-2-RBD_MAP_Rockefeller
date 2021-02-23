@@ -9,6 +9,7 @@ exclude_sites: [361]
 # selection condition:name
 NY_mabs_sera:
   C105_400: C105 # class 1, COV-107
+  CB6_400: CB6 # class 1
   C144_400: C144 # class 2, clinical trials, COV-047
   C002_400: C002 # class 2, COV-021
   C121_400: C121 # class 2, COV-107
@@ -23,6 +24,7 @@ NY_mabs_sera:
 # mabs (will use this to identify sites of strong escape)
 mabs:
   - C105_400
+  - CB6_400
   - C144_400
   - C002_400
   - C121_400

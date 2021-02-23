@@ -142,3 +142,15 @@
   light_chains:
     - L
     - "N"
+
+# 7C01 is CB6 bound to RBD
+7c01:
+  antibody: 'CB6'
+  selection: '400'
+  trimer: False
+  RBD_chains:
+    - A
+  heavy_chains:
+    - H
+  light_chains:
+    - L

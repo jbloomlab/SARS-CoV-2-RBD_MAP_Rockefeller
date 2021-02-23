@@ -549,4 +549,13 @@ for name, specs in output_pdbs_config.items():
         results/pdb_outputs/C110_400_7k8v_max_escape.pdb
         results/pdb_outputs/C110_400_7k8v_norm_total_escape.pdb
         results/pdb_outputs/C110_400_7k8v_norm_max_escape.pdb
+    
+    Making PDB mappings for 7c01 to data/pdbs/7c01_single.pdb
+    Making mappings for 1 conditions.
+    Mapping to the following chains: A
+      Writing B-factor re-assigned PDBs for CB6_400 to:
+        results/pdb_outputs/CB6_400_7c01_total_escape.pdb
+        results/pdb_outputs/CB6_400_7c01_max_escape.pdb
+        results/pdb_outputs/CB6_400_7c01_norm_total_escape.pdb
+        results/pdb_outputs/CB6_400_7c01_norm_max_escape.pdb
 
