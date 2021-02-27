@@ -211,7 +211,7 @@ for name, specs in output_pdbs_config.items():
 
     
     Making PDB mappings for 6m0j to data/pdbs/6M0J.pdb
-    Making mappings for 51 conditions.
+    Making mappings for 53 conditions.
     Mapping to the following chains: E
       Writing B-factor re-assigned PDBs for 12C_d152_80 to:
         results/pdb_outputs/12C_d152_80_6m0j_total_escape.pdb
@@ -453,6 +453,16 @@ for name, specs in output_pdbs_config.items():
         results/pdb_outputs/CR3022_400_6m0j_max_escape.pdb
         results/pdb_outputs/CR3022_400_6m0j_norm_total_escape.pdb
         results/pdb_outputs/CR3022_400_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for LY-CoV555+LY-CoV016_400 to:
+        results/pdb_outputs/LY-CoV555+LY-CoV016_400_6m0j_total_escape.pdb
+        results/pdb_outputs/LY-CoV555+LY-CoV016_400_6m0j_max_escape.pdb
+        results/pdb_outputs/LY-CoV555+LY-CoV016_400_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/LY-CoV555+LY-CoV016_400_6m0j_norm_max_escape.pdb
+      Writing B-factor re-assigned PDBs for LY-CoV555_400 to:
+        results/pdb_outputs/LY-CoV555_400_6m0j_total_escape.pdb
+        results/pdb_outputs/LY-CoV555_400_6m0j_max_escape.pdb
+        results/pdb_outputs/LY-CoV555_400_6m0j_norm_total_escape.pdb
+        results/pdb_outputs/LY-CoV555_400_6m0j_norm_max_escape.pdb
       Writing B-factor re-assigned PDBs for REGN10933+REGN10987_400 to:
         results/pdb_outputs/REGN10933+REGN10987_400_6m0j_total_escape.pdb
         results/pdb_outputs/REGN10933+REGN10987_400_6m0j_max_escape.pdb
