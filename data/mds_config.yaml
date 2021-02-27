@@ -171,6 +171,6 @@ NY_sera_all_mAbs:
     7C_d103_200: K (day103)
   color_scheme: [data/mds_color_schemes_new.csv, class_color]
   plot_size: 5.5
-  random_state: 3
+  random_state: 1
   pie_size: 200
   default_circle_color: "#000000"
