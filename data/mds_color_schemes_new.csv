@@ -20,11 +20,11 @@ rCR3022,class_4,#999999
 COV2-2677,class_4,#999999
 COV2-2082,class_4,#999999
 COV2-2094,class_4,#999999
-COV-21,serum,#FFFFFF
-COV-47,serum,#FFFFFF
-COV-57,serum,#FFFFFF
-COV-72,serum,#FFFFFF
-COV-107,serum,#FFFFFF
+COV-21,serum,#EEDD88
+COV-47,serum,#EEDD88
+COV-57,serum,#EEDD88
+COV-72,serum,#EEDD88
+COV-107,serum,#EEDD88
 A (day21),serum,#FFFFFF
 A (day45),serum,#FFFFFF
 A (day120),serum,#FFFFFF
