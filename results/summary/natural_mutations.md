@@ -1240,6 +1240,7 @@ default_analysis_specs = {
     'default_alpha': 0.5,  # default alpha if not specified
     'set_point_color': {},  # set color; key by site / mutation, value is color
     'set_point_alpha': {},  # set alpha; key by site / mutations, value is alpha
+    'plot_average_only': False,  # only plot average of conditions, not individual ones
     }
 label_minfreq = 5e-5  # label points with frequency >= this
 label_minescape = 0.05  # label points with escape >= this
@@ -1272,6 +1273,9 @@ for name, specs in escape_profiles_config.items():
     assert len(conditions) == df['condition'].nunique()
     
     for avg_conditions in (False, True):
+        
+        if analysis_specs['plot_average_only'] and not avg_conditions:
+            continue
         
         if avg_conditions:
             plot_df = df.groupby(ptlabel, as_index=False).aggregate({analysis_specs['freq']: 'mean',
@@ -1351,25 +1355,12 @@ for name, specs in escape_profiles_config.items():
 
     
     Analyzing natural mutations for Nussenzweig_serum
-    Plotting each condition and saving to results/GISAID_mutations/Nussenzweig_serum_escape_vs_freq_by-condition.pdf
-
-
-    /fh/fast/bloom_j/software/miniconda3/envs/SARS-CoV-2-RBD_MAP/lib/python3.7/site-packages/plotnine/facets/facet.py:552: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'.
-    /fh/fast/bloom_j/software/miniconda3/envs/SARS-CoV-2-RBD_MAP/lib/python3.7/site-packages/plotnine/facets/facet.py:552: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'.
-
-
-
-    
-![png](natural_mutations_files/natural_mutations_24_2.png)
-    
-
-
     Plotting average across conditions and saving to results/GISAID_mutations/Nussenzweig_serum_escape_vs_freq_average.pdf
 
 
 
     
-![png](natural_mutations_files/natural_mutations_24_4.png)
+![png](natural_mutations_files/natural_mutations_24_1.png)
     
 
 
@@ -1384,7 +1375,7 @@ for name, specs in escape_profiles_config.items():
 
 
     
-![png](natural_mutations_files/natural_mutations_24_7.png)
+![png](natural_mutations_files/natural_mutations_24_4.png)
     
 
 
@@ -1393,7 +1384,7 @@ for name, specs in escape_profiles_config.items():
 
 
     
-![png](natural_mutations_files/natural_mutations_24_9.png)
+![png](natural_mutations_files/natural_mutations_24_6.png)
     
 
 
@@ -1408,7 +1399,7 @@ for name, specs in escape_profiles_config.items():
 
 
     
-![png](natural_mutations_files/natural_mutations_24_12.png)
+![png](natural_mutations_files/natural_mutations_24_9.png)
     
 
 
@@ -1417,7 +1408,7 @@ for name, specs in escape_profiles_config.items():
 
 
     
-![png](natural_mutations_files/natural_mutations_24_14.png)
+![png](natural_mutations_files/natural_mutations_24_11.png)
     
 
 
@@ -1432,7 +1423,7 @@ for name, specs in escape_profiles_config.items():
 
 
     
-![png](natural_mutations_files/natural_mutations_24_17.png)
+![png](natural_mutations_files/natural_mutations_24_14.png)
     
 
 
@@ -1441,17 +1432,37 @@ for name, specs in escape_profiles_config.items():
 
 
     
-![png](natural_mutations_files/natural_mutations_24_19.png)
+![png](natural_mutations_files/natural_mutations_24_16.png)
     
 
 
     
     Analyzing natural mutations for HAARVI_sera
-    Plotting each condition and saving to results/GISAID_mutations/HAARVI_sera_escape_vs_freq_by-condition.pdf
+    Plotting average across conditions and saving to results/GISAID_mutations/HAARVI_sera_escape_vs_freq_average.pdf
 
 
-    /fh/fast/bloom_j/software/miniconda3/envs/SARS-CoV-2-RBD_MAP/lib/python3.7/site-packages/plotnine/facets/facet.py:552: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'.
-    /fh/fast/bloom_j/software/miniconda3/envs/SARS-CoV-2-RBD_MAP/lib/python3.7/site-packages/plotnine/facets/facet.py:552: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'.
+
+    
+![png](natural_mutations_files/natural_mutations_24_18.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_19.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_20.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_21.png)
+    
 
 
 
@@ -1460,7 +1471,10 @@ for name, specs in escape_profiles_config.items():
     
 
 
-    Plotting average across conditions and saving to results/GISAID_mutations/HAARVI_sera_escape_vs_freq_average.pdf
+
+    
+![png](natural_mutations_files/natural_mutations_24_23.png)
+    
 
 
 
@@ -1478,54 +1492,6 @@ for name, specs in escape_profiles_config.items():
 
     
 ![png](natural_mutations_files/natural_mutations_24_26.png)
-    
-
-
-
-    
-![png](natural_mutations_files/natural_mutations_24_27.png)
-    
-
-
-
-    
-![png](natural_mutations_files/natural_mutations_24_28.png)
-    
-
-
-
-    
-![png](natural_mutations_files/natural_mutations_24_29.png)
-    
-
-
-
-    
-![png](natural_mutations_files/natural_mutations_24_30.png)
-    
-
-
-
-    
-![png](natural_mutations_files/natural_mutations_24_31.png)
-    
-
-
-
-    
-![png](natural_mutations_files/natural_mutations_24_32.png)
-    
-
-
-
-    
-![png](natural_mutations_files/natural_mutations_24_33.png)
-    
-
-
-
-    
-![png](natural_mutations_files/natural_mutations_24_34.png)
     
 
 
