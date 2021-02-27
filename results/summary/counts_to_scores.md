@@ -211,6 +211,11 @@ display(HTML(
       <td>364.0</td>
     </tr>
     <tr>
+      <th>expt_82-86-none-0-reference</th>
+      <td>313.7</td>
+      <td>323.0</td>
+    </tr>
+    <tr>
       <th>expt_40-12C_d152-80-escape</th>
       <td>34.7</td>
       <td>30.9</td>
@@ -451,6 +456,16 @@ display(HTML(
       <td>78.2</td>
     </tr>
     <tr>
+      <th>expt_82-LY-CoV555-400-escape</th>
+      <td>57.3</td>
+      <td>54.1</td>
+    </tr>
+    <tr>
+      <th>expt_83-LY-CoV555+LY-CoV016-400-escape</th>
+      <td>42.4</td>
+      <td>43.6</td>
+    </tr>
+    <tr>
       <th>expt_24-REGN10933-400-escape</th>
       <td>44.7</td>
       <td>35.2</td>
@@ -653,7 +668,7 @@ display(HTML(
   </thead>
   <tbody>
     <tr>
-      <th rowspan="11" valign="top">lib1</th>
+      <th rowspan="12" valign="top">lib1</th>
       <th>expt_34-41-none-0-reference</th>
       <td>0.0037</td>
       <td>SARS-CoV-2</td>
@@ -742,7 +757,15 @@ display(HTML(
       <td></td>
     </tr>
     <tr>
-      <th rowspan="11" valign="top">lib2</th>
+      <th>expt_82-86-none-0-reference</th>
+      <td>0.0023</td>
+      <td>SARS-CoV-2</td>
+      <td>TTCCAAAATATTGTCA</td>
+      <td>D59N F156S</td>
+      <td>GAT59AAC TTT156TCG</td>
+    </tr>
+    <tr>
+      <th rowspan="12" valign="top">lib2</th>
       <th>expt_34-41-none-0-reference</th>
       <td>0.0012</td>
       <td>SARS-CoV-2</td>
@@ -829,6 +852,14 @@ display(HTML(
       <td>CAGTACAAAAGTATAA</td>
       <td>K87N V173Y</td>
       <td>CTA60CTG AAG87AAC GTC173TAC</td>
+    </tr>
+    <tr>
+      <th>expt_82-86-none-0-reference</th>
+      <td>0.0004</td>
+      <td>SARS-CoV-2</td>
+      <td>ATTTTAAGAGACTAAG</td>
+      <td>L5M D98Y E141D K198R</td>
+      <td>CTT5ATG GAC98TAC GAA141GAC AAG198CGG</td>
     </tr>
   </tbody>
 </table>
@@ -2290,6 +2321,58 @@ display(HTML(score_sample_df.to_html(index=False)))
       <td>160000000.0</td>
     </tr>
     <tr>
+      <td>LY-CoV555_400</td>
+      <td>lib1</td>
+      <td>LY-CoV555</td>
+      <td>400</td>
+      <td>ng_per_mL</td>
+      <td>210115</td>
+      <td>expt_82-86-none-0-reference</td>
+      <td>expt_82-LY-CoV555-400-escape</td>
+      <td>0.161</td>
+      <td>1622745.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>LY-CoV555_400</td>
+      <td>lib2</td>
+      <td>LY-CoV555</td>
+      <td>400</td>
+      <td>ng_per_mL</td>
+      <td>210115</td>
+      <td>expt_82-86-none-0-reference</td>
+      <td>expt_82-LY-CoV555-400-escape</td>
+      <td>0.169</td>
+      <td>1675156.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>LY-CoV555+LY-CoV016_400</td>
+      <td>lib1</td>
+      <td>LY-CoV555+LY-CoV016</td>
+      <td>400</td>
+      <td>ng_per_mL</td>
+      <td>210115</td>
+      <td>expt_82-86-none-0-reference</td>
+      <td>expt_83-LY-CoV555+LY-CoV016-400-escape</td>
+      <td>0.124</td>
+      <td>1293736.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>LY-CoV555+LY-CoV016_400</td>
+      <td>lib2</td>
+      <td>LY-CoV555+LY-CoV016</td>
+      <td>400</td>
+      <td>ng_per_mL</td>
+      <td>210115</td>
+      <td>expt_82-86-none-0-reference</td>
+      <td>expt_83-LY-CoV555+LY-CoV016-400-escape</td>
+      <td>0.123</td>
+      <td>1265658.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
       <td>REGN10933_400</td>
       <td>lib1</td>
       <td>REGN10933</td>
@@ -2922,6 +3005,27 @@ display(HTML(pre_count_filter_cutoffs.to_html(float_format='%.1f')))
       <td>32.1</td>
       <td>888.3</td>
     </tr>
+    <tr>
+      <th rowspan="2" valign="top">expt_82-86-none-0-reference</th>
+      <th>lib1</th>
+      <td>36.0</td>
+      <td>111.0</td>
+      <td>144.0</td>
+      <td>188.0</td>
+      <td>222.0</td>
+      <td>257.3</td>
+      <td>414.0</td>
+    </tr>
+    <tr>
+      <th>lib2</th>
+      <td>34.0</td>
+      <td>118.0</td>
+      <td>153.0</td>
+      <td>202.0</td>
+      <td>245.0</td>
+      <td>283.7</td>
+      <td>485.3</td>
+    </tr>
   </tbody>
 </table>
 
@@ -3072,6 +3176,18 @@ display(HTML(pre_count_filter_cutoffs.to_html(float_format='%.1f')))
       <td>expt_3-6-none-0-reference</td>
       <td>lib2</td>
       <td>16.7</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>expt_82-86-none-0-reference</td>
+      <td>lib1</td>
+      <td>222.0</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>expt_82-86-none-0-reference</td>
+      <td>lib2</td>
+      <td>245.0</td>
     </tr>
   </tbody>
 </table>

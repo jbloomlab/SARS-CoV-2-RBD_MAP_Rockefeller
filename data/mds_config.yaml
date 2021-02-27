@@ -28,6 +28,7 @@
 Rockefeller_v_pub:
   conditions:
     CB6_400: LY-CoV016
+    LY-CoV555_400: LY-CoV555
     REGN10933_400: REGN10933
     REGN10987_400: REGN10987
     CR3022_400: rCR3022
@@ -119,6 +120,7 @@ NY_sera_antibodies:
 NY_sera_all_mAbs:
   conditions:
     CB6_400: LY-CoV016
+    LY-CoV555_400: LY-CoV555
     REGN10933_400: REGN10933
     REGN10987_400: REGN10987
     CR3022_400: rCR3022

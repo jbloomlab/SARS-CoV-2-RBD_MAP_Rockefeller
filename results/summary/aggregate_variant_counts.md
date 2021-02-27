@@ -494,6 +494,38 @@ display(HTML(barcode_runs.to_html(index=False)))
     </tr>
     <tr>
       <td>lib1</td>
+      <td>expt_82-86-none-0-reference</td>
+      <td>210115</td>
+      <td>expt_82-86</td>
+      <td>none</td>
+      <td>0</td>
+      <td>ng_per_mL</td>
+      <td>Baker+LY</td>
+      <td>reference</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>expt_82-86-none-0-reference_lib1</td>
+      <td>results/counts/expt_82-86-none-0-reference_lib1_counts.csv</td>
+      <td>results/counts/expt_82-86-none-0-reference_lib1_fates.csv</td>
+    </tr>
+    <tr>
+      <td>lib2</td>
+      <td>expt_82-86-none-0-reference</td>
+      <td>210115</td>
+      <td>expt_82-86</td>
+      <td>none</td>
+      <td>0</td>
+      <td>ng_per_mL</td>
+      <td>Baker+LY</td>
+      <td>reference</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>expt_82-86-none-0-reference_lib2</td>
+      <td>results/counts/expt_82-86-none-0-reference_lib2_counts.csv</td>
+      <td>results/counts/expt_82-86-none-0-reference_lib2_fates.csv</td>
+    </tr>
+    <tr>
+      <td>lib1</td>
       <td>expt_40-12C_d152-80-escape</td>
       <td>200910</td>
       <td>expt_40</td>
@@ -2030,6 +2062,70 @@ display(HTML(barcode_runs.to_html(index=False)))
     </tr>
     <tr>
       <td>lib1</td>
+      <td>expt_82-LY-CoV555-400-escape</td>
+      <td>210115</td>
+      <td>expt_82</td>
+      <td>LY-CoV555</td>
+      <td>400</td>
+      <td>ng_per_mL</td>
+      <td>LY</td>
+      <td>escape</td>
+      <td>0.161</td>
+      <td>1622745.0</td>
+      <td>expt_82-LY-CoV555-400-escape_lib1</td>
+      <td>results/counts/expt_82-LY-CoV555-400-escape_lib1_counts.csv</td>
+      <td>results/counts/expt_82-LY-CoV555-400-escape_lib1_fates.csv</td>
+    </tr>
+    <tr>
+      <td>lib2</td>
+      <td>expt_82-LY-CoV555-400-escape</td>
+      <td>210115</td>
+      <td>expt_82</td>
+      <td>LY-CoV555</td>
+      <td>400</td>
+      <td>ng_per_mL</td>
+      <td>LY</td>
+      <td>escape</td>
+      <td>0.169</td>
+      <td>1675156.0</td>
+      <td>expt_82-LY-CoV555-400-escape_lib2</td>
+      <td>results/counts/expt_82-LY-CoV555-400-escape_lib2_counts.csv</td>
+      <td>results/counts/expt_82-LY-CoV555-400-escape_lib2_fates.csv</td>
+    </tr>
+    <tr>
+      <td>lib1</td>
+      <td>expt_83-LY-CoV555+LY-CoV016-400-escape</td>
+      <td>210115</td>
+      <td>expt_83</td>
+      <td>LY-CoV555+LY-CoV016</td>
+      <td>400</td>
+      <td>ng_per_mL</td>
+      <td>LY</td>
+      <td>escape</td>
+      <td>0.124</td>
+      <td>1293736.0</td>
+      <td>expt_83-LY-CoV555+LY-CoV016-400-escape_lib1</td>
+      <td>results/counts/expt_83-LY-CoV555+LY-CoV016-400-escape_lib1_counts.csv</td>
+      <td>results/counts/expt_83-LY-CoV555+LY-CoV016-400-escape_lib1_fates.csv</td>
+    </tr>
+    <tr>
+      <td>lib2</td>
+      <td>expt_83-LY-CoV555+LY-CoV016-400-escape</td>
+      <td>210115</td>
+      <td>expt_83</td>
+      <td>LY-CoV555+LY-CoV016</td>
+      <td>400</td>
+      <td>ng_per_mL</td>
+      <td>LY</td>
+      <td>escape</td>
+      <td>0.123</td>
+      <td>1265658.0</td>
+      <td>expt_83-LY-CoV555+LY-CoV016-400-escape_lib2</td>
+      <td>results/counts/expt_83-LY-CoV555+LY-CoV016-400-escape_lib2_counts.csv</td>
+      <td>results/counts/expt_83-LY-CoV555+LY-CoV016-400-escape_lib2_fates.csv</td>
+    </tr>
+    <tr>
+      <td>lib1</td>
       <td>expt_24-REGN10933-400-escape</td>
       <td>200904</td>
       <td>expt_24</td>
@@ -3352,6 +3448,57 @@ display(HTML(fates
       <td>6.7e+06</td>
       <td>1.6e+06</td>
       <td>3.5e+07</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">expt_82-86-none-0-reference</th>
+      <th>lib1</th>
+      <td>1.2e+06</td>
+      <td>3.2e+06</td>
+      <td>1.5e+06</td>
+      <td>6.0e+05</td>
+      <td>3.1e+07</td>
+    </tr>
+    <tr>
+      <th>lib2</th>
+      <td>1.2e+06</td>
+      <td>3.0e+06</td>
+      <td>1.4e+06</td>
+      <td>6.1e+05</td>
+      <td>3.2e+07</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">expt_82-LY-CoV555-400-escape</th>
+      <th>lib1</th>
+      <td>2.3e+05</td>
+      <td>6.1e+05</td>
+      <td>2.6e+05</td>
+      <td>1.0e+05</td>
+      <td>5.7e+06</td>
+    </tr>
+    <tr>
+      <th>lib2</th>
+      <td>2.1e+05</td>
+      <td>5.0e+05</td>
+      <td>2.5e+05</td>
+      <td>9.6e+04</td>
+      <td>5.3e+06</td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">expt_83-LY-CoV555+LY-CoV016-400-escape</th>
+      <th>lib1</th>
+      <td>1.7e+05</td>
+      <td>4.6e+05</td>
+      <td>1.9e+05</td>
+      <td>8.1e+04</td>
+      <td>4.2e+06</td>
+    </tr>
+    <tr>
+      <th>lib2</th>
+      <td>1.7e+05</td>
+      <td>4.1e+05</td>
+      <td>2.0e+05</td>
+      <td>8.2e+04</td>
+      <td>4.3e+06</td>
     </tr>
     <tr>
       <th rowspan="2" valign="top">expt_9-COV2-2165-400-escape</th>
