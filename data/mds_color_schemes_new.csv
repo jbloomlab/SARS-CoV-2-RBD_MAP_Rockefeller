@@ -1,0 +1,50 @@
+﻿condition,class,class_color
+LY-CoV016,class_1,#E52794
+REGN10933,class_1,#E52794
+COV2-2165,class_1,#E52794
+COV2-2832,class_1,#E52794
+C105,class_1,#E52794
+COV2-2196,class_1,#E52794
+COV2-2479,class_2,#6a0dad
+COV2-2050,class_2,#6a0dad
+C144,class_2,#6a0dad
+C002,class_2,#6a0dad
+C121,class_2,#6a0dad
+REGN10987,class_3,#66CCEE
+COV2-2096,class_3,#66CCEE
+COV2-2499,class_3,#66CCEE
+C135,class_3,#66CCEE
+C110,class_3,#66CCEE
+COV2-2130,class_3,#66CCEE
+rCR3022,class_4,#999999
+COV2-2677,class_4,#999999
+COV2-2082,class_4,#999999
+COV2-2094,class_4,#999999
+COV-21,serum,#EEDD88
+COV-47,serum,#EEDD88
+COV-57,serum,#EEDD88
+COV-72,serum,#EEDD88
+COV-107,serum,#EEDD88
+A (day21),serum,#FFFFFF
+A (day45),serum,#FFFFFF
+A (day120),serum,#FFFFFF
+B (day26),serum,#FFFFFF
+B (day113),serum,#FFFFFF
+C (day32),serum,#FFFFFF
+C (day104),serum,#FFFFFF
+D (day33),serum,#FFFFFF
+D (day76),serum,#FFFFFF
+E (day28),serum,#FFFFFF
+E (day104),serum,#FFFFFF
+F (day48),serum,#FFFFFF
+F (day115),serum,#FFFFFF
+G (day18),serum,#FFFFFF
+G (day94),serum,#FFFFFF
+H (day61),serum,#FFFFFF
+H (day152),serum,#FFFFFF
+I (day26),serum,#FFFFFF
+I (day102),serum,#FFFFFF
+J (day15),serum,#FFFFFF
+J (day121),serum,#FFFFFF
+K (day29),serum,#FFFFFF
+K (day103),serum,#FFFFFF
