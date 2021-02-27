@@ -338,6 +338,7 @@ all_class2_abs:
     C121_400: C121
     COV2-2479_400: COV2-2479
     COV2-2050_400: COV2-2050
+    LY-CoV555_400: LY-CoV555
   plot_auto_identified_sites: default
   add_sites: []
   exclude_sites: []
