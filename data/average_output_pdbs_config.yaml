@@ -12,6 +12,8 @@ conditions:
     - all_class2_abs
   class3:
     - all_class3_abs
+  class4:
+    - all_class4_abs
   nyplasma:
     - Nussenzweig_serum
   haarvi:

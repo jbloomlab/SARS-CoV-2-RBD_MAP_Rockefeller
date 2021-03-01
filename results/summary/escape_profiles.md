@@ -660,7 +660,7 @@ with multiprocessing.Pool(ncpus) as pool:
         
 ```
 
-    Drawing 14 profiles using 16 CPUs...
+    Drawing 15 profiles using 16 CPUs...
     
     Plotted profile 1 to:
      results/escape_profiles/Rockefeller_antibodies_stackedlogo.pdf
@@ -819,13 +819,25 @@ with multiprocessing.Pool(ncpus) as pool:
 
     
     Plotted profile 14 to:
+     results/escape_profiles/all_class4_abs_stackedlogo.pdf
+     results/escape_profiles/all_class4_abs_stackedlogo.png.
+
+
+
+    
+![png](escape_profiles_files/escape_profiles_26_27.png)
+    
+
+
+    
+    Plotted profile 15 to:
      results/escape_profiles/HAARVI_sera_stackedlogo.pdf
      results/escape_profiles/HAARVI_sera_stackedlogo.png.
 
 
 
     
-![png](escape_profiles_files/escape_profiles_26_27.png)
+![png](escape_profiles_files/escape_profiles_26_29.png)
     
 
 

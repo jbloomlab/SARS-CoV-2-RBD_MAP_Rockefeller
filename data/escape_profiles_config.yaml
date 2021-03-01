@@ -461,6 +461,42 @@ all_class3_abs:
     label_minescape: 2
     label_minfreq: 5e-5
 
+all_class4_abs:
+  conditions:
+    CR3022_400: CR3022
+    COV2-2677_400: COV2-2677
+    COV2-2082_400: COV2-2082
+    COV2-2094_400: COV2-2094
+  plot_auto_identified_sites: default
+  add_sites: []
+  exclude_sites: []
+  site_color_scheme: barnes_classes
+  color_by_dms: false
+  make_supp_data: false
+  escape_profile_ymax:
+    quantile: 0.5
+    frac: 0.05
+    min_ymax: 1
+  dmslogo_facet_plot_kwargs:
+    height_per_ax: 2.0
+  dmslogo_draw_line_kwargs:
+    widthscale: 0.5
+    axisfontscale: 1.5
+  dmslogo_draw_logo_kwargs:
+    widthscale: 0.75
+    axisfontscale: 1.5
+  analyze_natural_mutations: true
+  analyze_natural_mutations_specs:
+    maxcol: 6
+    also_label: [378, 417, 384]
+    label_font_size: 7
+    default_color: '#999999'
+    default_alpha: 0.6
+    escape: tot_site_escape
+    ylabel: total escape at site
+    label_minescape: 1
+    label_minfreq: 5e-5
+
 HAARVI_sera:  # name of plot
   conditions:  # antibodies / sera to show and names to use for them
     23_d21_1250: subject A (day 21)
