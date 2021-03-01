@@ -125,6 +125,7 @@ mds_config: data/mds_config.yaml
 
 # structural mappings configuration
 output_pdbs_config: data/output_pdbs_config.yaml
+average_output_pdbs_config: data/average_output_pdbs_config.yaml
 
 # contact residue annotations configuration
 structural_contacts_config: data/structural_annotation_config.yaml
@@ -180,3 +181,5 @@ structural_contacts_dir: results/structural_contacts
 structural_contacts: results/structural_contacts/structural_contacts.csv
 antibody_contacts: results/structural_contacts/antibody_contacts.csv
 escape_selections_dir: results/escape_selections
+custom_analyses_results_dir: results/bjorkman_custom_analyses
+average_output_pdbs_results_dir: results/bjorkman_custom_analyses/pdbs
