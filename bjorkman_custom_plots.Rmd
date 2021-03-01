@@ -147,7 +147,11 @@ for (antibody in bjorkman_mabs){
       }
       # resi_count <- resi_count %>% 
       # if there are fewer, then that residue is unresolved in >=1 RBD chain
-      pdb_unresolved <- resi_count %>% filter(Freq < 2) %>% pull(site) %>% as.numeric()
+      # except for CB6, which is only a single RBD and not trimer
+      if (antibody != "LY-CoV016"){
+        pdb_unresolved <- resi_count %>% filter(Freq < 2) %>% pull(site) %>% as.numeric()
+      }
+      
       contacts_4A <- c(contacts_4A, pdb_contacts_4A)
       contacts_8A <- c(contacts_8A, pdb_contacts_8A)
       unresolved <- c(unresolved, pdb_unresolved)
@@ -240,7 +244,9 @@ ggplot(site_dataframe,
   scale_y_continuous(limits=c(0, 22))+
   theme_classic()+
   theme(text = element_text(size=12), 
-        axis.text.x=element_text(angle=90, hjust=1, vjust=0.5, size=12))+
+        axis.text.x=element_text(angle=90, hjust=1, vjust=0.5, size=12),
+        strip.background = element_blank()
+        )+
   xlab("structural context")+
   ylab("total escape at site")+
   geom_text(data=site_dataframe_labels, 
@@ -256,7 +262,7 @@ ggplot(site_dataframe,
 ggsave(
   paste(output_dir,"/escape_by_contact_type.pdf",sep=""),
   plot = last_plot(),
-  width = 9,
+  width = 10,
   height = 2.5,
 )
 ```
