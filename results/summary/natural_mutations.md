@@ -991,6 +991,117 @@ for name, specs in escape_profiles_config.items():
 
 
     
+    Analyzing natural mutations for all_class4_abs
+    Writing counts of mutations at sites of strong escape to results/GISAID_mutations/all_class4_abs_mutation_counts.csv. First few lines:
+
+
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>condition</th>
+      <th>threshold</th>
+      <th>site</th>
+      <th>wildtype</th>
+      <th>count</th>
+      <th>counts_by_mutation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>COV2-2094</td>
+      <td>default</td>
+      <td>417</td>
+      <td>K</td>
+      <td>1063</td>
+      <td>K417N (962), K417T (97), K417R (3), K417E (1)</td>
+    </tr>
+    <tr>
+      <td>COV2-2082</td>
+      <td>default</td>
+      <td>417</td>
+      <td>K</td>
+      <td>1063</td>
+      <td>K417N (962), K417T (97), K417R (3), K417E (1)</td>
+    </tr>
+    <tr>
+      <td>COV2-2677</td>
+      <td>default</td>
+      <td>384</td>
+      <td>P</td>
+      <td>473</td>
+      <td>P384L (366), P384S (92), P384R (13), P384A (1), P384T (1)</td>
+    </tr>
+    <tr>
+      <td>COV2-2094</td>
+      <td>default</td>
+      <td>408</td>
+      <td>R</td>
+      <td>93</td>
+      <td>R408I (56), R408K (26), R408T (8), R408G (3)</td>
+    </tr>
+    <tr>
+      <td>COV2-2082</td>
+      <td>default</td>
+      <td>408</td>
+      <td>R</td>
+      <td>93</td>
+      <td>R408I (56), R408K (26), R408T (8), R408G (3)</td>
+    </tr>
+    <tr>
+      <td>COV2-2677</td>
+      <td>default</td>
+      <td>370</td>
+      <td>N</td>
+      <td>66</td>
+      <td>N370S (42), N370K (16), N370H (6), N370D (2)</td>
+    </tr>
+    <tr>
+      <td>COV2-2094</td>
+      <td>default</td>
+      <td>376</td>
+      <td>T</td>
+      <td>63</td>
+      <td>T376I (56), T376N (5), T376S (2)</td>
+    </tr>
+    <tr>
+      <td>COV2-2082</td>
+      <td>default</td>
+      <td>376</td>
+      <td>T</td>
+      <td>63</td>
+      <td>T376I (56), T376N (5), T376S (2)</td>
+    </tr>
+    <tr>
+      <td>COV2-2677</td>
+      <td>default</td>
+      <td>372</td>
+      <td>A</td>
+      <td>21</td>
+      <td>A372V (12), A372T (4), A372P (3), A372S (2)</td>
+    </tr>
+    <tr>
+      <td>CR3022</td>
+      <td>default</td>
+      <td>378</td>
+      <td>K</td>
+      <td>15</td>
+      <td>K378N (11), K378R (4)</td>
+    </tr>
+  </tbody>
+</table>
+
+
+    Plotting which antibodies / sera are escaped by mutations at all sites of escape with at least 5 mutation counts and saving to results/GISAID_mutations/all_class4_abs_mutation_counts.pdf.
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_20_19.png)
+    
+
+
+    
     Analyzing natural mutations for HAARVI_sera
     Writing counts of mutations at sites of strong escape to results/GISAID_mutations/HAARVI_sera_mutation_counts.csv. First few lines:
 
@@ -1097,7 +1208,7 @@ for name, specs in escape_profiles_config.items():
 
 
     
-![png](natural_mutations_files/natural_mutations_20_19.png)
+![png](natural_mutations_files/natural_mutations_20_23.png)
     
 
 
@@ -1437,14 +1548,12 @@ for name, specs in escape_profiles_config.items():
 
 
     
-    Analyzing natural mutations for HAARVI_sera
-    Plotting average across conditions and saving to results/GISAID_mutations/HAARVI_sera_escape_vs_freq_average.pdf
+    Analyzing natural mutations for all_class4_abs
+    Plotting each condition and saving to results/GISAID_mutations/all_class4_abs_escape_vs_freq_by-condition.pdf
 
 
-
-    
-![png](natural_mutations_files/natural_mutations_24_18.png)
-    
+    /fh/fast/bloom_j/software/miniconda3/envs/SARS-CoV-2-RBD_MAP/lib/python3.7/site-packages/plotnine/facets/facet.py:552: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'.
+    /fh/fast/bloom_j/software/miniconda3/envs/SARS-CoV-2-RBD_MAP/lib/python3.7/site-packages/plotnine/facets/facet.py:552: PlotnineWarning: If you need more space for the x-axis tick text use ... + theme(subplots_adjust={'wspace': 0.25}). Choose an appropriate value for 'wspace'.
 
 
 
@@ -1453,10 +1562,7 @@ for name, specs in escape_profiles_config.items():
     
 
 
-
-    
-![png](natural_mutations_files/natural_mutations_24_20.png)
-    
+    Plotting average across conditions and saving to results/GISAID_mutations/all_class4_abs_escape_vs_freq_average.pdf
 
 
 
@@ -1465,10 +1571,9 @@ for name, specs in escape_profiles_config.items():
     
 
 
-
     
-![png](natural_mutations_files/natural_mutations_24_22.png)
-    
+    Analyzing natural mutations for HAARVI_sera
+    Plotting average across conditions and saving to results/GISAID_mutations/HAARVI_sera_escape_vs_freq_average.pdf
 
 
 
@@ -1492,6 +1597,48 @@ for name, specs in escape_profiles_config.items():
 
     
 ![png](natural_mutations_files/natural_mutations_24_26.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_27.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_28.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_29.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_30.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_31.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_32.png)
+    
+
+
+
+    
+![png](natural_mutations_files/natural_mutations_24_33.png)
     
 
 

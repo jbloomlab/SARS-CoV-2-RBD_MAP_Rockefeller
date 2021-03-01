@@ -488,12 +488,13 @@ all_class4_abs:
   analyze_natural_mutations: true
   analyze_natural_mutations_specs:
     maxcol: 6
-    also_label:
+    also_label: [378, 417, 384]
     label_font_size: 7
     default_color: '#999999'
     default_alpha: 0.6
+    escape: tot_site_escape
     ylabel: total escape at site
-    label_minescape: 2
+    label_minescape: 1
     label_minfreq: 5e-5
 
 HAARVI_sera:  # name of plot
