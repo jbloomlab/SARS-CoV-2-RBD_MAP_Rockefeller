@@ -54,3 +54,5 @@ This directory contains input data used for the analysis and configuration for s
   - [./pse_config_6m0j.yaml](pse_config_6m0j.yaml): config file for writing pymol commands to create a PSE session aligned to 6M0J (not ab-bound structures) for certain selections.
 
   - [./mds_color_schemes.csv](mds_color_schemes.csv): files that specifies point colors for MDS plots, rather than coloring pie charts by site.
+
+  - [./average_output_pdbs_config.yaml](average_output_pdbs_config.yaml): config file for averaging the escape fractions across many conditions and re-writing 6M0J PDB file with B-factor recoded as this average value. 

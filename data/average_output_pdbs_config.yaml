@@ -1,0 +1,21 @@
+# average_output_pdbs_config
+
+pdb:
+  pdbfile: data/pdbs/6M0J.pdb
+  chains:
+    - E
+
+conditions:
+  class1:
+    - all_class1_abs
+  class2:
+    - all_class2_abs
+  class3:
+    - all_class3_abs
+  nyplasma:
+    - Nussenzweig_serum
+  haarvi:
+    - HAARVI_sera
+  allplasma:
+    - Nussenzweig_serum
+    - HAARVI_sera
