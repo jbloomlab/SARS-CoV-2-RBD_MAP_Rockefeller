@@ -240,9 +240,10 @@ NY_mabs_sera:
   dmslogo_facet_plot_kwargs:
     height_per_ax: 2.0
   dmslogo_draw_line_kwargs:
-    widthscale: 0.64
+    widthscale: 0.5
     axisfontscale: 1.5
   dmslogo_draw_logo_kwargs:
+    widthscale: 0.75
     axisfontscale: 1.5
   analyze_natural_mutations: false
 
