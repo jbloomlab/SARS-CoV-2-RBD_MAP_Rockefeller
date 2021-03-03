@@ -55,4 +55,6 @@ This directory contains input data used for the analysis and configuration for s
 
   - [./mds_color_schemes.csv](mds_color_schemes.csv): files that specifies point colors for MDS plots, rather than coloring pie charts by site.
 
-  - [./average_output_pdbs_config.yaml](average_output_pdbs_config.yaml): config file for averaging the escape fractions across many conditions and re-writing 6M0J PDB file with B-factor recoded as this average value. 
+  - [./average_output_pdbs_config.yaml](average_output_pdbs_config.yaml): config file for averaging the escape fractions across many conditions and re-writing 6M0J PDB file with B-factor recoded as this average value.
+
+  - [./SupplmentaryTable2.xlsx](SupplmentaryTable2.xlsx): Supplementary Table 2, which contains the FACS gating info and the percent of yeast cells expressing unmutated RBD or  each of the RBD mutant library replicates that fell into the "antibody-escape bin" for each selection condition.
