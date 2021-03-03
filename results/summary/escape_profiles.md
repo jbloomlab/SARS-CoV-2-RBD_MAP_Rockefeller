@@ -673,16 +673,18 @@ with multiprocessing.Pool(ncpus) as pool:
     
 
 
-
-    
-![png](escape_profiles_files/escape_profiles_26_2.png)
-    
-
-
     
     Plotted profile 2 to:
      results/escape_profiles/Rockefeller_antibodies_color_by_bind_stackedlogo.pdf
      results/escape_profiles/Rockefeller_antibodies_color_by_bind_stackedlogo.png.
+
+
+
+    
+![png](escape_profiles_files/escape_profiles_26_3.png)
+    
+
+
     
     Plotted profile 3 to:
      results/escape_profiles/Rockefeller_antibodies_color_by_expr_stackedlogo.pdf
@@ -691,7 +693,7 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_4.png)
+![png](escape_profiles_files/escape_profiles_26_5.png)
     
 
 
@@ -703,7 +705,7 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_6.png)
+![png](escape_profiles_files/escape_profiles_26_7.png)
     
 
 
@@ -715,7 +717,7 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_8.png)
+![png](escape_profiles_files/escape_profiles_26_9.png)
     
 
 
@@ -727,7 +729,7 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_10.png)
+![png](escape_profiles_files/escape_profiles_26_11.png)
     
 
 
@@ -739,7 +741,7 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_12.png)
+![png](escape_profiles_files/escape_profiles_26_13.png)
     
 
 
@@ -751,7 +753,7 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_14.png)
+![png](escape_profiles_files/escape_profiles_26_15.png)
     
 
 
@@ -763,7 +765,7 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_16.png)
+![png](escape_profiles_files/escape_profiles_26_17.png)
     
 
 
@@ -775,7 +777,7 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_18.png)
+![png](escape_profiles_files/escape_profiles_26_19.png)
     
 
 
@@ -787,7 +789,7 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_20.png)
+![png](escape_profiles_files/escape_profiles_26_21.png)
     
 
 
@@ -799,7 +801,7 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_22.png)
+![png](escape_profiles_files/escape_profiles_26_23.png)
     
 
 
@@ -811,7 +813,7 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_24.png)
+![png](escape_profiles_files/escape_profiles_26_25.png)
     
 
 
@@ -823,7 +825,7 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_26.png)
+![png](escape_profiles_files/escape_profiles_26_27.png)
     
 
 
@@ -835,7 +837,7 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_28.png)
+![png](escape_profiles_files/escape_profiles_26_29.png)
     
 
 
