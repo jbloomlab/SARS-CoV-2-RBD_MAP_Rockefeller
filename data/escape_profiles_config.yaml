@@ -74,6 +74,7 @@ Rockefeller_antibodies:
       486: [gray, 0.15]
       487: [gray, 0.15]
       489: [gray, 0.15]
+      504: [gray, 0.15]
     LY-CoV016:
       405: [gray, 0.15] # will be added due to adding CB6
       417: [gray, 0.15]
@@ -91,6 +92,7 @@ Rockefeller_antibodies:
       493: [gray, 0.15]
     C144:
       449: [gray, 0.15]
+      455: [gray, 0.15]
       456: [gray, 0.15]
       483: [gray, 0.15]
       484: [gray, 0.15]
@@ -106,6 +108,8 @@ Rockefeller_antibodies:
       444: [gray, 0.15]
       449: [gray, 0.15]
       450: [gray, 0.15]
+      452: [gray, 0.15]
+      453: [gray, 0.15]
       455: [gray, 0.15]
       472: [gray, 0.15]
       473: [gray, 0.15]
@@ -118,8 +122,8 @@ Rockefeller_antibodies:
       490: [gray, 0.15]
       493: [gray, 0.15]
       494: [gray, 0.15]
+      504: [gray, 0.15]
     C121:
-      405: [gray, 0.15]
       444: [gray, 0.15]
       447: [gray, 0.15]
       449: [gray, 0.15]
@@ -146,6 +150,9 @@ Rockefeller_antibodies:
       452: [gray, 0.15]
       490: [gray, 0.15]
       494: [gray, 0.15]
+      444: [gray, 0.075]
+      446: [gray, 0.075]
+      447: [gray, 0.075]
   analyze_natural_mutations: false
 
 Nussenzweig_serum:

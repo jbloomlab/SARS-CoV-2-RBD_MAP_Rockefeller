@@ -17,15 +17,15 @@ COV2-2499,class_3,#66CCEE
 C135,class_3,#66CCEE
 C110,class_3,#66CCEE
 COV2-2130,class_3,#66CCEE
-rCR3022,class_4,#999999
+CR3022,class_4,#999999
 COV2-2677,class_4,#999999
 COV2-2082,class_4,#999999
 COV2-2094,class_4,#999999
-COV-21,serum,#EEDD88
-COV-47,serum,#EEDD88
-COV-57,serum,#EEDD88
-COV-72,serum,#EEDD88
-COV-107,serum,#EEDD88
+COV-21,serum,#009E73
+COV-47,serum,#009E73
+COV-57,serum,#009E73
+COV-72,serum,#009E73
+COV-107,serum,#009E73
 A (day21),serum,#FFFFFF
 A (day45),serum,#FFFFFF
 A (day120),serum,#FFFFFF
