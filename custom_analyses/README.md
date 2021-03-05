@@ -3,7 +3,6 @@
 This directory contains custom analyses for specific sets of antibodies or sera.
 
 ## Analyses in this directory:
-### For Bjorkman / Barnes antibodies:
 #### Write pymol commmands to make PSEs
 The notebook [write_pymol_commands.ipynb](./write_pymol_commands.ipynb) takes as input the pdb files output by `output_pdbs.ipynb`, the escape sites called by `call_strong_escape_sites.ipynb`, and the contact sites called by `annotate_structural_contacts.Rmd`.
 
@@ -18,7 +17,7 @@ It writes text files that contain commands that can be pasted into the PyMol com
 
 This notebook might work for other antibodies, but I haven't tested it.
 
-#### Bjorkman custom analyses
+#### Rockefeller custom analyses
 The notebook [bjorkman_analyses.ipynb](bjorkman_analyses.ipynb) does some custom analyses for the Bjorkman antibodies and NY sera. 
 
 ### `custom-plots_xxx` scripts
