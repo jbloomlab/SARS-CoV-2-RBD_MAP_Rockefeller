@@ -1,5 +1,5 @@
 # the BioSample accession
-biosample_accession: SAMN16054076
+biosample_accession: SAMN18148595
 
 # name of CSV file listing barcode runs to uploade
 barcode_runs: barcode_runs_Rockefeller_antibodies.csv
@@ -9,4 +9,4 @@ ftp_username: subftp
 ftp_account_folder: uploads/jbloom_fhcrc.org_IuMBgK44
 
 # Meaningful name for this sample's FTP folder:
-ftp_subfolder: Crowe_antibody_barcodes
+ftp_subfolder: Rockefeller_barcodes
