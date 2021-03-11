@@ -195,12 +195,32 @@ for name, specs in escape_profiles_config.items():
 
 
     
-    Analyzing homolog escape for HAARVI_sera, saving plot to results/homologs/HAARVI_sera_homolog_escape.pdf
+    Analyzing homolog escape for all_class4_abs, saving plot to results/homologs/all_class4_abs_homolog_escape.pdf
 
 
 
     
 ![png](homolog_escape_files/homolog_escape_14_15.png)
+    
+
+
+    
+    Analyzing homolog escape for HAARVI_sera, saving plot to results/homologs/HAARVI_sera_homolog_escape.pdf
+
+
+
+    
+![png](homolog_escape_files/homolog_escape_14_17.png)
+    
+
+
+    
+    Analyzing homolog escape for all_samples, saving plot to results/homologs/all_samples_homolog_escape.pdf
+
+
+
+    
+![png](homolog_escape_files/homolog_escape_14_19.png)
     
 
 

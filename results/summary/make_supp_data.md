@@ -71,6 +71,7 @@ print('Making supplementary data for the following condition sets:\n  ' + '\n  '
       Rockefeller_antibodies
       Nussenzweig_serum
       NY_mabs_sera
+      all_samples
 
 
 Read the escape fractions
@@ -220,12 +221,23 @@ for metric_type, (set_name, condition_set) in itertools.product(['mutation', 'si
 
     Saving plot to results/supp_data/NY_mabs_sera-mutation-corr.pdf
     
-    Plotting correlations of site escape for Rockefeller_antibodies
+    Plotting correlations of mutation escape for all_samples
 
 
 
     
 ![png](make_supp_data_files/make_supp_data_16_7.png)
+    
+
+
+    Saving plot to results/supp_data/all_samples-mutation-corr.pdf
+    
+    Plotting correlations of site escape for Rockefeller_antibodies
+
+
+
+    
+![png](make_supp_data_files/make_supp_data_16_9.png)
     
 
 
@@ -236,7 +248,7 @@ for metric_type, (set_name, condition_set) in itertools.product(['mutation', 'si
 
 
     
-![png](make_supp_data_files/make_supp_data_16_9.png)
+![png](make_supp_data_files/make_supp_data_16_11.png)
     
 
 
@@ -247,11 +259,22 @@ for metric_type, (set_name, condition_set) in itertools.product(['mutation', 'si
 
 
     
-![png](make_supp_data_files/make_supp_data_16_11.png)
+![png](make_supp_data_files/make_supp_data_16_13.png)
     
 
 
     Saving plot to results/supp_data/NY_mabs_sera-site-corr.pdf
+    
+    Plotting correlations of site escape for all_samples
+
+
+
+    
+![png](make_supp_data_files/make_supp_data_16_15.png)
+    
+
+
+    Saving plot to results/supp_data/all_samples-site-corr.pdf
 
 
 ## Raw data files
@@ -300,6 +323,9 @@ for set_name, condition_set in condition_sets.items():
     
     Raw data for NY_mabs_sera:
     Writing to results/supp_data/NY_mabs_sera_raw_data.csv
+    
+    Raw data for all_samples:
+    Writing to results/supp_data/all_samples_raw_data.csv
 
 
 ## Data for `dms-view`:
@@ -505,6 +531,17 @@ for set_name, condition_set in condition_sets.items():
     Writing `dms-view` input file for NY_mabs_sera mapped to PDB 7k8z to results/supp_data/NY_mabs_sera_7k8z_dms-view_data.csv
     Writing `dms-view` input file for NY_mabs_sera mapped to PDB 7k8v to results/supp_data/NY_mabs_sera_7k8v_dms-view_data.csv
     Writing `dms-view` input file for NY_mabs_sera mapped to PDB 7c01 to results/supp_data/NY_mabs_sera_7c01_dms-view_data.csv
+    Writing `dms-view` input file for all_samples mapped to PDB 6m0j to results/supp_data/all_samples_6m0j_dms-view_data.csv
+    Writing `dms-view` input file for all_samples mapped to PDB 6xcm to results/supp_data/all_samples_6xcm_dms-view_data.csv
+    Writing `dms-view` input file for all_samples mapped to PDB 6xcn to results/supp_data/all_samples_6xcn_dms-view_data.csv
+    Writing `dms-view` input file for all_samples mapped to PDB 7k90 to results/supp_data/all_samples_7k90_dms-view_data.csv
+    Writing `dms-view` input file for all_samples mapped to PDB 7k8s to results/supp_data/all_samples_7k8s_dms-view_data.csv
+    Writing `dms-view` input file for all_samples mapped to PDB 7k8t to results/supp_data/all_samples_7k8t_dms-view_data.csv
+    Writing `dms-view` input file for all_samples mapped to PDB 7k8x to results/supp_data/all_samples_7k8x_dms-view_data.csv
+    Writing `dms-view` input file for all_samples mapped to PDB 7k8y to results/supp_data/all_samples_7k8y_dms-view_data.csv
+    Writing `dms-view` input file for all_samples mapped to PDB 7k8z to results/supp_data/all_samples_7k8z_dms-view_data.csv
+    Writing `dms-view` input file for all_samples mapped to PDB 7k8v to results/supp_data/all_samples_7k8v_dms-view_data.csv
+    Writing `dms-view` input file for all_samples mapped to PDB 7c01 to results/supp_data/all_samples_7c01_dms-view_data.csv
 
 
 
