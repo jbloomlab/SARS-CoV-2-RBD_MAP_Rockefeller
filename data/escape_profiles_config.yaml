@@ -597,3 +597,62 @@ HAARVI_sera:  # name of plot
   dmslogo_draw_logo_kwargs:
     widthscale: 0.75
     axisfontscale: 1.5
+
+all_samples:  # name of plot
+  conditions:  # antibodies / sera to show and names to use for them
+    CB6_400: LY-CoV016
+    LY-CoV555_400: LY-CoV555
+    REGN10933_400: REGN10933
+    REGN10987_400: REGN10987
+    CR3022_400: CR3022
+    COV2-2677_400: COV2-2677
+    COV2-2082_400: COV2-2082
+    COV2-2094_400: COV2-2094
+    COV2-2165_400: COV2-2165
+    COV2-2832_400: COV2-2832
+    COV2-2479_400: COV2-2479
+    COV2-2050_400: COV2-2050
+    COV2-2096_400: COV2-2096
+    COV2-2499_400: COV2-2499
+    C105_400: C105 # class 1, COV-107
+    C144_400: C144 # class 2, clinical trials, COV-047
+    C002_400: C002 # class 2, COV-021
+    C121_400: C121 # class 2, COV-107
+    C135_400: C135 # class 3, clinical trials, COV-072
+    C110_400: C110 # class 3, COV-107
+    COV2-2196_400: COV2-2196
+    COV2-2130_400: COV2-2130
+    COV-021_500: COV-021
+    COV-047_200: COV-047
+    COV-057_50: COV-057
+    COV-072_200: COV-072
+    COV-107_80: COV-107
+    23_d21_1250: subject A (day 21)
+    23_d45_1250: subject A (day 45)
+    23_d120_500: subject A (day 120)
+    1C_d26_200: subject B (day 26)
+    1C_d113_200: subject B (day 113)
+    24C_d32_200: subject C (day 32)
+    24C_d104_200: subject C (day 104)
+    6C_d33_500: subject D (day 33)
+    6C_d76_500: subject D (day 76)
+    22C_d28_200: subject E (day 28)
+    22C_d104_200: subject E (day 104)
+    25C_d48_200: subject F (day 48)
+    25C_d115_80: subject F (day 115)
+    25_d18_500: subject G (day 18)
+    25_d94_200: subject G (day 94)
+    12C_d61_160: subject H (day 61)
+    12C_d152_80: subject H (day 152)
+    23C_d26_80: subject I (day 26)
+    23C_d102_80: subject I (day 102)
+    13_d15_200: subject J (day 15)
+    13_d121_1250: subject J (day 121)
+    7C_d29_500: subject K (day 29)
+    7C_d103_200: subject K (day 103)
+  plot_auto_identified_sites: false
+  add_sites: [417,484,501]
+  exclude_sites: []
+  site_color_scheme: barnes_classes
+  color_by_dms: False
+  make_supp_data: True
