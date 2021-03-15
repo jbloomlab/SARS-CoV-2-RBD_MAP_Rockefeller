@@ -268,6 +268,7 @@ Weisblum_single_nt_colorescape:
   site_color_scheme: gray
   single_nt_only: ./data/Weisblum_SinoBiological_Spike.gb
   draw_line_plot: false
+  color_by_dms: true
   dmslogo_draw_logo_kwargs:
     axisfontscale: 1.5
   mutation_colors:

@@ -660,7 +660,7 @@ with multiprocessing.Pool(ncpus) as pool:
         
 ```
 
-    Drawing 16 profiles using 16 CPUs...
+    Drawing 18 profiles using 16 CPUs...
     
     Plotted profile 1 to:
      results/escape_profiles/Rockefeller_antibodies_stackedlogo.pdf
@@ -673,16 +673,18 @@ with multiprocessing.Pool(ncpus) as pool:
     
 
 
-
-    
-![png](escape_profiles_files/escape_profiles_26_2.png)
-    
-
-
     
     Plotted profile 2 to:
      results/escape_profiles/Rockefeller_antibodies_color_by_bind_stackedlogo.pdf
      results/escape_profiles/Rockefeller_antibodies_color_by_bind_stackedlogo.png.
+
+
+
+    
+![png](escape_profiles_files/escape_profiles_26_3.png)
+    
+
+
     
     Plotted profile 3 to:
      results/escape_profiles/Rockefeller_antibodies_color_by_expr_stackedlogo.pdf
@@ -691,7 +693,7 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_4.png)
+![png](escape_profiles_files/escape_profiles_26_5.png)
     
 
 
@@ -703,7 +705,7 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_6.png)
+![png](escape_profiles_files/escape_profiles_26_7.png)
     
 
 
@@ -715,7 +717,7 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_8.png)
+![png](escape_profiles_files/escape_profiles_26_9.png)
     
 
 
@@ -727,7 +729,7 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_10.png)
+![png](escape_profiles_files/escape_profiles_26_11.png)
     
 
 
@@ -739,7 +741,7 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_12.png)
+![png](escape_profiles_files/escape_profiles_26_13.png)
     
 
 
@@ -751,7 +753,7 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_14.png)
+![png](escape_profiles_files/escape_profiles_26_15.png)
     
 
 
@@ -763,7 +765,7 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_16.png)
+![png](escape_profiles_files/escape_profiles_26_17.png)
     
 
 
@@ -775,79 +777,103 @@ with multiprocessing.Pool(ncpus) as pool:
 
 
     
-![png](escape_profiles_files/escape_profiles_26_18.png)
+![png](escape_profiles_files/escape_profiles_26_19.png)
     
 
 
     
     Plotted profile 11 to:
+     results/escape_profiles/Weisblum_single_nt_colorescape_color_by_bind_stackedlogo.pdf
+     results/escape_profiles/Weisblum_single_nt_colorescape_color_by_bind_stackedlogo.png.
+
+
+
+    
+![png](escape_profiles_files/escape_profiles_26_21.png)
+    
+
+
+    
+    Plotted profile 12 to:
+     results/escape_profiles/Weisblum_single_nt_colorescape_color_by_expr_stackedlogo.pdf
+     results/escape_profiles/Weisblum_single_nt_colorescape_color_by_expr_stackedlogo.png.
+
+
+
+    
+![png](escape_profiles_files/escape_profiles_26_23.png)
+    
+
+
+    
+    Plotted profile 13 to:
      results/escape_profiles/all_class1_abs_stackedlogo.pdf
      results/escape_profiles/all_class1_abs_stackedlogo.png.
 
 
 
     
-![png](escape_profiles_files/escape_profiles_26_20.png)
+![png](escape_profiles_files/escape_profiles_26_25.png)
     
 
 
     
-    Plotted profile 12 to:
+    Plotted profile 14 to:
      results/escape_profiles/all_class2_abs_stackedlogo.pdf
      results/escape_profiles/all_class2_abs_stackedlogo.png.
 
 
 
     
-![png](escape_profiles_files/escape_profiles_26_22.png)
+![png](escape_profiles_files/escape_profiles_26_27.png)
     
 
 
     
-    Plotted profile 13 to:
+    Plotted profile 15 to:
      results/escape_profiles/all_class3_abs_stackedlogo.pdf
      results/escape_profiles/all_class3_abs_stackedlogo.png.
 
 
 
     
-![png](escape_profiles_files/escape_profiles_26_24.png)
+![png](escape_profiles_files/escape_profiles_26_29.png)
     
 
 
     
-    Plotted profile 14 to:
+    Plotted profile 16 to:
      results/escape_profiles/all_class4_abs_stackedlogo.pdf
      results/escape_profiles/all_class4_abs_stackedlogo.png.
 
 
 
     
-![png](escape_profiles_files/escape_profiles_26_26.png)
+![png](escape_profiles_files/escape_profiles_26_31.png)
     
 
 
     
-    Plotted profile 15 to:
+    Plotted profile 17 to:
      results/escape_profiles/HAARVI_sera_stackedlogo.pdf
      results/escape_profiles/HAARVI_sera_stackedlogo.png.
 
 
 
     
-![png](escape_profiles_files/escape_profiles_26_28.png)
+![png](escape_profiles_files/escape_profiles_26_33.png)
     
 
 
     
-    Plotted profile 16 to:
+    Plotted profile 18 to:
      results/escape_profiles/all_samples_stackedlogo.pdf
      results/escape_profiles/all_samples_stackedlogo.png.
 
 
 
     
-![png](escape_profiles_files/escape_profiles_26_30.png)
+![png](escape_profiles_files/escape_profiles_26_35.png)
     
 
 
