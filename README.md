@@ -1,9 +1,9 @@
 # Mutational antigenic profiling of SARS-CoV-2 RBD from Rockefeller antibodies and sera
 Analysis of mutational antigenic profiling of barcoded codon variants of SARS-CoV-2 RBD.
 
-Study and analysis by Allie Greaney, Tyler Starr, [Jesse Bloom](https://research.fhcrc.org/bloom/en.html), and co-authors. In collaboratoration with the [Nussenzweig Lab](https://www.rockefeller.edu/our-scientists/heads-of-laboratories/875-michel-c-nussenzweig/) and [Bjorkman Lab](https://www.its.caltech.edu/~bjorker/).
+Study and analysis by Allie Greaney, Tyler Starr, [Jesse Bloom](https://research.fhcrc.org/bloom/en.html), and co-authors. In collaboratoration with the [Nussenzweig Lab](https://www.rockefeller.edu/our-scientists/heads-of-laboratories/875-michel-c-nussenzweig/) and [Bjorkman Lab](https://www.its.caltech.edu/~bjorker/). These experiments are described in this [preprint](https://www.biorxiv.org/content/10.1101/2021.03.17.435863v1).
 
-This work examines mutations that reduce binding by monoclonal antibodies and sera isolated in [Robbiani, et al. _Nature_ (2020)](https://www.nature.com/articles/s41586-020-2456-9) and further structurally characterized in [Barnes, et al., _Cell_ (2020)](https://www.sciencedirect.com/science/article/pii/S0092867420307571) and [Barnes, et al., _Nature_ (2020)](https://www.nature.com/articles/s41586-020-2852-1), and functionally characterized in [Weisblum, et al., _eLife_ (2020)](https://elifesciences.org/articles/61312). 
+This work examines mutations that reduce binding by monoclonal antibodies and sera isolated in [Robbiani, et al. _Nature_ (2020)](https://www.nature.com/articles/s41586-020-2456-9) and further structurally characterized in [Barnes, et al., _Cell_ (2020)](https://www.sciencedirect.com/science/article/pii/S0092867420307571) and [Barnes, et al., _Nature_ (2020)](https://www.nature.com/articles/s41586-020-2852-1), and functionally characterized in [Weisblum, et al., _eLife_ (2020)](https://elifesciences.org/articles/61312).
 
 ## Summary of workflow and results
 For a summary of the workflow and links to key results files, [click here](results/summary/summary.md).
