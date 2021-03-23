@@ -3,7 +3,7 @@
 Below are links to interactive visualizations of the effects of single mutations to the SARS-CoV-2 spike receptor-binding domain (RBD) on binding by monoclonal antibodies of three structural classes and polyclonal convalescent human sera.
 
 These visualizations are built using [dms-view](https://dms-view.github.io/docs/).
-These experiments are described in this preprint (**add link**), and raw data are available [here](https://github.com/jbloomlab/SARS-CoV-2-RBD_MAP_Rockefeller/blob/main/results/supp_data/NY_mabs_sera_raw_data.csv).
+These experiments are described in this [preprint](https://www.biorxiv.org/content/10.1101/2021.03.17.435863v1), and raw data are available [here](https://github.com/jbloomlab/SARS-CoV-2-RBD_MAP_Rockefeller/blob/main/results/supp_data/NY_mabs_sera_raw_data.csv).
 Monoclonal antibodies and polyclonal plasma were isolated from SARS-CoV-2 convalescent individuals, as described in [Robbiani, et al. (2020)](https://www.nature.com/articles/s41586-020-2456-9).
 
 Sites where mutations reduce binding are shown for each monoclonal antibody or polyclonal plasma, and are mapped to the ACE2-bound RBD structure ([PDB 6M0J](https://www.rcsb.org/structure/6M0J)).
