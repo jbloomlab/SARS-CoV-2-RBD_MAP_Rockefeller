@@ -5,7 +5,7 @@ __default__:
   time: 0-4
   mem: 32000
   name: "{rule}"
-  constraint: '"gizmof|gizmog|gizmoh|gizmoj|gizmok"'
+  constraint: '"gizmog|gizmoj|gizmok"'
 
 counts_to_scores:
   mem: 100000
