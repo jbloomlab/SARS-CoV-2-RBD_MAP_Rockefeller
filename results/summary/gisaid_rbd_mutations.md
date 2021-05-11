@@ -54,8 +54,8 @@ with lzma.open(config['gisaid_spikes'], 'rt') as f:
 print(f"Read {len(spikes)} spike sequences.")
 ```
 
-    Reading GISAID spikes in data/spikeprot0315.tar.tar.xz
-    Read 765455 spike sequences.
+    Reading GISAID spikes in data/spikeprot0428.tar.tar.xz
+    Read 1228699 spike sequences.
 
 
 Make a data frame that has the BioPython SeqRecord, length, host, and geographic location (country) for each spike.
@@ -104,46 +104,50 @@ spikes_df = spikes_df.query('host == "Human"')
   <tbody>
     <tr>
       <th>Human</th>
-      <td>764112</td>
+      <td>1227041</td>
     </tr>
     <tr>
       <th>Neovison vison</th>
-      <td>902</td>
+      <td>921</td>
     </tr>
     <tr>
       <th>Environment</th>
-      <td>358</td>
+      <td>619</td>
     </tr>
     <tr>
       <th>Felis catus</th>
-      <td>23</td>
-    </tr>
-    <tr>
-      <th>Mustela lutreola</th>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>Manis javanica</th>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>human</th>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>Panthera tigris jacksoni</th>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>Canis lupus familiaris</th>
-      <td>5</td>
+      <td>29</td>
     </tr>
     <tr>
       <th>Panthera leo</th>
-      <td>4</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <th>Manis javanica</th>
+      <td>19</td>
+    </tr>
+    <tr>
+      <th>Canis lupus familiaris</th>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>Panthera tigris jacksoni</th>
+      <td>7</td>
     </tr>
     <tr>
       <th>Rhinolophus malayanus</th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Mus musculus</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>Gorilla gorilla gorilla</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>Rhinolophus stheno</th>
       <td>2</td>
     </tr>
     <tr>
@@ -151,23 +155,23 @@ spikes_df = spikes_df.query('host == "Human"')
       <td>2</td>
     </tr>
     <tr>
-      <th>Chlorocebus sabaeus</th>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>Mus musculus</th>
-      <td>1</td>
+      <th>Mesocricetus auratus</th>
+      <td>2</td>
     </tr>
     <tr>
       <th>Manis pentadactyla</th>
       <td>1</td>
     </tr>
     <tr>
-      <th>Gorilla Gorilla Gorilla</th>
+      <th>Rhinolophus sinicus</th>
       <td>1</td>
     </tr>
     <tr>
-      <th>Rhinolophus affinis</th>
+      <th>Rhinolophus pusillus</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>Prionailurus bengalensis euptilurus</th>
       <td>1</td>
     </tr>
     <tr>
@@ -175,7 +179,23 @@ spikes_df = spikes_df.query('host == "Human"')
       <td>1</td>
     </tr>
     <tr>
+      <th>Rhinolophus affinis</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>Chlorocebus sabaeus</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>Mustela putorius furo</th>
+      <td>1</td>
+    </tr>
+    <tr>
       <th>Mus musculus (BALB/c mice)</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>unknown</th>
       <td>1</td>
     </tr>
   </tbody>
@@ -261,11 +281,11 @@ spikes_df = spikes_df.query('valid_length')
   <tbody>
     <tr>
       <th>False</th>
-      <td>42959</td>
+      <td>5569</td>
     </tr>
     <tr>
       <th>True</th>
-      <td>721153</td>
+      <td>1221472</td>
     </tr>
   </tbody>
 </table>
@@ -318,11 +338,11 @@ display(HTML(
   <tbody>
     <tr>
       <th>False</th>
-      <td>689785</td>
+      <td>1160600</td>
     </tr>
     <tr>
       <th>True</th>
-      <td>31368</td>
+      <td>60872</td>
     </tr>
   </tbody>
 </table>
@@ -462,6 +482,46 @@ assert len(aligned_rbds) == len(spikes_df)
     Now aligning these sequences...
     Alignment complete.
     
+    Writing spikes 750001 to 800000 to results/GISAID_mutations/human_full-length_spikes_750001-to-800000.fasta
+    Now aligning these sequences...
+    Alignment complete.
+    
+    Writing spikes 800001 to 850000 to results/GISAID_mutations/human_full-length_spikes_800001-to-850000.fasta
+    Now aligning these sequences...
+    Alignment complete.
+    
+    Writing spikes 850001 to 900000 to results/GISAID_mutations/human_full-length_spikes_850001-to-900000.fasta
+    Now aligning these sequences...
+    Alignment complete.
+    
+    Writing spikes 900001 to 950000 to results/GISAID_mutations/human_full-length_spikes_900001-to-950000.fasta
+    Now aligning these sequences...
+    Alignment complete.
+    
+    Writing spikes 950001 to 1000000 to results/GISAID_mutations/human_full-length_spikes_950001-to-1000000.fasta
+    Now aligning these sequences...
+    Alignment complete.
+    
+    Writing spikes 1000001 to 1050000 to results/GISAID_mutations/human_full-length_spikes_1000001-to-1050000.fasta
+    Now aligning these sequences...
+    Alignment complete.
+    
+    Writing spikes 1050001 to 1100000 to results/GISAID_mutations/human_full-length_spikes_1050001-to-1100000.fasta
+    Now aligning these sequences...
+    Alignment complete.
+    
+    Writing spikes 1100001 to 1150000 to results/GISAID_mutations/human_full-length_spikes_1100001-to-1150000.fasta
+    Now aligning these sequences...
+    Alignment complete.
+    
+    Writing spikes 1150001 to 1200000 to results/GISAID_mutations/human_full-length_spikes_1150001-to-1200000.fasta
+    Now aligning these sequences...
+    Alignment complete.
+    
+    Writing spikes 1200001 to 1250000 to results/GISAID_mutations/human_full-length_spikes_1200001-to-1250000.fasta
+    Now aligning these sequences...
+    Alignment complete.
+    
 
 
 ## Parse / filter aligned RBDs
@@ -521,7 +581,7 @@ assert rbd_df['all_valid_aas'].all()
 print(f"Retained {len(rbd_df)} RBDs.")
 ```
 
-    Retained 679502 RBDs.
+    Retained 1147928 RBDs.
 
 
 Now get and plot the number of amino-acid mutations per RBD relative to the reference sequence, plotting on both a linear and log scale.
@@ -574,7 +634,7 @@ print(f"Writing alignment to {rbd_alignment_file}")
 _ = Bio.SeqIO.write(rbd_df['seqrecord'].tolist(), rbd_alignment_file, 'fasta')
 ```
 
-    Overall, there are 679454 aligned RBDs that passed filters.
+    Overall, there are 1147827 aligned RBDs that passed filters.
     Writing alignment to results/GISAID_mutations/RBD_alignment.fasta
 
 
@@ -625,135 +685,135 @@ display(HTML(muts_df.head(n=15).to_html(index=False)))
       <td>501</td>
       <td>N</td>
       <td>Y</td>
-      <td>154979</td>
-      <td>194</td>
-      <td>0.228093</td>
+      <td>429266</td>
+      <td>418</td>
+      <td>0.373981</td>
     </tr>
     <tr>
       <td>147</td>
       <td>477</td>
       <td>S</td>
       <td>N</td>
-      <td>30314</td>
-      <td>106</td>
-      <td>0.044615</td>
+      <td>42595</td>
+      <td>176</td>
+      <td>0.037109</td>
     </tr>
     <tr>
       <td>122</td>
       <td>452</td>
       <td>L</td>
       <td>R</td>
-      <td>14285</td>
-      <td>68</td>
-      <td>0.021024</td>
-    </tr>
-    <tr>
-      <td>109</td>
-      <td>439</td>
-      <td>N</td>
-      <td>K</td>
-      <td>13097</td>
-      <td>102</td>
-      <td>0.019276</td>
+      <td>39467</td>
+      <td>120</td>
+      <td>0.034384</td>
     </tr>
     <tr>
       <td>154</td>
       <td>484</td>
       <td>E</td>
       <td>K</td>
-      <td>7651</td>
-      <td>108</td>
-      <td>0.011261</td>
+      <td>34124</td>
+      <td>232</td>
+      <td>0.029729</td>
     </tr>
     <tr>
-      <td>87</td>
-      <td>417</td>
-      <td>K</td>
+      <td>109</td>
+      <td>439</td>
       <td>N</td>
-      <td>3010</td>
-      <td>62</td>
-      <td>0.004430</td>
+      <td>K</td>
+      <td>18813</td>
+      <td>160</td>
+      <td>0.016390</td>
     </tr>
     <tr>
       <td>148</td>
       <td>478</td>
       <td>T</td>
       <td>K</td>
-      <td>2550</td>
-      <td>36</td>
-      <td>0.003753</td>
+      <td>11893</td>
+      <td>57</td>
+      <td>0.010361</td>
     </tr>
     <tr>
-      <td>164</td>
-      <td>494</td>
-      <td>S</td>
-      <td>P</td>
-      <td>2067</td>
-      <td>49</td>
-      <td>0.003042</td>
-    </tr>
-    <tr>
-      <td>190</td>
-      <td>520</td>
-      <td>A</td>
-      <td>S</td>
-      <td>1694</td>
-      <td>48</td>
-      <td>0.002493</td>
-    </tr>
-    <tr>
-      <td>171</td>
-      <td>501</td>
+      <td>87</td>
+      <td>417</td>
+      <td>K</td>
       <td>N</td>
-      <td>T</td>
-      <td>1426</td>
-      <td>35</td>
-      <td>0.002099</td>
-    </tr>
-    <tr>
+      <td>9737</td>
       <td>123</td>
-      <td>453</td>
-      <td>Y</td>
-      <td>F</td>
-      <td>1029</td>
-      <td>10</td>
-      <td>0.001514</td>
-    </tr>
-    <tr>
-      <td>192</td>
-      <td>522</td>
-      <td>A</td>
-      <td>S</td>
-      <td>917</td>
-      <td>45</td>
-      <td>0.001350</td>
-    </tr>
-    <tr>
-      <td>37</td>
-      <td>367</td>
-      <td>V</td>
-      <td>F</td>
-      <td>750</td>
-      <td>50</td>
-      <td>0.001104</td>
-    </tr>
-    <tr>
-      <td>147</td>
-      <td>477</td>
-      <td>S</td>
-      <td>R</td>
-      <td>636</td>
-      <td>21</td>
-      <td>0.000936</td>
+      <td>0.008483</td>
     </tr>
     <tr>
       <td>87</td>
       <td>417</td>
       <td>K</td>
       <td>T</td>
-      <td>632</td>
-      <td>33</td>
-      <td>0.000930</td>
+      <td>5340</td>
+      <td>77</td>
+      <td>0.004652</td>
+    </tr>
+    <tr>
+      <td>164</td>
+      <td>494</td>
+      <td>S</td>
+      <td>P</td>
+      <td>5311</td>
+      <td>69</td>
+      <td>0.004627</td>
+    </tr>
+    <tr>
+      <td>190</td>
+      <td>520</td>
+      <td>A</td>
+      <td>S</td>
+      <td>3014</td>
+      <td>65</td>
+      <td>0.002626</td>
+    </tr>
+    <tr>
+      <td>171</td>
+      <td>501</td>
+      <td>N</td>
+      <td>T</td>
+      <td>2794</td>
+      <td>68</td>
+      <td>0.002434</td>
+    </tr>
+    <tr>
+      <td>192</td>
+      <td>522</td>
+      <td>A</td>
+      <td>S</td>
+      <td>1972</td>
+      <td>73</td>
+      <td>0.001718</td>
+    </tr>
+    <tr>
+      <td>110</td>
+      <td>440</td>
+      <td>N</td>
+      <td>K</td>
+      <td>1467</td>
+      <td>58</td>
+      <td>0.001278</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>367</td>
+      <td>V</td>
+      <td>F</td>
+      <td>1296</td>
+      <td>68</td>
+      <td>0.001129</td>
+    </tr>
+    <tr>
+      <td>160</td>
+      <td>490</td>
+      <td>F</td>
+      <td>S</td>
+      <td>1259</td>
+      <td>63</td>
+      <td>0.001097</td>
     </tr>
   </tbody>
 </table>

@@ -282,58 +282,13 @@ display(HTML(sitecounts_strong_sites.head(n=20).to_html(index=False)))
   </thead>
   <tbody>
     <tr>
-      <td>COV2-2499_400</td>
-      <td>sensitive</td>
-      <td>501</td>
-      <td>N</td>
-      <td>0.4765</td>
-      <td>156434</td>
-      <td>N501Y (154979), N501T (1426), N501S (16), N501I (11), N501H (2)</td>
-    </tr>
-    <tr>
-      <td>25_d18_500</td>
+      <td>22C_d28_200</td>
       <td>sensitive_max_mut</td>
       <td>501</td>
       <td>N</td>
-      <td>0.6856</td>
-      <td>156434</td>
-      <td>N501Y (154979), N501T (1426), N501S (16), N501I (11), N501H (2)</td>
-    </tr>
-    <tr>
-      <td>COV-021_500</td>
-      <td>sensitive</td>
-      <td>501</td>
-      <td>N</td>
-      <td>0.3541</td>
-      <td>156434</td>
-      <td>N501Y (154979), N501T (1426), N501S (16), N501I (11), N501H (2)</td>
-    </tr>
-    <tr>
-      <td>25_d18_500</td>
-      <td>sensitive</td>
-      <td>501</td>
-      <td>N</td>
-      <td>0.6856</td>
-      <td>156434</td>
-      <td>N501Y (154979), N501T (1426), N501S (16), N501I (11), N501H (2)</td>
-    </tr>
-    <tr>
-      <td>COV2-2499_400</td>
-      <td>sensitive_max_mut</td>
-      <td>501</td>
-      <td>N</td>
-      <td>0.4765</td>
-      <td>156434</td>
-      <td>N501Y (154979), N501T (1426), N501S (16), N501I (11), N501H (2)</td>
-    </tr>
-    <tr>
-      <td>25C_d115_80</td>
-      <td>sensitive_max_mut</td>
-      <td>501</td>
-      <td>N</td>
-      <td>0.9038</td>
-      <td>156434</td>
-      <td>N501Y (154979), N501T (1426), N501S (16), N501I (11), N501H (2)</td>
+      <td>1.2370</td>
+      <td>432113</td>
+      <td>N501Y (429266), N501T (2794), N501S (29), N501I (18), N501H (4), N501C (1), N501F (1)</td>
     </tr>
     <tr>
       <td>22C_d28_200</td>
@@ -341,17 +296,62 @@ display(HTML(sitecounts_strong_sites.head(n=20).to_html(index=False)))
       <td>501</td>
       <td>N</td>
       <td>1.2370</td>
-      <td>156434</td>
-      <td>N501Y (154979), N501T (1426), N501S (16), N501I (11), N501H (2)</td>
+      <td>432113</td>
+      <td>N501Y (429266), N501T (2794), N501S (29), N501I (18), N501H (4), N501C (1), N501F (1)</td>
     </tr>
     <tr>
-      <td>COV-021_500</td>
+      <td>CB6_400</td>
       <td>sensitive_max_mut</td>
       <td>501</td>
       <td>N</td>
+      <td>1.5790</td>
+      <td>432113</td>
+      <td>N501Y (429266), N501T (2794), N501S (29), N501I (18), N501H (4), N501C (1), N501F (1)</td>
+    </tr>
+    <tr>
+      <td>25C_d115_80</td>
+      <td>sensitive_max_mut</td>
+      <td>501</td>
+      <td>N</td>
+      <td>0.9038</td>
+      <td>432113</td>
+      <td>N501Y (429266), N501T (2794), N501S (29), N501I (18), N501H (4), N501C (1), N501F (1)</td>
+    </tr>
+    <tr>
+      <td>COV2-2499_400</td>
+      <td>sensitive</td>
+      <td>501</td>
+      <td>N</td>
+      <td>0.4765</td>
+      <td>432113</td>
+      <td>N501Y (429266), N501T (2794), N501S (29), N501I (18), N501H (4), N501F (1), N501C (1)</td>
+    </tr>
+    <tr>
+      <td>COV2-2499_400</td>
+      <td>sensitive_max_mut</td>
+      <td>501</td>
+      <td>N</td>
+      <td>0.4765</td>
+      <td>432113</td>
+      <td>N501Y (429266), N501T (2794), N501S (29), N501I (18), N501H (4), N501C (1), N501F (1)</td>
+    </tr>
+    <tr>
+      <td>COV-021_500</td>
+      <td>sensitive</td>
+      <td>501</td>
+      <td>N</td>
       <td>0.3541</td>
-      <td>156434</td>
-      <td>N501Y (154979), N501T (1426), N501S (16), N501I (11), N501H (2)</td>
+      <td>432113</td>
+      <td>N501Y (429266), N501T (2794), N501S (29), N501I (18), N501H (4), N501C (1), N501F (1)</td>
+    </tr>
+    <tr>
+      <td>25_d18_500</td>
+      <td>sensitive</td>
+      <td>501</td>
+      <td>N</td>
+      <td>0.6856</td>
+      <td>432113</td>
+      <td>N501Y (429266), N501T (2794), N501S (29), N501I (18), N501H (4), N501C (1), N501F (1)</td>
     </tr>
     <tr>
       <td>25C_d115_80</td>
@@ -359,26 +359,26 @@ display(HTML(sitecounts_strong_sites.head(n=20).to_html(index=False)))
       <td>501</td>
       <td>N</td>
       <td>0.9038</td>
-      <td>156434</td>
-      <td>N501Y (154979), N501T (1426), N501S (16), N501I (11), N501H (2)</td>
+      <td>432113</td>
+      <td>N501Y (429266), N501T (2794), N501S (29), N501I (18), N501H (4), N501C (1), N501F (1)</td>
     </tr>
     <tr>
-      <td>22C_d28_200</td>
+      <td>25_d18_500</td>
       <td>sensitive_max_mut</td>
       <td>501</td>
       <td>N</td>
-      <td>1.2370</td>
-      <td>156434</td>
-      <td>N501Y (154979), N501T (1426), N501S (16), N501I (11), N501H (2)</td>
+      <td>0.6856</td>
+      <td>432113</td>
+      <td>N501Y (429266), N501T (2794), N501S (29), N501I (18), N501H (4), N501C (1), N501F (1)</td>
     </tr>
     <tr>
-      <td>CB6_400</td>
+      <td>COV-021_500</td>
       <td>sensitive_max_mut</td>
       <td>501</td>
       <td>N</td>
-      <td>1.5790</td>
-      <td>156434</td>
-      <td>N501Y (154979), N501T (1426), N501S (16), N501I (11), N501H (2)</td>
+      <td>0.3541</td>
+      <td>432113</td>
+      <td>N501Y (429266), N501T (2794), N501S (29), N501I (18), N501H (4), N501C (1), N501F (1)</td>
     </tr>
     <tr>
       <td>CB6_400</td>
@@ -386,26 +386,62 @@ display(HTML(sitecounts_strong_sites.head(n=20).to_html(index=False)))
       <td>501</td>
       <td>N</td>
       <td>1.5790</td>
-      <td>156434</td>
-      <td>N501Y (154979), N501T (1426), N501S (16), N501I (11), N501H (2)</td>
+      <td>432113</td>
+      <td>N501Y (429266), N501T (2794), N501S (29), N501I (18), N501H (4), N501F (1), N501C (1)</td>
     </tr>
     <tr>
-      <td>C110_400</td>
+      <td>22C_d28_200</td>
+      <td>sensitive</td>
+      <td>452</td>
+      <td>L</td>
+      <td>1.6610</td>
+      <td>40417</td>
+      <td>L452R (39467), L452Q (697), L452M (247), L452V (3), L452P (2), L452F (1)</td>
+    </tr>
+    <tr>
+      <td>25C_d48_200</td>
+      <td>sensitive</td>
+      <td>452</td>
+      <td>L</td>
+      <td>0.4509</td>
+      <td>40417</td>
+      <td>L452R (39467), L452Q (697), L452M (247), L452V (3), L452P (2), L452F (1)</td>
+    </tr>
+    <tr>
+      <td>25C_d48_200</td>
       <td>sensitive_max_mut</td>
       <td>452</td>
       <td>L</td>
-      <td>9.8550</td>
-      <td>14514</td>
-      <td>L452R (14285), L452Q (123), L452M (106)</td>
+      <td>0.4509</td>
+      <td>40417</td>
+      <td>L452R (39467), L452Q (697), L452M (247), L452V (3), L452P (2), L452F (1)</td>
     </tr>
     <tr>
-      <td>12C_d152_80</td>
+      <td>22C_d28_200</td>
       <td>sensitive_max_mut</td>
       <td>452</td>
       <td>L</td>
-      <td>2.5470</td>
-      <td>14514</td>
-      <td>L452R (14285), L452Q (123), L452M (106)</td>
+      <td>1.6610</td>
+      <td>40417</td>
+      <td>L452R (39467), L452Q (697), L452M (247), L452V (3), L452P (2), L452F (1)</td>
+    </tr>
+    <tr>
+      <td>12C_d61_160</td>
+      <td>sensitive</td>
+      <td>452</td>
+      <td>L</td>
+      <td>0.7172</td>
+      <td>40417</td>
+      <td>L452R (39467), L452Q (697), L452M (247), L452V (3), L452P (2), L452F (1)</td>
+    </tr>
+    <tr>
+      <td>C002_400</td>
+      <td>sensitive_max_mut</td>
+      <td>452</td>
+      <td>L</td>
+      <td>3.4840</td>
+      <td>40417</td>
+      <td>L452R (39467), L452Q (697), L452M (247), L452V (3), L452P (2), L452F (1)</td>
     </tr>
     <tr>
       <td>25C_d115_80</td>
@@ -413,53 +449,17 @@ display(HTML(sitecounts_strong_sites.head(n=20).to_html(index=False)))
       <td>452</td>
       <td>L</td>
       <td>2.7160</td>
-      <td>14514</td>
-      <td>L452R (14285), L452Q (123), L452M (106)</td>
+      <td>40417</td>
+      <td>L452R (39467), L452Q (697), L452M (247), L452V (3), L452P (2), L452F (1)</td>
     </tr>
     <tr>
-      <td>LY-CoV555_400</td>
-      <td>sensitive_max_mut</td>
-      <td>452</td>
-      <td>L</td>
-      <td>4.0680</td>
-      <td>14514</td>
-      <td>L452R (14285), L452Q (123), L452M (106)</td>
-    </tr>
-    <tr>
-      <td>C002_400</td>
-      <td>default</td>
-      <td>452</td>
-      <td>L</td>
-      <td>3.4840</td>
-      <td>14514</td>
-      <td>L452R (14285), L452Q (123), L452M (106)</td>
-    </tr>
-    <tr>
-      <td>LY-CoV555_400</td>
+      <td>C110_400</td>
       <td>sensitive</td>
       <td>452</td>
       <td>L</td>
-      <td>4.0680</td>
-      <td>14514</td>
-      <td>L452R (14285), L452Q (123), L452M (106)</td>
-    </tr>
-    <tr>
-      <td>COV2-2096_400</td>
-      <td>default</td>
-      <td>452</td>
-      <td>L</td>
-      <td>2.2690</td>
-      <td>14514</td>
-      <td>L452R (14285), L452Q (123), L452M (106)</td>
-    </tr>
-    <tr>
-      <td>1C_d113_200</td>
-      <td>sensitive_max_mut</td>
-      <td>452</td>
-      <td>L</td>
-      <td>1.5050</td>
-      <td>14514</td>
-      <td>L452R (14285), L452Q (123), L452M (106)</td>
+      <td>9.8550</td>
+      <td>40417</td>
+      <td>L452R (39467), L452Q (697), L452M (247), L452V (3), L452P (2), L452F (1)</td>
     </tr>
   </tbody>
 </table>
@@ -565,84 +565,84 @@ for name, specs in escape_profiles_config.items():
   </thead>
   <tbody>
     <tr>
-      <td>COV-021</td>
-      <td>default</td>
-      <td>484</td>
-      <td>E</td>
-      <td>7850</td>
-      <td>E484K (7651), E484Q (137), E484G (24), E484A (22), E484D (12), E484R (3), E484V (1)</td>
-    </tr>
-    <tr>
       <td>COV-047</td>
       <td>default</td>
       <td>484</td>
       <td>E</td>
-      <td>7850</td>
-      <td>E484K (7651), E484Q (137), E484G (24), E484A (22), E484D (12), E484R (3), E484V (1)</td>
+      <td>35395</td>
+      <td>E484K (34124), E484Q (1172), E484G (40), E484A (34), E484D (20), E484R (4), E484V (1)</td>
     </tr>
     <tr>
-      <td>COV-057</td>
+      <td>COV-021</td>
       <td>default</td>
       <td>484</td>
       <td>E</td>
-      <td>7850</td>
-      <td>E484K (7651), E484Q (137), E484G (24), E484A (22), E484D (12), E484R (3), E484V (1)</td>
+      <td>35395</td>
+      <td>E484K (34124), E484Q (1172), E484G (40), E484A (34), E484D (20), E484R (4), E484V (1)</td>
     </tr>
     <tr>
       <td>COV-072</td>
       <td>default</td>
       <td>484</td>
       <td>E</td>
-      <td>7850</td>
-      <td>E484K (7651), E484Q (137), E484G (24), E484A (22), E484D (12), E484R (3), E484V (1)</td>
+      <td>35395</td>
+      <td>E484K (34124), E484Q (1172), E484G (40), E484A (34), E484D (20), E484R (4), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>COV-057</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>35395</td>
+      <td>E484K (34124), E484Q (1172), E484G (40), E484A (34), E484D (20), E484R (4), E484V (1)</td>
     </tr>
     <tr>
       <td>COV-047</td>
       <td>default</td>
       <td>490</td>
       <td>F</td>
-      <td>367</td>
-      <td>F490S (279), F490L (75), F490V (8), F490Y (5)</td>
+      <td>1491</td>
+      <td>F490S (1259), F490L (162), F490Y (34), F490V (27), F490I (7), F490R (1), F490P (1)</td>
     </tr>
     <tr>
       <td>COV-057</td>
       <td>default</td>
       <td>490</td>
       <td>F</td>
-      <td>367</td>
-      <td>F490S (279), F490L (75), F490V (8), F490Y (5)</td>
+      <td>1491</td>
+      <td>F490S (1259), F490L (162), F490Y (34), F490V (27), F490I (7), F490R (1), F490P (1)</td>
     </tr>
     <tr>
       <td>COV-057</td>
       <td>default</td>
       <td>446</td>
       <td>G</td>
-      <td>247</td>
-      <td>G446V (206), G446S (33), G446A (4), G446D (4)</td>
+      <td>422</td>
+      <td>G446V (342), G446S (68), G446D (6), G446A (6)</td>
     </tr>
     <tr>
       <td>COV-021</td>
       <td>default</td>
       <td>455</td>
       <td>L</td>
-      <td>121</td>
-      <td>L455F (118), L455S (2), L455V (1)</td>
+      <td>290</td>
+      <td>L455F (282), L455S (6), L455V (2)</td>
     </tr>
     <tr>
       <td>COV-047</td>
       <td>default</td>
       <td>455</td>
       <td>L</td>
-      <td>121</td>
-      <td>L455F (118), L455S (2), L455V (1)</td>
+      <td>290</td>
+      <td>L455F (282), L455S (6), L455V (2)</td>
     </tr>
     <tr>
       <td>COV-057</td>
       <td>default</td>
       <td>450</td>
       <td>N</td>
-      <td>97</td>
-      <td>N450K (89), N450D (7), N450H (1)</td>
+      <td>254</td>
+      <td>N450K (232), N450D (16), N450S (4), N450I (1), N450H (1)</td>
     </tr>
   </tbody>
 </table>
@@ -680,80 +680,80 @@ for name, specs in escape_profiles_config.items():
       <td>default</td>
       <td>484</td>
       <td>E</td>
-      <td>7850</td>
-      <td>E484K (7651), E484Q (137), E484G (24), E484A (22), E484D (12), E484R (3), E484V (1)</td>
+      <td>35395</td>
+      <td>E484K (34124), E484Q (1172), E484G (40), E484A (34), E484D (20), E484R (4), E484V (1)</td>
     </tr>
     <tr>
       <td>REGN10933</td>
       <td>default</td>
       <td>484</td>
       <td>E</td>
-      <td>7850</td>
-      <td>E484K (7651), E484Q (137), E484G (24), E484A (22), E484D (12), E484R (3), E484V (1)</td>
+      <td>35395</td>
+      <td>E484K (34124), E484Q (1172), E484G (40), E484A (34), E484D (20), E484R (4), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>C105</td>
+      <td>default</td>
+      <td>417</td>
+      <td>K</td>
+      <td>15088</td>
+      <td>K417N (9737), K417T (5340), K417R (7), K417E (3), K417S (1)</td>
+    </tr>
+    <tr>
+      <td>REGN10933</td>
+      <td>default</td>
+      <td>417</td>
+      <td>K</td>
+      <td>15088</td>
+      <td>K417N (9737), K417T (5340), K417R (7), K417E (3), K417S (1)</td>
     </tr>
     <tr>
       <td>LY-CoV016</td>
       <td>default</td>
       <td>417</td>
       <td>K</td>
-      <td>3647</td>
-      <td>K417N (3010), K417T (632), K417R (4), K417E (1)</td>
-    </tr>
-    <tr>
-      <td>C105</td>
-      <td>default</td>
-      <td>417</td>
-      <td>K</td>
-      <td>3647</td>
-      <td>K417N (3010), K417T (632), K417R (4), K417E (1)</td>
-    </tr>
-    <tr>
-      <td>REGN10933</td>
-      <td>default</td>
-      <td>417</td>
-      <td>K</td>
-      <td>3647</td>
-      <td>K417N (3010), K417T (632), K417R (4), K417E (1)</td>
-    </tr>
-    <tr>
-      <td>C105</td>
-      <td>default</td>
-      <td>453</td>
-      <td>Y</td>
-      <td>1033</td>
-      <td>Y453F (1029), Y453H (3), Y453S (1)</td>
+      <td>15088</td>
+      <td>K417N (9737), K417T (5340), K417R (7), K417E (3), K417S (1)</td>
     </tr>
     <tr>
       <td>REGN10933</td>
       <td>default</td>
       <td>453</td>
       <td>Y</td>
-      <td>1033</td>
-      <td>Y453F (1029), Y453H (3), Y453S (1)</td>
+      <td>1092</td>
+      <td>Y453F (1086), Y453H (4), Y453C (1), Y453S (1)</td>
     </tr>
     <tr>
-      <td>COV2-2165</td>
+      <td>C105</td>
       <td>default</td>
-      <td>475</td>
-      <td>A</td>
-      <td>229</td>
-      <td>A475V (149), A475S (68), A475T (11), A475P (1)</td>
-    </tr>
-    <tr>
-      <td>REGN10933</td>
-      <td>default</td>
-      <td>475</td>
-      <td>A</td>
-      <td>229</td>
-      <td>A475V (149), A475S (68), A475T (11), A475P (1)</td>
+      <td>453</td>
+      <td>Y</td>
+      <td>1092</td>
+      <td>Y453F (1086), Y453H (4), Y453C (1), Y453S (1)</td>
     </tr>
     <tr>
       <td>COV2-2832</td>
       <td>default</td>
       <td>475</td>
       <td>A</td>
-      <td>229</td>
-      <td>A475V (149), A475S (68), A475T (11), A475P (1)</td>
+      <td>382</td>
+      <td>A475V (269), A475S (89), A475T (21), A475D (2), A475P (1)</td>
+    </tr>
+    <tr>
+      <td>C105</td>
+      <td>default</td>
+      <td>475</td>
+      <td>A</td>
+      <td>382</td>
+      <td>A475V (269), A475S (89), A475T (21), A475D (2), A475P (1)</td>
+    </tr>
+    <tr>
+      <td>REGN10933</td>
+      <td>default</td>
+      <td>475</td>
+      <td>A</td>
+      <td>382</td>
+      <td>A475V (269), A475S (89), A475T (21), A475D (2), A475P (1)</td>
     </tr>
   </tbody>
 </table>
@@ -787,84 +787,84 @@ for name, specs in escape_profiles_config.items():
   </thead>
   <tbody>
     <tr>
-      <td>C002</td>
-      <td>default</td>
-      <td>452</td>
-      <td>L</td>
-      <td>14514</td>
-      <td>L452R (14285), L452Q (123), L452M (106)</td>
-    </tr>
-    <tr>
       <td>LY-CoV555</td>
       <td>default</td>
       <td>452</td>
       <td>L</td>
-      <td>14514</td>
-      <td>L452R (14285), L452Q (123), L452M (106)</td>
+      <td>40417</td>
+      <td>L452R (39467), L452Q (697), L452M (247), L452V (3), L452P (2), L452F (1)</td>
     </tr>
     <tr>
       <td>C002</td>
       <td>default</td>
-      <td>484</td>
-      <td>E</td>
-      <td>7850</td>
-      <td>E484K (7651), E484Q (137), E484G (24), E484A (22), E484D (12), E484R (3), E484V (1)</td>
+      <td>452</td>
+      <td>L</td>
+      <td>40417</td>
+      <td>L452R (39467), L452Q (697), L452M (247), L452V (3), L452P (2), L452F (1)</td>
     </tr>
     <tr>
       <td>C144</td>
       <td>default</td>
       <td>484</td>
       <td>E</td>
-      <td>7850</td>
-      <td>E484K (7651), E484Q (137), E484G (24), E484A (22), E484D (12), E484R (3), E484V (1)</td>
-    </tr>
-    <tr>
-      <td>C121</td>
-      <td>default</td>
-      <td>484</td>
-      <td>E</td>
-      <td>7850</td>
-      <td>E484K (7651), E484Q (137), E484G (24), E484A (22), E484D (12), E484R (3), E484V (1)</td>
+      <td>35395</td>
+      <td>E484K (34124), E484Q (1172), E484G (40), E484A (34), E484D (20), E484R (4), E484V (1)</td>
     </tr>
     <tr>
       <td>COV2-2050</td>
       <td>default</td>
       <td>484</td>
       <td>E</td>
-      <td>7850</td>
-      <td>E484K (7651), E484Q (137), E484G (24), E484A (22), E484D (12), E484R (3), E484V (1)</td>
-    </tr>
-    <tr>
-      <td>LY-CoV555</td>
-      <td>default</td>
-      <td>484</td>
-      <td>E</td>
-      <td>7850</td>
-      <td>E484K (7651), E484Q (137), E484G (24), E484A (22), E484D (12), E484R (3), E484V (1)</td>
+      <td>35395</td>
+      <td>E484K (34124), E484Q (1172), E484G (40), E484A (34), E484D (20), E484R (4), E484V (1)</td>
     </tr>
     <tr>
       <td>COV2-2479</td>
       <td>default</td>
       <td>484</td>
       <td>E</td>
-      <td>7850</td>
-      <td>E484K (7651), E484Q (137), E484G (24), E484A (22), E484D (12), E484R (3), E484V (1)</td>
+      <td>35395</td>
+      <td>E484K (34124), E484Q (1172), E484G (40), E484A (34), E484D (20), E484R (4), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>C002</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>35395</td>
+      <td>E484K (34124), E484Q (1172), E484G (40), E484A (34), E484D (20), E484R (4), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>C121</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>35395</td>
+      <td>E484K (34124), E484Q (1172), E484G (40), E484A (34), E484D (20), E484R (4), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>LY-CoV555</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>35395</td>
+      <td>E484K (34124), E484Q (1172), E484G (40), E484A (34), E484D (20), E484R (4), E484V (1)</td>
     </tr>
     <tr>
       <td>LY-CoV555</td>
       <td>default</td>
       <td>494</td>
       <td>S</td>
-      <td>2119</td>
-      <td>S494P (2067), S494L (38), S494A (8), S494T (3), S494R (3)</td>
+      <td>5385</td>
+      <td>S494P (5311), S494L (54), S494A (14), S494R (3), S494T (3)</td>
     </tr>
     <tr>
-      <td>C144</td>
+      <td>C121</td>
       <td>default</td>
       <td>490</td>
       <td>F</td>
-      <td>367</td>
-      <td>F490S (279), F490L (75), F490V (8), F490Y (5)</td>
+      <td>1491</td>
+      <td>F490S (1259), F490L (162), F490Y (34), F490V (27), F490I (7), F490R (1), F490P (1)</td>
     </tr>
   </tbody>
 </table>
@@ -902,80 +902,80 @@ for name, specs in escape_profiles_config.items():
       <td>default</td>
       <td>452</td>
       <td>L</td>
-      <td>14514</td>
-      <td>L452R (14285), L452Q (123), L452M (106)</td>
+      <td>40417</td>
+      <td>L452R (39467), L452Q (697), L452M (247), L452V (3), L452P (2), L452F (1)</td>
     </tr>
     <tr>
       <td>REGN10987</td>
       <td>default</td>
       <td>439</td>
       <td>N</td>
-      <td>13099</td>
-      <td>N439K (13097), N439D (1), N439S (1)</td>
-    </tr>
-    <tr>
-      <td>C110</td>
-      <td>default</td>
-      <td>494</td>
-      <td>S</td>
-      <td>2119</td>
-      <td>S494P (2067), S494L (38), S494A (8), S494T (3), S494R (3)</td>
+      <td>18822</td>
+      <td>N439K (18813), N439I (6), N439S (1), N439D (1), N439T (1)</td>
     </tr>
     <tr>
       <td>COV2-2130</td>
       <td>default</td>
       <td>494</td>
       <td>S</td>
-      <td>2119</td>
-      <td>S494P (2067), S494L (38), S494A (8), S494R (3), S494T (3)</td>
+      <td>5385</td>
+      <td>S494P (5311), S494L (54), S494A (14), S494R (3), S494T (3)</td>
+    </tr>
+    <tr>
+      <td>C110</td>
+      <td>default</td>
+      <td>494</td>
+      <td>S</td>
+      <td>5385</td>
+      <td>S494P (5311), S494L (54), S494A (14), S494R (3), S494T (3)</td>
+    </tr>
+    <tr>
+      <td>C135</td>
+      <td>default</td>
+      <td>440</td>
+      <td>N</td>
+      <td>1552</td>
+      <td>N440K (1467), N440Y (32), N440T (19), N440S (13), N440D (10), N440I (7), N440F (2), N440H (1), N440R (1)</td>
     </tr>
     <tr>
       <td>REGN10987</td>
       <td>default</td>
       <td>440</td>
       <td>N</td>
-      <td>390</td>
-      <td>N440K (353), N440Y (15), N440T (11), N440S (7), N440D (3), N440I (1)</td>
-    </tr>
-    <tr>
-      <td>C135</td>
-      <td>default</td>
-      <td>440</td>
-      <td>N</td>
-      <td>390</td>
-      <td>N440K (353), N440Y (15), N440T (11), N440S (7), N440D (3), N440I (1)</td>
+      <td>1552</td>
+      <td>N440K (1467), N440Y (32), N440T (19), N440S (13), N440D (10), N440I (7), N440F (2), N440H (1), N440R (1)</td>
     </tr>
     <tr>
       <td>C110</td>
       <td>default</td>
       <td>490</td>
       <td>F</td>
-      <td>367</td>
-      <td>F490S (279), F490L (75), F490V (8), F490Y (5)</td>
-    </tr>
-    <tr>
-      <td>C110</td>
-      <td>default</td>
-      <td>346</td>
-      <td>R</td>
-      <td>306</td>
-      <td>R346K (245), R346I (29), R346S (17), R346G (9), R346T (6)</td>
-    </tr>
-    <tr>
-      <td>C135</td>
-      <td>default</td>
-      <td>346</td>
-      <td>R</td>
-      <td>306</td>
-      <td>R346K (245), R346I (29), R346S (17), R346G (9), R346T (6)</td>
+      <td>1491</td>
+      <td>F490S (1259), F490L (162), F490Y (34), F490V (27), F490I (7), F490R (1), F490P (1)</td>
     </tr>
     <tr>
       <td>COV2-2130</td>
       <td>default</td>
       <td>346</td>
       <td>R</td>
-      <td>306</td>
-      <td>R346K (245), R346I (29), R346S (17), R346G (9), R346T (6)</td>
+      <td>706</td>
+      <td>R346K (473), R346S (134), R346I (58), R346G (27), R346T (14)</td>
+    </tr>
+    <tr>
+      <td>C135</td>
+      <td>default</td>
+      <td>346</td>
+      <td>R</td>
+      <td>706</td>
+      <td>R346K (473), R346S (134), R346I (58), R346G (27), R346T (14)</td>
+    </tr>
+    <tr>
+      <td>C110</td>
+      <td>default</td>
+      <td>346</td>
+      <td>R</td>
+      <td>706</td>
+      <td>R346K (473), R346S (134), R346I (58), R346G (27), R346T (14)</td>
     </tr>
   </tbody>
 </table>
@@ -1009,84 +1009,84 @@ for name, specs in escape_profiles_config.items():
   </thead>
   <tbody>
     <tr>
-      <td>COV2-2082</td>
-      <td>default</td>
-      <td>417</td>
-      <td>K</td>
-      <td>3647</td>
-      <td>K417N (3010), K417T (632), K417R (4), K417E (1)</td>
-    </tr>
-    <tr>
       <td>COV2-2094</td>
       <td>default</td>
       <td>417</td>
       <td>K</td>
-      <td>3647</td>
-      <td>K417N (3010), K417T (632), K417R (4), K417E (1)</td>
+      <td>15088</td>
+      <td>K417N (9737), K417T (5340), K417R (7), K417E (3), K417S (1)</td>
+    </tr>
+    <tr>
+      <td>COV2-2082</td>
+      <td>default</td>
+      <td>417</td>
+      <td>K</td>
+      <td>15088</td>
+      <td>K417N (9737), K417T (5340), K417R (7), K417E (3), K417S (1)</td>
     </tr>
     <tr>
       <td>COV2-2677</td>
       <td>default</td>
       <td>384</td>
       <td>P</td>
-      <td>809</td>
-      <td>P384L (608), P384S (179), P384R (18), P384A (2), P384T (1), P384H (1)</td>
+      <td>1692</td>
+      <td>P384L (1157), P384S (496), P384R (30), P384H (5), P384A (2), P384T (2)</td>
     </tr>
     <tr>
       <td>COV2-2094</td>
       <td>default</td>
       <td>408</td>
       <td>R</td>
-      <td>203</td>
-      <td>R408K (115), R408I (76), R408T (7), R408G (3), R408S (2)</td>
+      <td>359</td>
+      <td>R408K (189), R408I (114), R408G (44), R408T (10), R408S (2)</td>
     </tr>
     <tr>
       <td>COV2-2082</td>
       <td>default</td>
       <td>408</td>
       <td>R</td>
-      <td>203</td>
-      <td>R408K (115), R408I (76), R408T (7), R408G (3), R408S (2)</td>
+      <td>359</td>
+      <td>R408K (189), R408I (114), R408G (44), R408T (10), R408S (2)</td>
     </tr>
     <tr>
       <td>COV2-2677</td>
       <td>default</td>
       <td>370</td>
       <td>N</td>
-      <td>105</td>
-      <td>N370S (72), N370K (23), N370H (8), N370D (2)</td>
+      <td>242</td>
+      <td>N370S (118), N370K (71), N370H (46), N370D (7)</td>
     </tr>
     <tr>
       <td>COV2-2082</td>
       <td>default</td>
       <td>376</td>
       <td>T</td>
-      <td>98</td>
-      <td>T376I (88), T376S (5), T376N (5)</td>
+      <td>158</td>
+      <td>T376I (137), T376S (13), T376N (8)</td>
     </tr>
     <tr>
       <td>COV2-2094</td>
       <td>default</td>
       <td>376</td>
       <td>T</td>
-      <td>98</td>
-      <td>T376I (88), T376S (5), T376N (5)</td>
+      <td>158</td>
+      <td>T376I (137), T376S (13), T376N (8)</td>
     </tr>
     <tr>
       <td>COV2-2677</td>
       <td>default</td>
       <td>372</td>
       <td>A</td>
-      <td>44</td>
-      <td>A372V (29), A372T (7), A372P (6), A372S (2)</td>
+      <td>102</td>
+      <td>A372V (77), A372T (10), A372S (6), A372P (6), A372L (2), A372G (1)</td>
     </tr>
     <tr>
-      <td>CR3022</td>
+      <td>COV2-2082</td>
       <td>default</td>
       <td>378</td>
       <td>K</td>
-      <td>29</td>
-      <td>K378N (18), K378R (9), K378M (1), K378E (1)</td>
+      <td>91</td>
+      <td>K378N (73), K378R (12), K378M (5), K378E (1)</td>
     </tr>
   </tbody>
 </table>
@@ -1124,80 +1124,80 @@ for name, specs in escape_profiles_config.items():
       <td>default</td>
       <td>452</td>
       <td>L</td>
-      <td>14514</td>
-      <td>L452R (14285), L452Q (123), L452M (106)</td>
+      <td>40417</td>
+      <td>L452R (39467), L452Q (697), L452M (247), L452V (3), L452P (2), L452F (1)</td>
     </tr>
     <tr>
       <td>subject H (day 152)</td>
       <td>default</td>
       <td>452</td>
       <td>L</td>
-      <td>14514</td>
-      <td>L452R (14285), L452Q (123), L452M (106)</td>
-    </tr>
-    <tr>
-      <td>subject B (day 26)</td>
-      <td>default</td>
-      <td>484</td>
-      <td>E</td>
-      <td>7850</td>
-      <td>E484K (7651), E484Q (137), E484G (24), E484A (22), E484D (12), E484R (3), E484V (1)</td>
-    </tr>
-    <tr>
-      <td>subject B (day 113)</td>
-      <td>default</td>
-      <td>484</td>
-      <td>E</td>
-      <td>7850</td>
-      <td>E484K (7651), E484Q (137), E484G (24), E484A (22), E484D (12), E484R (3), E484V (1)</td>
-    </tr>
-    <tr>
-      <td>subject E (day 28)</td>
-      <td>default</td>
-      <td>484</td>
-      <td>E</td>
-      <td>7850</td>
-      <td>E484K (7651), E484Q (137), E484G (24), E484A (22), E484D (12), E484R (3), E484V (1)</td>
-    </tr>
-    <tr>
-      <td>subject E (day 104)</td>
-      <td>default</td>
-      <td>484</td>
-      <td>E</td>
-      <td>7850</td>
-      <td>E484K (7651), E484Q (137), E484G (24), E484A (22), E484D (12), E484R (3), E484V (1)</td>
-    </tr>
-    <tr>
-      <td>subject I (day 102)</td>
-      <td>default</td>
-      <td>484</td>
-      <td>E</td>
-      <td>7850</td>
-      <td>E484K (7651), E484Q (137), E484G (24), E484A (22), E484D (12), E484R (3), E484V (1)</td>
-    </tr>
-    <tr>
-      <td>subject F (day 115)</td>
-      <td>default</td>
-      <td>484</td>
-      <td>E</td>
-      <td>7850</td>
-      <td>E484K (7651), E484Q (137), E484G (24), E484A (22), E484D (12), E484R (3), E484V (1)</td>
+      <td>40417</td>
+      <td>L452R (39467), L452Q (697), L452M (247), L452V (3), L452P (2), L452F (1)</td>
     </tr>
     <tr>
       <td>subject C (day 32)</td>
       <td>default</td>
       <td>484</td>
       <td>E</td>
-      <td>7850</td>
-      <td>E484K (7651), E484Q (137), E484G (24), E484A (22), E484D (12), E484R (3), E484V (1)</td>
+      <td>35395</td>
+      <td>E484K (34124), E484Q (1172), E484G (40), E484A (34), E484D (20), E484R (4), E484V (1)</td>
     </tr>
     <tr>
-      <td>subject H (day 152)</td>
+      <td>subject I (day 26)</td>
       <td>default</td>
       <td>484</td>
       <td>E</td>
-      <td>7850</td>
-      <td>E484K (7651), E484Q (137), E484G (24), E484A (22), E484D (12), E484R (3), E484V (1)</td>
+      <td>35395</td>
+      <td>E484K (34124), E484Q (1172), E484G (40), E484A (34), E484D (20), E484R (4), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>subject F (day 115)</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>35395</td>
+      <td>E484K (34124), E484Q (1172), E484G (40), E484A (34), E484D (20), E484R (4), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>subject B (day 26)</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>35395</td>
+      <td>E484K (34124), E484Q (1172), E484G (40), E484A (34), E484D (20), E484R (4), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>subject E (day 28)</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>35395</td>
+      <td>E484K (34124), E484Q (1172), E484G (40), E484A (34), E484D (20), E484R (4), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>subject A (day 21)</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>35395</td>
+      <td>E484K (34124), E484Q (1172), E484G (40), E484A (34), E484D (20), E484R (4), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>subject I (day 102)</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>35395</td>
+      <td>E484K (34124), E484Q (1172), E484G (40), E484A (34), E484D (20), E484R (4), E484V (1)</td>
+    </tr>
+    <tr>
+      <td>subject E (day 104)</td>
+      <td>default</td>
+      <td>484</td>
+      <td>E</td>
+      <td>35395</td>
+      <td>E484K (34124), E484Q (1172), E484G (40), E484A (34), E484D (20), E484R (4), E484V (1)</td>
     </tr>
   </tbody>
 </table>
@@ -1265,8 +1265,8 @@ display(HTML(escape_and_freq.head().to_html()))
       <td>0.04926</td>
       <td>0.007632</td>
       <td>0.003079</td>
-      <td>0.0</td>
-      <td>0.000029</td>
+      <td>0.000000e+00</td>
+      <td>0.000036</td>
       <td>N331A</td>
     </tr>
     <tr>
@@ -1279,8 +1279,8 @@ display(HTML(escape_and_freq.head().to_html()))
       <td>0.04926</td>
       <td>0.007632</td>
       <td>0.003079</td>
-      <td>0.0</td>
-      <td>0.000029</td>
+      <td>8.712114e-07</td>
+      <td>0.000036</td>
       <td>N331D</td>
     </tr>
     <tr>
@@ -1293,8 +1293,8 @@ display(HTML(escape_and_freq.head().to_html()))
       <td>0.04926</td>
       <td>0.007632</td>
       <td>0.003079</td>
-      <td>0.0</td>
-      <td>0.000029</td>
+      <td>0.000000e+00</td>
+      <td>0.000036</td>
       <td>N331E</td>
     </tr>
     <tr>
@@ -1307,8 +1307,8 @@ display(HTML(escape_and_freq.head().to_html()))
       <td>0.04926</td>
       <td>0.007632</td>
       <td>0.003079</td>
-      <td>0.0</td>
-      <td>0.000029</td>
+      <td>0.000000e+00</td>
+      <td>0.000036</td>
       <td>N331F</td>
     </tr>
     <tr>
@@ -1321,8 +1321,8 @@ display(HTML(escape_and_freq.head().to_html()))
       <td>0.04926</td>
       <td>0.007632</td>
       <td>0.003079</td>
-      <td>0.0</td>
-      <td>0.000029</td>
+      <td>0.000000e+00</td>
+      <td>0.000036</td>
       <td>N331G</td>
     </tr>
   </tbody>
