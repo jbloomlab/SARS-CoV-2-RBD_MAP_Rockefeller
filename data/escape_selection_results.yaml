@@ -7,14 +7,14 @@
 
 Weisblum_selections:
   spike_sequence: ./data/Weisblum_SinoBiological_Spike.gb
-  min_size: 0.75  # smallest point size (e.g., unobserved mutations)
+  min_size: 2.5  # smallest point size (e.g., unobserved mutations)
   max_size: 5  # point size proportional to n observations with this max
   size_scale: 0.25  # scale all point sizes by this much
-  facet_scales: free_x  # free x-axis in faceting
+  facet_scales: fixed  # free x-axis in faceting
   shapes: ['o', 'x', 'D']
   colors: ['gray', 'tan', 'red']
   alphas: [0.4, 0.4, 0.75]
-  label_fontsize: 7  # size of text labels for mutations
+  label_fontsize: 12  # size of text labels for mutations
   ncol: 3  # number of columns in faceted plot
   antibodies:
     C121_400:
@@ -30,7 +30,7 @@ Weisblum_selections:
         - F490L
         - Q493K
     C135_400:
-      display_name: C153
+      display_name: C135
       replicates_total: 100
       replicates_escape: 100
       mutations:
@@ -67,3 +67,54 @@ Weisblum_selections:
       display_name: COV-047
       replicates_total: 100
       replicates_escape: 0
+
+Weisblum_selections_Abs:
+  spike_sequence: ./data/Weisblum_SinoBiological_Spike.gb
+  min_size: 2.5  # smallest point size (e.g., unobserved mutations)
+  max_size: 5  # point size proportional to n observations with this max
+  size_scale: 0.25  # scale all point sizes by this much
+  facet_scales: fixed  # free x-axis in faceting
+  shapes: ['o', 'x', 'D']
+  colors: ['gray', '#DDAA33', 'red']
+  alphas: [0.5, 0.5, 0.75]
+  label_fontsize: 12  # size of text labels for mutations
+  ncol: 3  # number of columns in faceted plot
+  antibodies:
+    C121_400:
+      display_name: C121
+      replicates_total: 100
+      replicates_escape: 100
+      mutations:
+        E484K: 50
+        F490L: 23
+        Q493K: 12
+      label_mutations:
+        - E484K
+        - F490L
+        - Q493K
+    C135_400:
+      display_name: C135
+      replicates_total: 100
+      replicates_escape: 100
+      mutations:
+        N440K: 50
+        R346S: 30
+        R346K: 22
+        R346M: 16
+      label_mutations:
+        - N440K
+        - R346S
+        - R346K
+        - R346M
+    C144_400:
+      display_name: C144
+      replicates_total: 100
+      replicates_escape: 100
+      mutations:
+        E484K: 50
+        Q493K: 12
+        Q493R: 17
+      label_mutations:
+        - E484K
+        - Q493K
+        - Q493R

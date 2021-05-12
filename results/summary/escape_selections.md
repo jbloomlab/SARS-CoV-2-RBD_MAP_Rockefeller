@@ -316,6 +316,96 @@ display(HTML(selection_df.to_html(index=False)))
       <td>17</td>
       <td>Q493R</td>
     </tr>
+    <tr>
+      <td>Weisblum_selections_Abs</td>
+      <td>C121_400</td>
+      <td>484</td>
+      <td>E</td>
+      <td>K</td>
+      <td>50</td>
+      <td>E484K</td>
+    </tr>
+    <tr>
+      <td>Weisblum_selections_Abs</td>
+      <td>C121_400</td>
+      <td>490</td>
+      <td>F</td>
+      <td>L</td>
+      <td>23</td>
+      <td>F490L</td>
+    </tr>
+    <tr>
+      <td>Weisblum_selections_Abs</td>
+      <td>C121_400</td>
+      <td>493</td>
+      <td>Q</td>
+      <td>K</td>
+      <td>12</td>
+      <td>Q493K</td>
+    </tr>
+    <tr>
+      <td>Weisblum_selections_Abs</td>
+      <td>C135_400</td>
+      <td>440</td>
+      <td>N</td>
+      <td>K</td>
+      <td>50</td>
+      <td>N440K</td>
+    </tr>
+    <tr>
+      <td>Weisblum_selections_Abs</td>
+      <td>C135_400</td>
+      <td>346</td>
+      <td>R</td>
+      <td>S</td>
+      <td>30</td>
+      <td>R346S</td>
+    </tr>
+    <tr>
+      <td>Weisblum_selections_Abs</td>
+      <td>C135_400</td>
+      <td>346</td>
+      <td>R</td>
+      <td>K</td>
+      <td>22</td>
+      <td>R346K</td>
+    </tr>
+    <tr>
+      <td>Weisblum_selections_Abs</td>
+      <td>C135_400</td>
+      <td>346</td>
+      <td>R</td>
+      <td>M</td>
+      <td>16</td>
+      <td>R346M</td>
+    </tr>
+    <tr>
+      <td>Weisblum_selections_Abs</td>
+      <td>C144_400</td>
+      <td>484</td>
+      <td>E</td>
+      <td>K</td>
+      <td>50</td>
+      <td>E484K</td>
+    </tr>
+    <tr>
+      <td>Weisblum_selections_Abs</td>
+      <td>C144_400</td>
+      <td>493</td>
+      <td>Q</td>
+      <td>K</td>
+      <td>12</td>
+      <td>Q493K</td>
+    </tr>
+    <tr>
+      <td>Weisblum_selections_Abs</td>
+      <td>C144_400</td>
+      <td>493</td>
+      <td>Q</td>
+      <td>R</td>
+      <td>17</td>
+      <td>Q493R</td>
+    </tr>
   </tbody>
 </table>
 
@@ -774,27 +864,36 @@ for selection_set, df in escape_dms_selection.groupby('selection_set'):
                     c.zorder = 2
     
     plotfile = os.path.join(config['escape_selections_dir'], f"{selection_set}.pdf")
-    svgfile = os.path.splitext(plotfile)[0] + '.svg'
-    print(f"Saving plot to {plotfile} and {svgfile}")
+    print(f"Saving plot to {plotfile}")
     fig.savefig(plotfile, bbox_inches='tight')
-    fig.savefig(svgfile, bbox_inches='tight')
     display(fig)
     plt.close(fig)
 ```
 
     
     Making plot for Weisblum_selections
-
-
-    /fh/fast/bloom_j/software/miniconda3/envs/SARS-CoV-2-RBD_MAP/lib/python3.7/site-packages/plotnine/facets/facet.py:558: PlotnineWarning: If you need more space for the y-axis tick text use ... + theme(subplots_adjust={'hspace': 0.25}). Choose an appropriate value for 'hspace'
-
-
-    Saving plot to results/escape_selections/Weisblum_selections.pdf and results/escape_selections/Weisblum_selections.svg
+    Saving plot to results/escape_selections/Weisblum_selections.pdf
 
 
 
     
-![png](escape_selections_files/escape_selections_15_3.png)
+![png](escape_selections_files/escape_selections_15_1.png)
+    
+
+
+    
+    Making plot for Weisblum_selections_Abs
+
+
+    /fh/fast/bloom_j/software/miniconda3/envs/SARS-CoV-2-RBD_MAP/lib/python3.7/site-packages/plotnine/guides/guide_legend.py:126: PlotnineWarning: Duplicated override_aes is ignored.
+
+
+    Saving plot to results/escape_selections/Weisblum_selections_Abs.pdf
+
+
+
+    
+![png](escape_selections_files/escape_selections_15_5.png)
     
 
 
