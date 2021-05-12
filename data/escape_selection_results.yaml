@@ -7,14 +7,14 @@
 
 Weisblum_selections:
   spike_sequence: ./data/Weisblum_SinoBiological_Spike.gb
-  min_size: 1.5  # smallest point size (e.g., unobserved mutations)
+  min_size: 2.5  # smallest point size (e.g., unobserved mutations)
   max_size: 5  # point size proportional to n observations with this max
   size_scale: 0.25  # scale all point sizes by this much
-  facet_scales: free_x  # free x-axis in faceting
+  facet_scales: fixed  # free x-axis in faceting
   shapes: ['o', 'x', 'D']
   colors: ['gray', 'tan', 'red']
   alphas: [0.4, 0.4, 0.75]
-  label_fontsize: 7  # size of text labels for mutations
+  label_fontsize: 12  # size of text labels for mutations
   ncol: 3  # number of columns in faceted plot
   antibodies:
     C121_400:
@@ -70,14 +70,14 @@ Weisblum_selections:
 
 Weisblum_selections_Abs:
   spike_sequence: ./data/Weisblum_SinoBiological_Spike.gb
-  min_size: 1.5  # smallest point size (e.g., unobserved mutations)
+  min_size: 2.5  # smallest point size (e.g., unobserved mutations)
   max_size: 5  # point size proportional to n observations with this max
   size_scale: 0.25  # scale all point sizes by this much
   facet_scales: fixed  # free x-axis in faceting
   shapes: ['o', 'x', 'D']
-  colors: ['gray', 'tan', 'red']
+  colors: ['gray', '#DDAA33', 'red']
   alphas: [0.5, 0.5, 0.75]
-  label_fontsize: 7  # size of text labels for mutations
+  label_fontsize: 12  # size of text labels for mutations
   ncol: 3  # number of columns in faceted plot
   antibodies:
     C121_400:
