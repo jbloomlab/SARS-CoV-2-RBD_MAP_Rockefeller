@@ -114,15 +114,17 @@ def escape_similarity(df, p=1):
     
     conditions = df['condition'].unique()
     similarities = []
+    pivoted_df = (
+        df
+        .assign(metric=lambda x: x[site_metric]**p)
+        .pivot_table(index='site', columns='condition', values='metric', fill_value=0)
+        # for normalization: https://stackoverflow.com/a/58113206
+        # to get norm: https://stackoverflow.com/a/47953601
+        .transform(lambda x: x / numpy.linalg.norm(x, axis=0))
+        )
     for cond1, cond2 in itertools.product(conditions, conditions):
         similarity = (
-            df
-            .assign(metric=lambda x: x[site_metric]**p)
-            .pivot_table(index='site', columns='condition', values='metric', fill_value=0)
-            [list({cond1, cond2})]
-            # for normalization: https://stackoverflow.com/a/58113206
-            # to get norm: https://stackoverflow.com/a/47953601
-            .transform(lambda x: x / numpy.linalg.norm(x, axis=0))
+            pivoted_df
             .assign(similarity=lambda x: x[cond1] * x[cond2])
             ['similarity']
             )
@@ -222,6 +224,8 @@ for name, specs in mds_config.items():
                                n_jobs=1)
     locs = mds.fit_transform(dissimilarities)
     
+    print(f"stress = {getattr(mds,'stress_')} from iteration {getattr(mds,'n_iter_')}")
+    
     # get the colors for each point if relevant
     color_scheme = specs['color_scheme']
     if isinstance(color_scheme, list):
@@ -229,8 +233,8 @@ for name, specs in mds_config.items():
         print(f"Using condition-level color scheme in column {color_col} of {color_csv}")
         dists = [[1] for condition in conditions]
         condition_to_color = pd.read_csv(color_csv).set_index('condition')[color_col].to_dict()
-        if set(conditions) != set(condition_to_color):
-            raise ValueError(f"{color_scheme} doesn't have colors for expected conditions: {conditions}")
+        if not set(conditions).issubset(set(condition_to_color)):
+            raise ValueError(f"{color_scheme} doesn't have colors for all conditions: {conditions}")
         colors = [[condition_to_color[condition]] for condition in conditions]
     elif color_scheme in site_color_schemes.columns:
         print(f"Using the {color_scheme} site color scheme")
@@ -295,14 +299,15 @@ for name, specs in mds_config.items():
     ax.set_xticks([])  # no x-ticks
     ax.set_yticks([])  # no y-ticks
     ax.margins(0.09)  # increase padding from axes
-    texts = [plt.text(x, y, label, color=color) for x, y, label, color
-             in zip(xs, ys, conditions, label_colors)]
-    adjustText.adjust_text(texts,
-                           x=xs,
-                           y=ys,
-                           expand_points=(1.2, 1.6) if 'expand_points' not in specs
-                                         else specs['expand_points'],
-                           )
+    if 'no_labels' not in specs or not specs['no_labels']:
+        texts = [plt.text(x, y, label, color=color) for x, y, label, color
+                 in zip(xs, ys, conditions, label_colors)]
+        adjustText.adjust_text(texts,
+                               x=xs,
+                               y=ys,
+                               expand_points=(1.2, 1.6) if 'expand_points' not in specs
+                                             else specs['expand_points'],
+                               )
     plotfile = os.path.join(config['mds_dir'], f"{name}_mds.pdf")
     print(f"Saving plot to {plotfile}")
     fig.savefig(plotfile, bbox_inches='tight')
@@ -313,6 +318,7 @@ for name, specs in mds_config.items():
     
     Making plot Rockefeller_v_pub, which has the following antibodies:
     ['CB6_400', 'LY-CoV555_400', 'REGN10933_400', 'REGN10987_400', 'CR3022_400', 'COV2-2677_400', 'COV2-2082_400', 'COV2-2094_400', 'COV2-2165_400', 'COV2-2832_400', 'COV2-2479_400', 'COV2-2050_400', 'COV2-2096_400', 'COV2-2499_400', 'C105_400', 'C144_400', 'C002_400', 'C121_400', 'C135_400', 'C110_400', 'COV2-2196_400', 'COV2-2130_400']
+    stress = 7.34678692156969 from iteration 108
     Using the barnes_classes site color scheme
     Saving plot to results/multidimensional_scaling/Rockefeller_v_pub_mds.pdf
 
@@ -324,10 +330,11 @@ for name, specs in mds_config.items():
 
 
     
-    Making plot NY_sera_antibodies, which has the following antibodies:
-    ['C105_400', 'C144_400', 'C002_400', 'C121_400', 'C135_400', 'C110_400', 'COV-021_500', 'COV-047_200', 'COV-057_50', 'COV-072_200', 'COV-107_80']
-    Using condition-level color scheme in column class_color of data/mds_color_schemes.csv
-    Saving plot to results/multidimensional_scaling/NY_sera_antibodies_mds.pdf
+    Making plot NY_sera_all_mAbs, which has the following antibodies:
+    ['CB6_400', 'LY-CoV555_400', 'REGN10933_400', 'REGN10987_400', 'CR3022_400', 'COV2-2677_400', 'COV2-2082_400', 'COV2-2094_400', 'COV2-2165_400', 'COV2-2832_400', 'COV2-2479_400', 'COV2-2050_400', 'COV2-2096_400', 'COV2-2499_400', 'C105_400', 'C144_400', 'C002_400', 'C121_400', 'C135_400', 'C110_400', 'COV2-2196_400', 'COV2-2130_400', 'COV-021_500', 'COV-047_200', 'COV-057_50', 'COV-072_200', 'COV-107_80', '23_d21_1250', '23_d45_1250', '23_d120_500', '1C_d26_200', '1C_d113_200', '24C_d32_200', '24C_d104_200', '6C_d33_500', '6C_d76_500', '22C_d28_200', '22C_d104_200', '25C_d48_200', '25C_d115_80', '25_d18_500', '25_d94_200', '12C_d61_160', '12C_d152_80', '23C_d26_80', '23C_d102_80', '13_d15_200', '13_d121_1250', '7C_d29_500', '7C_d103_200']
+    stress = 17.957137694572022 from iteration 172
+    Using condition-level color scheme in column class_color of data/mds_color_schemes_new.csv
+    Saving plot to results/multidimensional_scaling/NY_sera_all_mAbs_mds.pdf
 
 
 
@@ -335,24 +342,6 @@ for name, specs in mds_config.items():
 ![png](mds_escape_profiles_files/mds_escape_profiles_18_3.png)
     
 
-
-    
-    Making plot NY_sera_all_mAbs, which has the following antibodies:
-    ['CB6_400', 'LY-CoV555_400', 'REGN10933_400', 'REGN10987_400', 'CR3022_400', 'COV2-2677_400', 'COV2-2082_400', 'COV2-2094_400', 'COV2-2165_400', 'COV2-2832_400', 'COV2-2479_400', 'COV2-2050_400', 'COV2-2096_400', 'COV2-2499_400', 'C105_400', 'C144_400', 'C002_400', 'C121_400', 'C135_400', 'C110_400', 'COV2-2196_400', 'COV2-2130_400', 'COV-021_500', 'COV-047_200', 'COV-057_50', 'COV-072_200', 'COV-107_80', '23_d21_1250', '23_d45_1250', '23_d120_500', '1C_d26_200', '1C_d113_200', '24C_d32_200', '24C_d104_200', '6C_d33_500', '6C_d76_500', '22C_d28_200', '22C_d104_200', '25C_d48_200', '25C_d115_80', '25_d18_500', '25_d94_200', '12C_d61_160', '12C_d152_80', '23C_d26_80', '23C_d102_80', '13_d15_200', '13_d121_1250', '7C_d29_500', '7C_d103_200']
-    Using condition-level color scheme in column class_color of data/mds_color_schemes_new.csv
-    Saving plot to results/multidimensional_scaling/NY_sera_all_mAbs_mds.pdf
-
-
-
-    
-![png](mds_escape_profiles_files/mds_escape_profiles_18_5.png)
-    
-
-
-
-```python
-
-```
 
 
 ```python

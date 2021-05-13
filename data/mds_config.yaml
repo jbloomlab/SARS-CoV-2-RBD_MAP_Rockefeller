@@ -72,51 +72,6 @@ Rockefeller_v_pub:
     C110: '#66CCEE'
   random_state: 3
 
-NY_sera_antibodies:
-  conditions:
-    C105_400: C105
-    C144_400: C144
-    C002_400: C002
-    C121_400: C121
-    C135_400: C135
-    C110_400: C110
-    COV-021_500: COV-21
-    COV-047_200: COV-47
-    COV-057_50: COV-57
-    COV-072_200: COV-72
-    COV-107_80: COV-107
-  color_scheme: [data/mds_color_schemes.csv, class_color]
-  plot_size: 5.5
-  expand_points: [1.3, 1.7]
-  default_circle_color: none
-  circle_colors:
-    COV-107: '#000000'
-    COV-47: '#000000'
-    COV-21: '#000000'
-    COV-72: '#000000'
-    COV-57: '#000000'
-    C105: '#E52794'
-    C144: '#6A0DAD'
-    C002: '#6A0DAD'
-    C121: '#6A0DAD'
-    C135: '#66CCEE'
-    C110: '#66CCEE'
-  default_label_color: gray
-  label_colors:
-    COV-107: '#000000'
-    COV-47: '#000000'
-    COV-21: '#000000'
-    COV-72: '#000000'
-    COV-57: '#000000'
-    C105: '#E52794'
-    C144: '#6A0DAD'
-    C002: '#6A0DAD'
-    C121: '#6A0DAD'
-    C135: '#66CCEE'
-    C110: '#66CCEE'
-  random_state: 3
-  pie_size: 500
-
 NY_sera_all_mAbs:
   conditions:
     CB6_400: LY-CoV016
@@ -174,3 +129,4 @@ NY_sera_all_mAbs:
   random_state: 1
   pie_size: 200
   default_circle_color: "#000000"
+  no_labels: True
