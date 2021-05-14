@@ -25,6 +25,7 @@ import pandas as pd
 import seaborn
 
 import sklearn.manifold
+from sklearn.metrics import euclidean_distances
 
 import yaml
 ```
@@ -226,6 +227,17 @@ for name, specs in mds_config.items():
     
     print(f"stress = {getattr(mds,'stress_')} from iteration {getattr(mds,'n_iter_')}")
     
+    # manually calculate a scaled Kruskal stress (from 0 to 1)
+    points = mds.embedding_
+    DE = euclidean_distances(points)
+    stress = 0.5 * numpy.sum((DE - dissimilarities.values)**2)
+    print(f"Manual calculus of sklearn stress : {stress}")
+    
+    ## Kruskal's stress (or stress formula 1)
+    stress1 = numpy.sqrt(stress / (0.5 * numpy.sum(dissimilarities.values**2)))
+    print(f"Kruskal's Stress : {stress1}")
+    print("[Poor > 0.2 > Fair > 0.1 > Good > 0.05 > Excellent > 0.025 > Perfect > 0.0]")
+
     # get the colors for each point if relevant
     color_scheme = specs['color_scheme']
     if isinstance(color_scheme, list):
@@ -319,6 +331,9 @@ for name, specs in mds_config.items():
     Making plot Rockefeller_v_pub, which has the following antibodies:
     ['CB6_400', 'LY-CoV555_400', 'REGN10933_400', 'REGN10987_400', 'CR3022_400', 'COV2-2677_400', 'COV2-2082_400', 'COV2-2094_400', 'COV2-2165_400', 'COV2-2832_400', 'COV2-2479_400', 'COV2-2050_400', 'COV2-2096_400', 'COV2-2499_400', 'C105_400', 'C144_400', 'C002_400', 'C121_400', 'C135_400', 'C110_400', 'COV2-2196_400', 'COV2-2130_400']
     stress = 7.34678692156969 from iteration 108
+    Manual calculus of sklearn stress : 7.346671980447377
+    Kruskal's Stress : 0.212431547939723
+    [Poor > 0.2 > Fair > 0.1 > Good > 0.05 > Excellent > 0.025 > Perfect > 0.0]
     Using the barnes_classes site color scheme
     Saving plot to results/multidimensional_scaling/Rockefeller_v_pub_mds.pdf
 
@@ -333,6 +348,9 @@ for name, specs in mds_config.items():
     Making plot NY_sera_all_mAbs, which has the following antibodies:
     ['CB6_400', 'LY-CoV555_400', 'REGN10933_400', 'REGN10987_400', 'CR3022_400', 'COV2-2677_400', 'COV2-2082_400', 'COV2-2094_400', 'COV2-2165_400', 'COV2-2832_400', 'COV2-2479_400', 'COV2-2050_400', 'COV2-2096_400', 'COV2-2499_400', 'C105_400', 'C144_400', 'C002_400', 'C121_400', 'C135_400', 'C110_400', 'COV2-2196_400', 'COV2-2130_400', 'COV-021_500', 'COV-047_200', 'COV-057_50', 'COV-072_200', 'COV-107_80', '23_d21_1250', '23_d45_1250', '23_d120_500', '1C_d26_200', '1C_d113_200', '24C_d32_200', '24C_d104_200', '6C_d33_500', '6C_d76_500', '22C_d28_200', '22C_d104_200', '25C_d48_200', '25C_d115_80', '25_d18_500', '25_d94_200', '12C_d61_160', '12C_d152_80', '23C_d26_80', '23C_d102_80', '13_d15_200', '13_d121_1250', '7C_d29_500', '7C_d103_200']
     stress = 17.957137694572022 from iteration 172
+    Manual calculus of sklearn stress : 17.957113444309027
+    Kruskal's Stress : 0.18617653670534465
+    [Poor > 0.2 > Fair > 0.1 > Good > 0.05 > Excellent > 0.025 > Perfect > 0.0]
     Using condition-level color scheme in column class_color of data/mds_color_schemes_new.csv
     Saving plot to results/multidimensional_scaling/NY_sera_all_mAbs_mds.pdf
 
