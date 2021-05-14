@@ -227,7 +227,9 @@ for name, specs in mds_config.items():
     
     print(f"stress = {getattr(mds,'stress_')} from iteration {getattr(mds,'n_iter_')}")
     
-    # manually calculate a scaled Kruskal stress (from 0 to 1)
+    # the `sklearn` stress is not scaled, so we manually calculate a scaled Kruskal stress
+    # as shown here: https://stackoverflow.com/questions/36428205/stress-attribute-sklearn-manifold-mds-python/64271501#64271501
+    # manually calculate stress (unscaled)
     points = mds.embedding_
     DE = euclidean_distances(points)
     stress = 0.5 * numpy.sum((DE - dissimilarities.values)**2)
